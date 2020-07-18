@@ -1,0 +1,5303 @@
+fileFormatVersion: 2
+guid: 508166ec875905a41b6572bbf1c6585d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9123500181418939258
+    second: zelda2nestiles_0
+  - first:
+      213: 8619943629048234887
+    second: zelda2nestiles_1
+  - first:
+      213: -8757914676837000265
+    second: zelda2nestiles_2
+  - first:
+      213: -4035905606276425309
+    second: zelda2nestiles_3
+  - first:
+      213: 8390831736681865935
+    second: zelda2nestiles_4
+  - first:
+      213: -6825316324250828113
+    second: zelda2nestiles_5
+  - first:
+      213: -7530291970307436912
+    second: zelda2nestiles_6
+  - first:
+      213: -8271686221549378383
+    second: zelda2nestiles_7
+  - first:
+      213: -2008352281616853615
+    second: zelda2nestiles_8
+  - first:
+      213: -7248458889233832744
+    second: zelda2nestiles_9
+  - first:
+      213: -5075516638675870722
+    second: zelda2nestiles_10
+  - first:
+      213: 5106926937848445429
+    second: zelda2nestiles_11
+  - first:
+      213: 8510259291212239120
+    second: zelda2nestiles_12
+  - first:
+      213: 374628518000715677
+    second: zelda2nestiles_13
+  - first:
+      213: 3335814528406594433
+    second: zelda2nestiles_14
+  - first:
+      213: 8306867251860785119
+    second: zelda2nestiles_15
+  - first:
+      213: 6298731962966105016
+    second: zelda2nestiles_16
+  - first:
+      213: -1814226987729238034
+    second: zelda2nestiles_17
+  - first:
+      213: 4668647895215603540
+    second: zelda2nestiles_18
+  - first:
+      213: -236538925022268281
+    second: zelda2nestiles_19
+  - first:
+      213: -6794982335202869841
+    second: zelda2nestiles_20
+  - first:
+      213: 3968155306967634732
+    second: zelda2nestiles_21
+  - first:
+      213: 896591699699522837
+    second: zelda2nestiles_22
+  - first:
+      213: 9057920195827698563
+    second: zelda2nestiles_23
+  - first:
+      213: 8477155962952789448
+    second: zelda2nestiles_24
+  - first:
+      213: -5798065137620799731
+    second: zelda2nestiles_25
+  - first:
+      213: -3988420201185822599
+    second: zelda2nestiles_26
+  - first:
+      213: 4032046348478670921
+    second: zelda2nestiles_27
+  - first:
+      213: 3362203889780196887
+    second: zelda2nestiles_28
+  - first:
+      213: 1864648883551066846
+    second: zelda2nestiles_29
+  - first:
+      213: -3538321132298788174
+    second: zelda2nestiles_30
+  - first:
+      213: -3554256586767313681
+    second: zelda2nestiles_31
+  - first:
+      213: 8660103786598370200
+    second: zelda2nestiles_32
+  - first:
+      213: 4363437746984659103
+    second: zelda2nestiles_33
+  - first:
+      213: -4677887935671504481
+    second: zelda2nestiles_34
+  - first:
+      213: -5174023107532934094
+    second: zelda2nestiles_35
+  - first:
+      213: 4775590786872561683
+    second: zelda2nestiles_36
+  - first:
+      213: -8584380741294877822
+    second: zelda2nestiles_37
+  - first:
+      213: 2448609546908327078
+    second: zelda2nestiles_38
+  - first:
+      213: -2009207521787365676
+    second: zelda2nestiles_39
+  - first:
+      213: -6721445460667582434
+    second: zelda2nestiles_40
+  - first:
+      213: -7680739159534325016
+    second: zelda2nestiles_41
+  - first:
+      213: -8813956027691555444
+    second: zelda2nestiles_42
+  - first:
+      213: 4924148860690454526
+    second: zelda2nestiles_43
+  - first:
+      213: -2550010744042745191
+    second: zelda2nestiles_44
+  - first:
+      213: 112152658350404522
+    second: zelda2nestiles_45
+  - first:
+      213: 8565310782120733127
+    second: zelda2nestiles_46
+  - first:
+      213: -5923130039038827588
+    second: zelda2nestiles_47
+  - first:
+      213: 3860217284593086701
+    second: zelda2nestiles_48
+  - first:
+      213: -4134120585441042760
+    second: zelda2nestiles_49
+  - first:
+      213: -5196582852516908432
+    second: zelda2nestiles_50
+  - first:
+      213: -5716009279123379540
+    second: zelda2nestiles_51
+  - first:
+      213: -1006348466543767199
+    second: zelda2nestiles_52
+  - first:
+      213: -7773628781108849558
+    second: zelda2nestiles_53
+  - first:
+      213: 3715343661523690331
+    second: zelda2nestiles_54
+  - first:
+      213: -2426255342270356248
+    second: zelda2nestiles_55
+  - first:
+      213: 5299143389112432031
+    second: zelda2nestiles_56
+  - first:
+      213: 4869304192592289211
+    second: zelda2nestiles_57
+  - first:
+      213: -5708994362261645519
+    second: zelda2nestiles_58
+  - first:
+      213: 4344358587720931427
+    second: zelda2nestiles_59
+  - first:
+      213: -5554213327603472520
+    second: zelda2nestiles_60
+  - first:
+      213: -7252917638786808824
+    second: zelda2nestiles_61
+  - first:
+      213: -4672152841366349543
+    second: zelda2nestiles_62
+  - first:
+      213: -4760222650228657067
+    second: zelda2nestiles_63
+  - first:
+      213: 4529419854793727235
+    second: zelda2nestiles_64
+  - first:
+      213: 3816120439884775070
+    second: zelda2nestiles_65
+  - first:
+      213: -4991797546239385457
+    second: zelda2nestiles_66
+  - first:
+      213: -3141522361326053525
+    second: zelda2nestiles_67
+  - first:
+      213: -1892376954421993899
+    second: zelda2nestiles_68
+  - first:
+      213: 8129719058522525461
+    second: zelda2nestiles_69
+  - first:
+      213: -2230232906220137705
+    second: zelda2nestiles_70
+  - first:
+      213: 8865972948541829556
+    second: zelda2nestiles_71
+  - first:
+      213: -7781090383994294037
+    second: zelda2nestiles_72
+  - first:
+      213: -8821002608225980956
+    second: zelda2nestiles_73
+  - first:
+      213: 7848369249185759074
+    second: zelda2nestiles_74
+  - first:
+      213: -8685969003725809316
+    second: zelda2nestiles_75
+  - first:
+      213: 9195487921860806149
+    second: zelda2nestiles_76
+  - first:
+      213: 8320881471885215685
+    second: zelda2nestiles_77
+  - first:
+      213: 8283345808284968779
+    second: zelda2nestiles_78
+  - first:
+      213: -721713893842573559
+    second: zelda2nestiles_79
+  - first:
+      213: -5669693613964469486
+    second: zelda2nestiles_80
+  - first:
+      213: -990612677066852539
+    second: zelda2nestiles_81
+  - first:
+      213: 269677123508318677
+    second: zelda2nestiles_82
+  - first:
+      213: 1034410532369243938
+    second: zelda2nestiles_83
+  - first:
+      213: 5677742662820986009
+    second: zelda2nestiles_84
+  - first:
+      213: -26481475067581805
+    second: zelda2nestiles_85
+  - first:
+      213: -5381267399034479118
+    second: zelda2nestiles_86
+  - first:
+      213: -6765631826208221564
+    second: zelda2nestiles_87
+  - first:
+      213: 6833983696230632632
+    second: zelda2nestiles_88
+  - first:
+      213: -1962339473616509653
+    second: zelda2nestiles_89
+  - first:
+      213: 234527809331631683
+    second: zelda2nestiles_90
+  - first:
+      213: 6301634801582842666
+    second: zelda2nestiles_91
+  - first:
+      213: -4318089191778976752
+    second: zelda2nestiles_92
+  - first:
+      213: -8363176706911789544
+    second: zelda2nestiles_93
+  - first:
+      213: -4081138445145099104
+    second: zelda2nestiles_94
+  - first:
+      213: -4480924491860009407
+    second: zelda2nestiles_95
+  - first:
+      213: -1813791424723192089
+    second: zelda2nestiles_96
+  - first:
+      213: -5806863633178961364
+    second: zelda2nestiles_97
+  - first:
+      213: -1574281806205828318
+    second: zelda2nestiles_98
+  - first:
+      213: -7143256759684472012
+    second: zelda2nestiles_99
+  - first:
+      213: -3964442450689862764
+    second: zelda2nestiles_100
+  - first:
+      213: 487555256579383021
+    second: zelda2nestiles_101
+  - first:
+      213: -8440860335631545895
+    second: zelda2nestiles_102
+  - first:
+      213: -6338114530414282148
+    second: zelda2nestiles_103
+  - first:
+      213: -5616551192927234672
+    second: zelda2nestiles_104
+  - first:
+      213: 6767471023664055992
+    second: zelda2nestiles_105
+  - first:
+      213: -916571233630145137
+    second: zelda2nestiles_106
+  - first:
+      213: -7652267953545352313
+    second: zelda2nestiles_107
+  - first:
+      213: -1697687131730719772
+    second: zelda2nestiles_108
+  - first:
+      213: -1393298005943708737
+    second: zelda2nestiles_109
+  - first:
+      213: 62491958441836260
+    second: zelda2nestiles_110
+  - first:
+      213: -9075325505420643907
+    second: zelda2nestiles_111
+  - first:
+      213: 7953497890319452666
+    second: zelda2nestiles_112
+  - first:
+      213: 4920953477789837514
+    second: zelda2nestiles_113
+  - first:
+      213: 6758495905657062998
+    second: zelda2nestiles_114
+  - first:
+      213: 2262495417925410879
+    second: zelda2nestiles_115
+  - first:
+      213: -1944792969852720219
+    second: zelda2nestiles_116
+  - first:
+      213: -5811773062551342215
+    second: zelda2nestiles_117
+  - first:
+      213: 8232572127586664965
+    second: zelda2nestiles_118
+  - first:
+      213: -2801090356678383912
+    second: zelda2nestiles_119
+  - first:
+      213: 7594186723870702435
+    second: zelda2nestiles_120
+  - first:
+      213: -6000385284310029248
+    second: zelda2nestiles_121
+  - first:
+      213: -6521988931904649901
+    second: zelda2nestiles_122
+  - first:
+      213: 5959227600964184997
+    second: zelda2nestiles_123
+  - first:
+      213: 2241920165143706891
+    second: zelda2nestiles_124
+  - first:
+      213: 6317375092245756682
+    second: zelda2nestiles_125
+  - first:
+      213: 4736663601528881218
+    second: zelda2nestiles_126
+  - first:
+      213: -1262245553308381267
+    second: zelda2nestiles_127
+  - first:
+      213: -4767119102814466973
+    second: zelda2nestiles_128
+  - first:
+      213: 5362271908860795480
+    second: zelda2nestiles_129
+  - first:
+      213: 6347691607786931260
+    second: zelda2nestiles_130
+  - first:
+      213: -8450869017401611667
+    second: zelda2nestiles_131
+  - first:
+      213: 4482077841370533548
+    second: zelda2nestiles_132
+  - first:
+      213: 7169015897985182304
+    second: zelda2nestiles_133
+  - first:
+      213: 6528074904912774391
+    second: zelda2nestiles_134
+  - first:
+      213: 5982593969905829189
+    second: zelda2nestiles_135
+  - first:
+      213: 840207752521415445
+    second: zelda2nestiles_136
+  - first:
+      213: 3154087015921553107
+    second: zelda2nestiles_137
+  - first:
+      213: 3322521976111063485
+    second: zelda2nestiles_138
+  - first:
+      213: -7441787515780841357
+    second: zelda2nestiles_139
+  - first:
+      213: 2279419941044936887
+    second: zelda2nestiles_140
+  - first:
+      213: -2426931837855692749
+    second: zelda2nestiles_141
+  - first:
+      213: 3157046847209946609
+    second: zelda2nestiles_142
+  - first:
+      213: -5481971622153592915
+    second: zelda2nestiles_143
+  - first:
+      213: -2693755578786011645
+    second: zelda2nestiles_144
+  - first:
+      213: -8237365606152898156
+    second: zelda2nestiles_145
+  - first:
+      213: -226857723317980700
+    second: zelda2nestiles_146
+  - first:
+      213: -979537808145876920
+    second: zelda2nestiles_147
+  - first:
+      213: 4377166276918969898
+    second: zelda2nestiles_148
+  - first:
+      213: 457683889748069511
+    second: zelda2nestiles_149
+  - first:
+      213: -1096480561932807047
+    second: zelda2nestiles_150
+  - first:
+      213: 2974757724093067610
+    second: zelda2nestiles_151
+  - first:
+      213: 6959567919602764342
+    second: zelda2nestiles_152
+  - first:
+      213: 22557926749717628
+    second: zelda2nestiles_153
+  - first:
+      213: -5626527285325050266
+    second: zelda2nestiles_154
+  - first:
+      213: 2202188608188656341
+    second: zelda2nestiles_155
+  - first:
+      213: -1646591247796714748
+    second: zelda2nestiles_156
+  - first:
+      213: 2239192957582047124
+    second: zelda2nestiles_157
+  - first:
+      213: -6060358029122870010
+    second: zelda2nestiles_158
+  - first:
+      213: -5275230073755372038
+    second: zelda2nestiles_159
+  - first:
+      213: 4738801311391215622
+    second: zelda2nestiles_160
+  - first:
+      213: 6571432487930251788
+    second: zelda2nestiles_161
+  - first:
+      213: -3053243506581619575
+    second: zelda2nestiles_162
+  - first:
+      213: 5152921715501763284
+    second: zelda2nestiles_163
+  - first:
+      213: -4307798958159555659
+    second: zelda2nestiles_164
+  - first:
+      213: -3346296422924495049
+    second: zelda2nestiles_165
+  - first:
+      213: 2049801294084704142
+    second: zelda2nestiles_166
+  - first:
+      213: 8461736242009919742
+    second: zelda2nestiles_167
+  - first:
+      213: -8352182741718203508
+    second: zelda2nestiles_168
+  - first:
+      213: -8854830441455254948
+    second: zelda2nestiles_169
+  - first:
+      213: -336026861125310365
+    second: zelda2nestiles_170
+  - first:
+      213: -3262446350677450503
+    second: zelda2nestiles_171
+  - first:
+      213: -8586607248397454473
+    second: zelda2nestiles_172
+  - first:
+      213: 436909013343278430
+    second: zelda2nestiles_173
+  - first:
+      213: 6635663850448018923
+    second: zelda2nestiles_174
+  - first:
+      213: 8990571737967351388
+    second: zelda2nestiles_175
+  - first:
+      213: 539299877726221017
+    second: zelda2nestiles_176
+  - first:
+      213: 2758214133821049026
+    second: zelda2nestiles_177
+  - first:
+      213: -2607485340743003139
+    second: zelda2nestiles_178
+  - first:
+      213: 2990962400023868044
+    second: zelda2nestiles_179
+  - first:
+      213: -2977981658125755318
+    second: zelda2nestiles_180
+  - first:
+      213: -3297398174023174532
+    second: zelda2nestiles_181
+  - first:
+      213: -6240332110813119239
+    second: zelda2nestiles_182
+  - first:
+      213: -6649841668838549577
+    second: zelda2nestiles_183
+  - first:
+      213: -1857591378043595037
+    second: zelda2nestiles_184
+  - first:
+      213: 2529385752623198799
+    second: zelda2nestiles_185
+  - first:
+      213: 4892624211030102399
+    second: zelda2nestiles_186
+  - first:
+      213: 6203754206158001027
+    second: zelda2nestiles_187
+  - first:
+      213: 276450748432638175
+    second: zelda2nestiles_188
+  - first:
+      213: -5313943751208943568
+    second: zelda2nestiles_189
+  - first:
+      213: 2619829074191108102
+    second: zelda2nestiles_190
+  - first:
+      213: -7619664654743520903
+    second: zelda2nestiles_191
+  - first:
+      213: 2269247942441530185
+    second: zelda2nestiles_0
+  - first:
+      213: 6948385654786723631
+    second: zelda2nestiles_1
+  - first:
+      213: -1597374742447284965
+    second: zelda2nestiles_2
+  - first:
+      213: 7881474068345668115
+    second: zelda2nestiles_3
+  - first:
+      213: -7427936890010599641
+    second: zelda2nestiles_4
+  - first:
+      213: 1694762774296516159
+    second: zelda2nestiles_5
+  - first:
+      213: -2352245497556101840
+    second: zelda2nestiles_6
+  - first:
+      213: -7150747123356567757
+    second: zelda2nestiles_7
+  - first:
+      213: 4396957415865923691
+    second: zelda2nestiles_8
+  - first:
+      213: 8052020612400860354
+    second: zelda2nestiles_9
+  - first:
+      213: 3731805073839072022
+    second: zelda2nestiles_10
+  - first:
+      213: -776949209291447870
+    second: zelda2nestiles_11
+  - first:
+      213: -1090303623420556027
+    second: zelda2nestiles_12
+  - first:
+      213: -2150116372962438056
+    second: zelda2nestiles_13
+  - first:
+      213: -3839695741154277849
+    second: zelda2nestiles_14
+  - first:
+      213: -3499452572540711582
+    second: zelda2nestiles_15
+  - first:
+      213: -4465973059273582854
+    second: zelda2nestiles_16
+  - first:
+      213: -3559236113854240130
+    second: zelda2nestiles_17
+  - first:
+      213: 9170607101328468427
+    second: zelda2nestiles_18
+  - first:
+      213: 5455110176959262580
+    second: zelda2nestiles_19
+  - first:
+      213: 8756461168359553694
+    second: zelda2nestiles_20
+  - first:
+      213: -3759924788261993879
+    second: zelda2nestiles_21
+  - first:
+      213: -8691136656579274010
+    second: zelda2nestiles_22
+  - first:
+      213: 906499806174097257
+    second: zelda2nestiles_23
+  - first:
+      213: 6081911843029202704
+    second: zelda2nestiles_24
+  - first:
+      213: -8337627046457121770
+    second: zelda2nestiles_25
+  - first:
+      213: -5374589577565554423
+    second: zelda2nestiles_26
+  - first:
+      213: -7997404975788735052
+    second: zelda2nestiles_27
+  - first:
+      213: 344507055539144139
+    second: zelda2nestiles_28
+  - first:
+      213: 7427440272547912188
+    second: zelda2nestiles_29
+  - first:
+      213: 8797436821089983832
+    second: zelda2nestiles_30
+  - first:
+      213: 2141586639767231766
+    second: zelda2nestiles_31
+  - first:
+      213: 683315183308525341
+    second: zelda2nestiles_32
+  - first:
+      213: -6549339365708820119
+    second: zelda2nestiles_33
+  - first:
+      213: -501656958715287233
+    second: zelda2nestiles_34
+  - first:
+      213: 7134018136499201335
+    second: zelda2nestiles_35
+  - first:
+      213: -7099732541379496340
+    second: zelda2nestiles_36
+  - first:
+      213: -7854059859348389658
+    second: zelda2nestiles_37
+  - first:
+      213: 4015547837530315719
+    second: zelda2nestiles_38
+  - first:
+      213: 1566282208817574178
+    second: zelda2nestiles_39
+  - first:
+      213: -4986442868685199107
+    second: zelda2nestiles_40
+  - first:
+      213: -4626156003931195197
+    second: zelda2nestiles_41
+  - first:
+      213: 2956069459759861322
+    second: zelda2nestiles_42
+  - first:
+      213: 2742195170726267902
+    second: zelda2nestiles_43
+  - first:
+      213: 7931365555159463951
+    second: zelda2nestiles_44
+  - first:
+      213: -1632279817870186777
+    second: zelda2nestiles_45
+  - first:
+      213: -6002477153486380071
+    second: zelda2nestiles_46
+  - first:
+      213: -9120869437611733622
+    second: zelda2nestiles_47
+  - first:
+      213: -6894281359810402667
+    second: zelda2nestiles_48
+  - first:
+      213: -3568290471477287611
+    second: zelda2nestiles_49
+  - first:
+      213: -6619733757103116511
+    second: zelda2nestiles_50
+  - first:
+      213: -4767255165225995700
+    second: zelda2nestiles_51
+  - first:
+      213: 6104634296188272479
+    second: zelda2nestiles_52
+  - first:
+      213: -185158955785914306
+    second: zelda2nestiles_53
+  - first:
+      213: -1541575170501175818
+    second: zelda2nestiles_54
+  - first:
+      213: -2873074318403463663
+    second: zelda2nestiles_55
+  - first:
+      213: -1093737432609202967
+    second: zelda2nestiles_56
+  - first:
+      213: -7971673344953646792
+    second: zelda2nestiles_57
+  - first:
+      213: 3729481618453324939
+    second: zelda2nestiles_58
+  - first:
+      213: -5636936114379948039
+    second: zelda2nestiles_59
+  - first:
+      213: 8251309115403369899
+    second: zelda2nestiles_60
+  - first:
+      213: -8726746323950573816
+    second: zelda2nestiles_61
+  - first:
+      213: -2944080081473534626
+    second: zelda2nestiles_62
+  - first:
+      213: -5906191509006851165
+    second: zelda2nestiles_63
+  - first:
+      213: -7001291714774135864
+    second: zelda2nestiles_64
+  - first:
+      213: 873367415095770561
+    second: zelda2nestiles_65
+  - first:
+      213: 6490800983874716766
+    second: zelda2nestiles_66
+  - first:
+      213: -916393504435714253
+    second: zelda2nestiles_67
+  - first:
+      213: 2644225946438637126
+    second: zelda2nestiles_68
+  - first:
+      213: -4066551433852395296
+    second: zelda2nestiles_69
+  - first:
+      213: 3290217175022610558
+    second: zelda2nestiles_70
+  - first:
+      213: 1327483094079358613
+    second: zelda2nestiles_71
+  - first:
+      213: -5835467940318740573
+    second: zelda2nestiles_72
+  - first:
+      213: 3609792109942738182
+    second: zelda2nestiles_73
+  - first:
+      213: 264102626407668023
+    second: zelda2nestiles_74
+  - first:
+      213: 6383265548944427997
+    second: zelda2nestiles_75
+  - first:
+      213: 1258937129727181802
+    second: zelda2nestiles_76
+  - first:
+      213: -7579813070464349365
+    second: zelda2nestiles_77
+  - first:
+      213: 6986335068081748590
+    second: zelda2nestiles_78
+  - first:
+      213: 3139690136120971008
+    second: zelda2nestiles_79
+  - first:
+      213: -2015114051259304780
+    second: zelda2nestiles_80
+  - first:
+      213: 859566854161672924
+    second: zelda2nestiles_81
+  - first:
+      213: 6717454554942356696
+    second: zelda2nestiles_82
+  - first:
+      213: 3985197053199285585
+    second: zelda2nestiles_83
+  - first:
+      213: 4707763643204162559
+    second: zelda2nestiles_84
+  - first:
+      213: 6162405946840105913
+    second: zelda2nestiles_85
+  - first:
+      213: -1567960090035952114
+    second: zelda2nestiles_86
+  - first:
+      213: 7719456130218064162
+    second: zelda2nestiles_87
+  - first:
+      213: 6027573510435374325
+    second: zelda2nestiles_88
+  - first:
+      213: -1687065102828290585
+    second: zelda2nestiles_89
+  - first:
+      213: 8460945576529508739
+    second: zelda2nestiles_90
+  - first:
+      213: -6579124705109336325
+    second: zelda2nestiles_91
+  - first:
+      213: -8814025847372972499
+    second: zelda2nestiles_92
+  - first:
+      213: 2140488167490575467
+    second: zelda2nestiles_93
+  - first:
+      213: 3842913768564220060
+    second: zelda2nestiles_94
+  - first:
+      213: 8913697518733862494
+    second: zelda2nestiles_96
+  - first:
+      213: 7322347365778651302
+    second: zelda2nestiles_97
+  - first:
+      213: -5612850180550210358
+    second: zelda2nestiles_98
+  - first:
+      213: 6410859476639038142
+    second: zelda2nestiles_99
+  - first:
+      213: -4138536326469717466
+    second: zelda2nestiles_100
+  - first:
+      213: -5583612881117249997
+    second: zelda2nestiles_101
+  - first:
+      213: -7727614443232780701
+    second: zelda2nestiles_102
+  - first:
+      213: 8427664874484054487
+    second: zelda2nestiles_103
+  - first:
+      213: -6708860478683220051
+    second: zelda2nestiles_104
+  - first:
+      213: -4551010923287613509
+    second: zelda2nestiles_105
+  - first:
+      213: -2674863213487137474
+    second: zelda2nestiles_106
+  - first:
+      213: 2273591890599000272
+    second: zelda2nestiles_107
+  - first:
+      213: 7888305824538555220
+    second: zelda2nestiles_108
+  - first:
+      213: -8474856088577273587
+    second: zelda2nestiles_109
+  - first:
+      213: 8679769112737948566
+    second: zelda2nestiles_110
+  - first:
+      213: -283786841181132988
+    second: zelda2nestiles_112
+  - first:
+      213: -6587302335082235858
+    second: zelda2nestiles_113
+  - first:
+      213: -4825739913778029829
+    second: zelda2nestiles_114
+  - first:
+      213: -3841547733695918345
+    second: zelda2nestiles_115
+  - first:
+      213: -3668928755935935067
+    second: zelda2nestiles_116
+  - first:
+      213: -3314756008950050372
+    second: zelda2nestiles_117
+  - first:
+      213: 6060908613075378259
+    second: zelda2nestiles_118
+  - first:
+      213: 5880894838264017528
+    second: zelda2nestiles_119
+  - first:
+      213: -5647861725299475877
+    second: zelda2nestiles_120
+  - first:
+      213: -1455335588757278748
+    second: zelda2nestiles_121
+  - first:
+      213: -8554588585699894044
+    second: zelda2nestiles_122
+  - first:
+      213: -3769149443362138958
+    second: zelda2nestiles_123
+  - first:
+      213: 8038229279477839378
+    second: zelda2nestiles_124
+  - first:
+      213: -4258259025365667419
+    second: zelda2nestiles_125
+  - first:
+      213: -4103200319370383251
+    second: zelda2nestiles_126
+  - first:
+      213: -3039242789146502958
+    second: zelda2nestiles_128
+  - first:
+      213: -6520316904411187395
+    second: zelda2nestiles_129
+  - first:
+      213: 8728352299826367029
+    second: zelda2nestiles_130
+  - first:
+      213: -7450320390587490393
+    second: zelda2nestiles_131
+  - first:
+      213: -7249188400134274771
+    second: zelda2nestiles_132
+  - first:
+      213: 8738573308662662366
+    second: zelda2nestiles_133
+  - first:
+      213: -716135309653551982
+    second: zelda2nestiles_134
+  - first:
+      213: 5036491829136363303
+    second: zelda2nestiles_135
+  - first:
+      213: 1032052170861882289
+    second: zelda2nestiles_136
+  - first:
+      213: -6053251601932432795
+    second: zelda2nestiles_137
+  - first:
+      213: 3742228802281989687
+    second: zelda2nestiles_138
+  - first:
+      213: -325069786565587040
+    second: zelda2nestiles_139
+  - first:
+      213: 4215396073181741266
+    second: zelda2nestiles_140
+  - first:
+      213: 6054609221918283568
+    second: zelda2nestiles_141
+  - first:
+      213: -5377728504952824736
+    second: zelda2nestiles_142
+  - first:
+      213: -7743067259407452670
+    second: zelda2nestiles_144
+  - first:
+      213: 8778505058043541253
+    second: zelda2nestiles_145
+  - first:
+      213: -5445194717140639720
+    second: zelda2nestiles_146
+  - first:
+      213: -4481908761761177330
+    second: zelda2nestiles_147
+  - first:
+      213: -8816517724946783564
+    second: zelda2nestiles_148
+  - first:
+      213: 1445958924572936410
+    second: zelda2nestiles_149
+  - first:
+      213: 7872786391411276160
+    second: zelda2nestiles_150
+  - first:
+      213: 3799577634549115453
+    second: zelda2nestiles_151
+  - first:
+      213: -6300770210054645329
+    second: zelda2nestiles_152
+  - first:
+      213: -6088640148600547000
+    second: zelda2nestiles_153
+  - first:
+      213: -4099171153886321340
+    second: zelda2nestiles_154
+  - first:
+      213: -6841995828558042557
+    second: zelda2nestiles_155
+  - first:
+      213: 5468411503072969526
+    second: zelda2nestiles_156
+  - first:
+      213: -1835447969481653155
+    second: zelda2nestiles_157
+  - first:
+      213: -6801296164294413839
+    second: zelda2nestiles_158
+  - first:
+      213: -7017095111075226969
+    second: zelda2nestiles_160
+  - first:
+      213: -2228773064219524112
+    second: zelda2nestiles_161
+  - first:
+      213: 4961172951073158670
+    second: zelda2nestiles_162
+  - first:
+      213: -5667001384437757393
+    second: zelda2nestiles_163
+  - first:
+      213: 4401957651786997154
+    second: zelda2nestiles_164
+  - first:
+      213: 252872289015576007
+    second: zelda2nestiles_165
+  - first:
+      213: -7211689883393677316
+    second: zelda2nestiles_166
+  - first:
+      213: -5175953469128355968
+    second: zelda2nestiles_167
+  - first:
+      213: -1666162725376372190
+    second: zelda2nestiles_168
+  - first:
+      213: -5136389579938149166
+    second: zelda2nestiles_169
+  - first:
+      213: -7335201710056382317
+    second: zelda2nestiles_170
+  - first:
+      213: 7837452095870144964
+    second: zelda2nestiles_171
+  - first:
+      213: 8472956339609896697
+    second: zelda2nestiles_172
+  - first:
+      213: -6545173974159894492
+    second: zelda2nestiles_173
+  - first:
+      213: -4673527590097486036
+    second: zelda2nestiles_174
+  - first:
+      213: 8833698511772644813
+    second: zelda2nestiles_176
+  - first:
+      213: 766911653603202242
+    second: zelda2nestiles_177
+  - first:
+      213: -8389602985671255804
+    second: zelda2nestiles_178
+  - first:
+      213: 7775203325887746269
+    second: zelda2nestiles_179
+  - first:
+      213: 4581438095599478154
+    second: zelda2nestiles_180
+  - first:
+      213: 2380834278592058778
+    second: zelda2nestiles_181
+  - first:
+      213: 8728269917197042371
+    second: zelda2nestiles_182
+  - first:
+      213: -4166208016093113475
+    second: zelda2nestiles_183
+  - first:
+      213: 8521837178927991521
+    second: zelda2nestiles_184
+  - first:
+      213: 8523855242035300760
+    second: zelda2nestiles_185
+  - first:
+      213: -3661549509007448964
+    second: zelda2nestiles_186
+  - first:
+      213: 4312844965355468248
+    second: zelda2nestiles_187
+  - first:
+      213: -2400495680371258574
+    second: zelda2nestiles_188
+  - first:
+      213: -7210548345509770147
+    second: zelda2nestiles_189
+  - first:
+      213: 5983271050943617481
+    second: zelda2nestiles_190
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zelda2nestiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943738c0bfcfd7f10800000000000000
+      internalID: 2269247942441530185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f8bfb50ff9d6060800000000000000
+      internalID: 6948385654786723631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d9f3f822cf4d9e0800000000000000
+      internalID: -1597374742447284965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312423648ee906d60800000000000000
+      internalID: 7881474068345668115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ff5e0e0caaae890800000000000000
+      internalID: -7427936890010599641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36df7493c1058710800000000000000
+      internalID: 1694762774296516159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03518a5ce252b5fd0800000000000000
+      internalID: -2352245497556101840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3377fa9a06173cc90800000000000000
+      internalID: -7150747123356567757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6835314971250d30800000000000000
+      internalID: 4396957415865923691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccc646e5168ebf60800000000000000
+      internalID: 8052020612400860354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613ad2551f80ac330800000000000000
+      internalID: 3731805073839072022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1a9a38fc8b735f0800000000000000
+      internalID: -776949209291447870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d42b491a67ed0f0800000000000000
+      internalID: -1090303623420556027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85492d3fc804922e0800000000000000
+      internalID: -2150116372962438056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7264be62119a6bac0800000000000000
+      internalID: -3839695741154277849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d42691d627f6fc0800000000000000
+      internalID: -3499452572540711582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af698811a2da502c0800000000000000
+      internalID: -4465973059273582854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ae9f1bc9d0b9ec0800000000000000
+      internalID: -3559236113854240130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ab59129a844f70800000000000000
+      internalID: 9170607101328468427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f6644bdc174bb40800000000000000
+      internalID: 5455110176959262580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ab295f903358970800000000000000
+      internalID: 8756461168359553694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9624575735012dbc0800000000000000
+      internalID: -3759924788261993879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea573a2241e26780800000000000000
+      internalID: -8691136656579274010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fa7f755c8849c00800000000000000
+      internalID: 906499806174097257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0173ffe099a476450800000000000000
+      internalID: 6081911843029202704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_25
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614eb3a306cca4c80800000000000000
+      internalID: -8337627046457121770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90930b7414f9965b0800000000000000
+      internalID: -5374589577565554423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5cb2deb82830190800000000000000
+      internalID: -7997404975788735052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5c60c775fe7c400800000000000000
+      internalID: 344507055539144139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf916ab5391931760800000000000000
+      internalID: 7427440272547912188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d920f8d26c61a70800000000000000
+      internalID: 8797436821089983832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d5c07c3b178bd10800000000000000
+      internalID: 2141586639767231766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f4cb2f98f9b7900800000000000000
+      internalID: 683315183308525341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9619179fb821c15a0800000000000000
+      internalID: -6549339365708820119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f392ca867a1c909f0800000000000000
+      internalID: -501656958715287233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735aa3f82bf110360800000000000000
+      internalID: 7134018136499201335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c663bce9edea87d90800000000000000
+      internalID: -7099732541379496340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e082e6ab26c00390800000000000000
+      internalID: -7854059859348389658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb1592ab771ab730800000000000000
+      internalID: 4015547837530315719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_39
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221f592de5d8cb510800000000000000
+      internalID: 1566282208817574178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df82d3751a89ccab0800000000000000
+      internalID: -4986442868685199107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_41
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8f326ff979ccfb0800000000000000
+      internalID: -4626156003931195197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e0e500381160920800000000000000
+      internalID: 2956069459759861322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_43
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb4eef9afb3e0620800000000000000
+      internalID: 2742195170726267902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f087c0343fed11e60800000000000000
+      internalID: 7931365555159463951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_45
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6eec1672af859e0800000000000000
+      internalID: -1632279817870186777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3eb06d4dae2bca0800000000000000
+      internalID: -6002477153486380071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d8f6822992c6180800000000000000
+      internalID: -9120869437611733622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59667e671a79250a0800000000000000
+      internalID: -6894281359810402667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5456f28c8b2ea7ec0800000000000000
+      internalID: -3568290471477287611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fe434883bf124a0800000000000000
+      internalID: -6619733757103116511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42fe0b6fae47ddb0800000000000000
+      internalID: -4767255165225995700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ff7f37c8408b450800000000000000
+      internalID: 6104634296188272479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f56529ee2e6df0800000000000000
+      internalID: -185158955785914306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f517bfcc893b9ae0800000000000000
+      internalID: -1541575170501175818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116934e212ac028d0800000000000000
+      internalID: -2873074318403463663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecd7c3999342d0f0800000000000000
+      internalID: -1093737432609202967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8318698145dee5190800000000000000
+      internalID: -7971673344953646792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b846248b5c7c1c330800000000000000
+      internalID: 3729481618453324939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffffc0487495c1b0800000000000000
+      internalID: -5636936114379948039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad7f835ce9828270800000000000000
+      internalID: 8251309115403369899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_61
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807eaf3647e54e680800000000000000
+      internalID: -8726746323950573816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e558779a3c68427d0800000000000000
+      internalID: -2944080081473534626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3e73a6d1ef80ea0800000000000000
+      internalID: -5906191509006851165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb8004a74a66de90800000000000000
+      internalID: -7001291714774135864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd3f276903de1c00800000000000000
+      internalID: 873367415095770561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54cb97ea15f31a50800000000000000
+      internalID: 6490800983874716766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33742a586f05843f0800000000000000
+      internalID: -916393504435714253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64698531d7d22b420800000000000000
+      internalID: 2644225946438637126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e06f543405b097c0800000000000000
+      internalID: -4066551433852395296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78ac1f961339ad20800000000000000
+      internalID: 3290217175022610558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596cfeb37da2c6210800000000000000
+      internalID: 1327483094079358613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3affe1f63d0440fa0800000000000000
+      internalID: -5835467940318740573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d052a6cce881230800000000000000
+      internalID: 3609792109942738182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739d64f70f74aa300800000000000000
+      internalID: 264102626407668023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb42df523ae59850800000000000000
+      internalID: 6383265548944427997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae340fb36a4a87110800000000000000
+      internalID: 1258937129727181802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b0c170c281fc690800000000000000
+      internalID: -7579813070464349365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6afddeaab274f060800000000000000
+      internalID: 6986335068081748590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fc9444b8b629b20800000000000000
+      internalID: 3139690136120971008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b47ac86270e804e0800000000000000
+      internalID: -2015114051259304780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaa10bef7bcdeb00800000000000000
+      internalID: 859566854161672924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc3b2eb351393d50800000000000000
+      internalID: 6717454554942356696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d70ebfa934e4730800000000000000
+      internalID: 3985197053199285585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3dea73716555140800000000000000
+      internalID: 4707763643204162559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c82f0f83458550800000000000000
+      internalID: 6162405946840105913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06ea630b9c7d3ae0800000000000000
+      internalID: -1567960090035952114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229fbd47374012b60800000000000000
+      internalID: 7719456130218064162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f40e0b1c2e36a350800000000000000
+      internalID: 6027573510435374325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed36f83a375698e0800000000000000
+      internalID: -1687065102828290585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38934f08c215b6570800000000000000
+      internalID: 8460945576529508739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe16fa30f042b4a0800000000000000
+      internalID: -6579124705109336325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ef836c03a4ea580800000000000000
+      internalID: -8814025847372972499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_93
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6cd335c5aa84bd10800000000000000
+      internalID: 2140488167490575467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c906abd36b5c45530800000000000000
+      internalID: 3842913768564220060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e16556aee80d1c0800000000000000
+      internalID: -4480924491860009407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a96f9aa0d3bb70800000000000000
+      internalID: 8913697518733862494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_97
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8f04b32243e9560800000000000000
+      internalID: 7322347365778651302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_98
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc41dabf762b12b0800000000000000
+      internalID: -5612850180550210358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_99
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba34025ab2f7f850800000000000000
+      internalID: 6410859476639038142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622f8b25327f096c0800000000000000
+      internalID: -4138536326469717466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_101
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ef5b9faa50382b0800000000000000
+      internalID: -5583612881117249997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e9ee54b9ff1c490800000000000000
+      internalID: -7727614443232780701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_103
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9b8a93d8415f470800000000000000
+      internalID: 8427664874484054487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7fd6090f655e2a0800000000000000
+      internalID: -6708860478683220051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_105
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfe4847daf87d0c0800000000000000
+      internalID: -4551010923287613509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dd651541af0ead0800000000000000
+      internalID: -2674863213487137474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_107
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8bc5b47cb6d8f10800000000000000
+      internalID: 2273591890599000272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_108
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453f3477a54e87d60800000000000000
+      internalID: 7888305824538555220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_109
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d019bc50a43436a80800000000000000
+      internalID: -8474856088577273587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6932729450cb47870800000000000000
+      internalID: 8679769112737948566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_111
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db13c543987fd0280800000000000000
+      internalID: -9075325505420643907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447e77b1f59cf0cf0800000000000000
+      internalID: -283786841181132988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_113
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2872516d633594a0800000000000000
+      internalID: -6587302335082235858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_114
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa16d4cd17870db0800000000000000
+      internalID: -4825739913778029829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe095980b410bac0800000000000000
+      internalID: -3841547733695918345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_116
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5093c3cb8551dc0800000000000000
+      internalID: -3668928755935935067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_117
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1d071e8fe9ff1d0800000000000000
+      internalID: -3314756008950050372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350a672854cac1450800000000000000
+      internalID: 6060908613075378259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_119
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872b72472b22d9150800000000000000
+      internalID: 5880894838264017528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_120
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5afffa3fa3ce91b0800000000000000
+      internalID: -5647861725299475877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_121
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef63232efb9dcbe0800000000000000
+      internalID: -1455335588757278748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_122
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec1fb5610ff74980800000000000000
+      internalID: -8554588585699894044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_123
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4d9031d8a41bbc0800000000000000
+      internalID: -3769149443362138958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_124
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216bb6af0f68d8f60800000000000000
+      internalID: 8038229279477839378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_125
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a17a774aff97e4c0800000000000000
+      internalID: -4258259025365667419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60b8a99c018e07c0800000000000000
+      internalID: -4103200319370383251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_127
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafccbf5b5a9b7ee0800000000000000
+      internalID: -1262245553308381267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d851ce29c072d5d0800000000000000
+      internalID: -3039242789146502958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37b891525e2385a0800000000000000
+      internalID: -6520316904411187395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_130
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a4d910c26512970800000000000000
+      internalID: 8728352299826367029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_131
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afde2804152b9890800000000000000
+      internalID: -7450320390587490393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d214d14de85b56b90800000000000000
+      internalID: -7249188400134274771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_133
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed44c821026a54970800000000000000
+      internalID: 8738573308662662366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2945cf8eab6cf06f0800000000000000
+      internalID: -716135309653551982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f84d552a635e540800000000000000
+      internalID: 5036491829136363303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bba4e93bf5925e00800000000000000
+      internalID: 1032052170861882289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ac0c25db78efba0800000000000000
+      internalID: -6053251601932432795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_138
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736e04cb4411fe330800000000000000
+      internalID: 3742228802281989687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_139
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afcb8c50ce1d7bf0800000000000000
+      internalID: -325069786565587040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_140
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d00399f468108a30800000000000000
+      internalID: 4215396073181741266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_141
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0375e36320b460450800000000000000
+      internalID: 6054609221918283568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_142
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c5bcbca687e55b0800000000000000
+      internalID: -5377728504952824736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_143
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf53c8badf1ce3b0800000000000000
+      internalID: -5481971622153592915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206bf032a591b8490800000000000000
+      internalID: -7743067259407452670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_145
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507b7abf6d383d970800000000000000
+      internalID: 8778505058043541253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810afff2148ce64b0800000000000000
+      internalID: -5445194717140639720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_147
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01a3833abf0dc1c0800000000000000
+      internalID: -4481908761761177330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_148
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2ac9057df65a580800000000000000
+      internalID: -8816517724946783564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_149
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8c9fa1bf3111410800000000000000
+      internalID: 1445958924572936410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089399cd281c14d60800000000000000
+      internalID: 7872786391411276160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_151
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3aa1d34abfcab430800000000000000
+      internalID: 3799577634549115453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9545a70ea2f88a0800000000000000
+      internalID: -6300770210054645329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_153
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8499b793b0ec08ba0800000000000000
+      internalID: -6088640148600547000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_154
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445e31bcd81dc17c0800000000000000
+      internalID: -4099171153886321340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_155
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ae71c5b095c01a0800000000000000
+      internalID: -6841995828558042557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_156
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63303560a43b3eb40800000000000000
+      internalID: 5468411503072969526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_157
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54855fdbcd2786e0800000000000000
+      internalID: -1835447969481653155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_158
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f131036c21fc91a0800000000000000
+      internalID: -6801296164294413839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_159
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af57a51823e9ac6b0800000000000000
+      internalID: -5275230073755372038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa1b35bc254e9e90800000000000000
+      internalID: -7017095111075226969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_161
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f38c36e4bec111e0800000000000000
+      internalID: -2228773064219524112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_162
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06fdf97380a9d440800000000000000
+      internalID: 4961172951073158670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_163
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ac0f21444ca51b0800000000000000
+      internalID: -5667001384437757393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad93176925e61d30800000000000000
+      internalID: 4401957651786997154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_165
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c53050d102628300800000000000000
+      internalID: 252872289015576007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_166
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7aa0e924eeaeb90800000000000000
+      internalID: -7211689883393677316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_167
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f47a24eb15b28b0800000000000000
+      internalID: -5175953469128355968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_168
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222d1f734d990e8e0800000000000000
+      internalID: -1666162725376372190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_169
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcc4cb04e0e7b8b0800000000000000
+      internalID: -5136389579938149166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_170
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390604488e0243a90800000000000000
+      internalID: -7335201710056382317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_171
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c11b76182934cc60800000000000000
+      internalID: 7837452095870144964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f687d336ecf59570800000000000000
+      internalID: 8472956339609896697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_173
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4285115c2feda25a0800000000000000
+      internalID: -6545173974159894492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f70401b6b442fb0800000000000000
+      internalID: -4673527590097486036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_175
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56d5319c5de4cc70800000000000000
+      internalID: 8990571737967351388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5fa175ef9979a70800000000000000
+      internalID: 8833698511772644813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_177
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4502fe51e94aa00800000000000000
+      internalID: 766911653603202242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_178
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4091288d884229b80800000000000000
+      internalID: -8389602985671255804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_179
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd099f7ea3217eb60800000000000000
+      internalID: 7775203325887746269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8526a8aca9849f30800000000000000
+      internalID: 4581438095599478154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_181
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a959d84892c6a0120800000000000000
+      internalID: 2380834278592058778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_182
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2024ece3b012970800000000000000
+      internalID: 8728269917197042371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_183
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73926402e7ae26c0800000000000000
+      internalID: -4166208016093113475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea48bb73c5a34670800000000000000
+      internalID: 8521837178927991521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_185
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8998d5a6e21da4670800000000000000
+      internalID: 8523855242035300760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_186
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74ea1c0f109f2dc0800000000000000
+      internalID: -3661549509007448964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_187
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5385345ad4adb30800000000000000
+      internalID: 4312844965355468248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_188
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b8c96a5e9bfaed0800000000000000
+      internalID: -2400495680371258574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_189
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c0c1e9b7cfeeb90800000000000000
+      internalID: -7210548345509770147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_190
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c95f52f159d80350800000000000000
+      internalID: 5983271050943617481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zelda2nestiles_191
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979b9620e53814690800000000000000
+      internalID: -7619664654743520903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 820f0ea884c88b04397a0cb1e9c589f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
