@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     private Collision coll;
     private BetterJumping betterjumping;
     private Rigidbody2D _rb2D;
-
+    private PlayerAnimationController anime;
     [Header("Parameters")]
     public float speed = 7f;
     public float jumpForce = 14f;
@@ -33,6 +33,7 @@ public class Movement : MonoBehaviour
         coll = GetComponent<Collision>();
         _rb2D = GetComponent<Rigidbody2D>();
         betterjumping = GetComponent<BetterJumping>();
+        anime = GetComponent<PlayerAnimationController>();
     }
 
     // Update is called once per frame
@@ -62,15 +63,19 @@ public class Movement : MonoBehaviour
         {
             side = 1;
             //do animation flip
+            anime.Flip(side);
         }
         //jos liikutaan vasemmalle
         if(moveDir.x < 0)
         {
             side = -1;
+            anime.Flip(side);
         }
 
         _rb2D.velocity = new Vector2(moveDir.x * speed, _rb2D.velocity.y);
         //pistä animaatio kuntoon
+        anime.SetInputAxis(moveDir.x, moveDir.y, _rb2D.velocity.y);
+        
     }
 
     private void CheckJump(bool attackJump)
@@ -108,7 +113,9 @@ public class Movement : MonoBehaviour
 
     private void DoJump()
     {
+        anime.SetTrigger("Jump");
         _rb2D.velocity = new Vector2(moveDir.x * speed * 1.5f, jumpForce);
+        
         
     }
 
