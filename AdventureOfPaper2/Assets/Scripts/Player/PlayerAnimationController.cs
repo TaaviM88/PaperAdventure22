@@ -22,6 +22,7 @@ public class PlayerAnimationController : MonoBehaviour
     void Update()
     {
         anim.SetBool("OnGround", coll.onGround);
+
     }
 
     public void SetInputAxis(float x, float y, float yVel)

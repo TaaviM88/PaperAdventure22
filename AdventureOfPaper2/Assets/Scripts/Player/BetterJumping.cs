@@ -19,11 +19,11 @@ public class BetterJumping : MonoBehaviour
 
         if (_rb2D.velocity.y < 0)
         {
-            _rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime;
+            _rb2D.velocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier-1) * Time.deltaTime;
         }
         else if (_rb2D.velocity.y > 0 && !Input.GetButton("Jump"))
         {
-            _rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
+            _rb2D.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier-1) * Time.deltaTime;
         }
 
 

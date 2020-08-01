@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
 {
     private Collision coll;
     private BetterJumping betterjumping;
+    PlayerEnumManager enums;
     private Rigidbody2D _rb2D;
     private PlayerAnimationController anime;
     [Header("Parameters")]
@@ -34,6 +35,7 @@ public class Movement : MonoBehaviour
         _rb2D = GetComponent<Rigidbody2D>();
         betterjumping = GetComponent<BetterJumping>();
         anime = GetComponent<PlayerAnimationController>();
+        enums = GetComponent<PlayerEnumManager>();
     }
 
     // Update is called once per frame
@@ -46,9 +48,8 @@ public class Movement : MonoBehaviour
 
         if(Input.GetButtonDown("Jump"))
         {
-            CheckJump(false);
+            CheckJump();
         }
-
     }
 
     private void FixedUpdate()
@@ -57,7 +58,19 @@ public class Movement : MonoBehaviour
     }
 
     private void Move()
-    {
+    {   
+        if(enums.moveState == PlayerMoveState.duck)
+        {
+            anime.SetInputAxis(moveDir.x, moveDir.y, _rb2D.velocity.y);
+            anime.SetBool("isDucking", true);
+            return;
+        }
+        else
+        {
+            anime.SetBool("isDucking", false);
+        }
+
+       
         //jos liikutaan oikealle
         if(moveDir.x >0)
         {
@@ -72,51 +85,35 @@ public class Movement : MonoBehaviour
             anime.Flip(side);
         }
 
-        _rb2D.velocity = new Vector2(moveDir.x * speed, _rb2D.velocity.y);
+        if(moveDir.y > -0.1f)
+        {
+            _rb2D.velocity = new Vector2(moveDir.x * speed, _rb2D.velocity.y);
+        }
+        
         //pistä animaatio kuntoon
         anime.SetInputAxis(moveDir.x, moveDir.y, _rb2D.velocity.y);
-        
     }
 
-    private void CheckJump(bool attackJump)
+    private void CheckJump()
     {
         if(!coll.onGround)
         {
             jumping = true;
             return;
         }
-        else
-        {
+
+       DoJump();
             
-            if (attackJump)
-            {
-                #region jump up and down attack
-                if (horizontalX > 0)
-                {
-                    //do attackup
-                }
-                if(horizontalX < 0)
-                {
-                    //do attackJump down;
-                }
-                #endregion
-            }
-
-            else
-            {
-                //set jump animation
-                DoJump();
-            }
-        }
-       
     }
+      
 
-    private void DoJump()
+    public void DoJump()
     {
         anime.SetTrigger("Jump");
-        _rb2D.velocity = new Vector2(moveDir.x * speed * 1.5f, jumpForce);
-        
-        
+        //1.5f = kuinka paljon antaa lisää kiihtyvyyttä horisontaalisesti
+        //_rb2D.velocity = new Vector2(moveDir.x * speed, jumpForce);
+        _rb2D.AddForce(new Vector2(moveDir.x * speed, jumpForce), ForceMode2D.Impulse);
+
     }
 
     private void CheckGround()
