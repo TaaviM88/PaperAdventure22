@@ -18,3 +18,4 @@ public enum GameState
     running,
     pause
 }
+

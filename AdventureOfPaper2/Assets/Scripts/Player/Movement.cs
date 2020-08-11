@@ -111,9 +111,8 @@ public class Movement : MonoBehaviour
     {
         anime.SetTrigger("Jump");
         //1.5f = kuinka paljon antaa lisää kiihtyvyyttä horisontaalisesti
-        //_rb2D.velocity = new Vector2(moveDir.x * speed, jumpForce);
-        _rb2D.AddForce(new Vector2(moveDir.x * speed, jumpForce), ForceMode2D.Impulse);
-
+        _rb2D.velocity = new Vector2(moveDir.x * speed*1.5f, jumpForce);
+        //_rb2D.AddForce(new Vector2(moveDir.x * speed, jumpForce), ForceMode2D.Impulse);
     }
 
     private void CheckGround()

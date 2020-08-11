@@ -61,6 +61,15 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
+    public void DuckStab()
+    {
+        GameObject enemy = coll.CheckIfDuckStabCollide();
+        if (enemy != null)
+        {
+            Debug.Log($"Duck Stab! Enemy: { enemy.name}  do damage");
+        }
+    }
+
     IEnumerator AttackCoolDown()
     {
         canAttack = false;

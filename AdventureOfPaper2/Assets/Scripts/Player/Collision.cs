@@ -9,7 +9,7 @@ public class Collision : MonoBehaviour
     [Space]
     public bool onGround, onWall, onRightWall, onLeftWall, onCeiling, stabHit;
     public int wallSide;
-    public Transform stabRight, stabLeft, downStab, upStab;
+    public Transform stabRight, stabLeft, downStab, upStab, duckRightStab, duckLeftStab;
     public Vector3 stabRightBoxSize = new Vector3(0f,0f,0f), stabLeftBoxSize = new Vector3(0f,0f,0f);
     public float stabDistance = 0.5f;
     public float downStabRadius = 1f, upStabRadius = 1f;
@@ -47,6 +47,7 @@ public class Collision : MonoBehaviour
     public GameObject CheckIfStandStabCollide()
     {
         RaycastHit2D hit2D;
+
         //stabHit = Physics2D.BoxCast(Stab.position, (Vector2)stabBoxSize, 0f, Vector2.right, enemyLayer); 
         if (move.side == 1)
         {
@@ -58,6 +59,25 @@ public class Collision : MonoBehaviour
         }
 
            
+        return hit2D.collider?.gameObject;
+    }
+
+
+    public GameObject CheckIfDuckStabCollide()
+    {
+        RaycastHit2D hit2D;
+
+        //stabHit = Physics2D.BoxCast(Stab.position, (Vector2)stabBoxSize, 0f, Vector2.right, enemyLayer); 
+        if (move.side == 1)
+        {
+            hit2D = Physics2D.BoxCast(duckRightStab.position, stabRightBoxSize, 0f, transform.right, stabDistance, enemyLayer);
+        }
+        else
+        {
+            hit2D = Physics2D.BoxCast(duckLeftStab.position, stabLeftBoxSize, 0f, -transform.right, stabDistance, enemyLayer);
+        }
+
+
         return hit2D.collider?.gameObject;
     }
 
@@ -93,8 +113,12 @@ public class Collision : MonoBehaviour
         Gizmos.DrawWireCube(stabRight.position, stabRightBoxSize);
         Gizmos.DrawWireCube(stabLeft.position, stabLeftBoxSize);
 
+        Gizmos.DrawWireCube(duckRightStab.position, stabRightBoxSize);
+        Gizmos.DrawWireCube(duckLeftStab.position, stabLeftBoxSize);
+
         Gizmos.DrawWireSphere(downStab.position, downStabRadius);
         Gizmos.DrawWireSphere(upStab.position, upStabRadius);
+
     }
 
 
