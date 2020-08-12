@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
+public class PlayerStats : MonoBehaviour, IUnit
 {
     [Header("Levels")]
     public int swordLevel = 1;
     public int maxSwordLevel = 9;
 
-    public int hitpointLevel = 1;
+    public int HPLevel = 1;
     public int maxHitpointLevel = 9;
 
-    public int magicpointLevel = 1;
+    public int magicLevel = 1;
     public int maxMagicpointLevel = 9;
     
     public int playerLevel = 1;
@@ -25,13 +25,16 @@ public class PlayerStats : MonoBehaviour
 
     [Header("Stats")]
     public int currentHp;
-    public int maxHP = 100;
+    public int maxHP = 16;
     public float hpGrowthRate = 1.05f;
     public int currentMP;
-    public int maxMp = 100;
+    public int maxMp = 16;
     public int[] mpLvlBonus;
     public int strength;
     public int defence;
+
+    public int heartContainer = 4;
+    public int magicBottle = 4;
 
     [Header("Equipment")]
     public int weaponPower;
@@ -40,6 +43,7 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         expToNextLevel = new int[maxLevel];
         expToNextLevel[1] = baseEXP;
         for (int i = 2; i < expToNextLevel.Length; i++)
@@ -74,5 +78,75 @@ public class PlayerStats : MonoBehaviour
                 currentMP = maxMp;
             }
         }
+    }
+
+    public Vector3 GetPosition()
+    {
+        return transform.position;
+    }
+
+    public void SetPosition(Vector3 position)
+    {
+        transform.position = position;
+    }
+
+    public int GetLevel()
+    {
+        return playerLevel;
+    }
+
+    public void SetLevel(int currentLevel)
+    {
+        playerLevel = currentLevel;
+    }
+
+    public int GetSwordLevel()
+    {
+        return swordLevel;
+    }
+
+    public void SetSwordlLevel(int currentLevel)
+    {
+        swordLevel = currentLevel;
+    }
+
+    public int GetMagicLevel()
+    {
+        return magicLevel;
+    }
+
+    public void SetMagicLevel(int currentMagicLevel)
+    {
+        magicLevel = currentMagicLevel;
+    }
+
+    public int GetHPLevel()
+    {
+        return HPLevel;
+    }
+
+    public void SetHPLevel(int currentHpLevel)
+    {
+        HPLevel = currentHpLevel;
+    }
+
+    public int GetHeartContainerAmount()
+    {
+        return heartContainer;
+    }
+
+    public void SetHeartContainerAmount(int currentHeartContainerAmount)
+    {
+        heartContainer = currentHeartContainerAmount;
+    }
+
+    public int GetMagicBottleAmount()
+    {
+        return magicBottle;
+    }
+
+    public void SetMagicBottleAmount(int currentBottleAmount)
+    {
+        magicBottle = currentBottleAmount;
     }
 }

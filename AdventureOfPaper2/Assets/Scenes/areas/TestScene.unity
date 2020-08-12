@@ -1354,6 +1354,42 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4103202608416705162}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &672485846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672485834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecd5d4e17db59f46bc593fa9e6828b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordLevel: 1
+  maxSwordLevel: 9
+  HPLevel: 1
+  maxHitpointLevel: 9
+  magicLevel: 1
+  maxMagicpointLevel: 9
+  playerLevel: 1
+  maxLevel: 27
+  currentEXP: 0
+  expToNextLevel: 
+  baseEXP: 50
+  levelExpGrowthRate: 1.05
+  currentHp: 0
+  maxHP: 16
+  hpGrowthRate: 1.05
+  currentMP: 0
+  maxMp: 16
+  mpLvlBonus: 
+  strength: 0
+  defence: 0
+  heartContainer: 4
+  magicBottle: 4
+  weaponPower: 0
+  armorPower: 0
 --- !u!1 &954297208
 GameObject:
   m_ObjectHideFlags: 0
@@ -4246,7 +4282,7 @@ PrefabInstance:
     - target: {fileID: 479608610117185903, guid: 2f58835f039ece24486f198402ea5b9c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0230362
+      value: -1.022255
       objectReference: {fileID: 0}
     - target: {fileID: 479608610117185903, guid: 2f58835f039ece24486f198402ea5b9c,
         type: 3}
@@ -4453,7 +4489,7 @@ PrefabInstance:
     - target: {fileID: 7130135738920588873, guid: f0190577f5ca39d44aecae3efca6e6f5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0230362
+      value: -1.022255
       objectReference: {fileID: 0}
     - target: {fileID: 7130135738920588873, guid: f0190577f5ca39d44aecae3efca6e6f5,
         type: 3}

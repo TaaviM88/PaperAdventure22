@@ -12,12 +12,16 @@ public class PlayerAttack : MonoBehaviour
     PlayerAnimationController anim;
     private float timeBTWAttack = 0;
     private float startTimeBtwAttack;
-    // Start is called before the first frame update
+    private ITakeDamage<int> enemyToDamage;
+    PlayerStats stats;
+    public int[] damageArray = { 2, 3, 4, 6, 9, 12, 18, 24 };
+    // Start is called before t he first frame update
     void Start()
     {
         coll = GetComponent<Collision>();
         anim = GetComponent<PlayerAnimationController>();
         move = GetComponent<Movement>();
+        stats = GetComponent<PlayerStats>();
         startTimeBtwAttack = attackCoolDownMultiplayer; 
         timeBTWAttack = attackCoolDownMultiplayer;
     }
@@ -37,7 +41,8 @@ public class PlayerAttack : MonoBehaviour
 
        if(enemy != null)
         {
-            Debug.Log($"Attacking enemy: {enemy.name} Do damage! ");
+            
+            DoDamage(enemy);
         }
 
     }
@@ -47,7 +52,7 @@ public class PlayerAttack : MonoBehaviour
         GameObject enemy = coll.CheckIfDownStabCollide();
         if(enemy !=null)
         {
-            Debug.Log($"DOWN STAB! Attacking enemy: {enemy.name} DO DAMAGE!");
+            DoDamage(enemy);
             move.DoJump();
         }
     }
@@ -57,7 +62,7 @@ public class PlayerAttack : MonoBehaviour
         GameObject enemy = coll.CheckIfUpStabCollide();
         if(enemy != null)
         {
-            Debug.Log($"UP Stab! Enemy: { enemy.name}  do damage");
+            DoDamage(enemy);
         }
     }
 
@@ -66,7 +71,18 @@ public class PlayerAttack : MonoBehaviour
         GameObject enemy = coll.CheckIfDuckStabCollide();
         if (enemy != null)
         {
-            Debug.Log($"Duck Stab! Enemy: { enemy.name}  do damage");
+            DoDamage(enemy);
+        }
+    }
+
+
+    public void DoDamage(GameObject enemy)
+    {
+        enemyToDamage = enemy.GetComponent<ITakeDamage<int>>();
+        if(enemyToDamage != null)
+        {
+            enemyToDamage.Damage(damageArray[stats.GetSwordLevel()]);
+            Debug.Log($"Attacking enemy: {enemy.name} Do damage! {damageArray[stats.GetSwordLevel()]} ");
         }
     }
 

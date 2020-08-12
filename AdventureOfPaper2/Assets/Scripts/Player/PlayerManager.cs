@@ -2,43 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerManager : MonoBehaviour, IUnit
+public class PlayerManager : MonoBehaviour
 {
+    PlayerStats stats;
 
-    int goldAmount;
+    ////One bar of your magic/heart meter = 16 points
+    public int heartContainerInHp = 16;
+    public int magicBottleInHp = 16;
+    int currentHp;
+    int maxHp;
+
+    int currentMp;
+    int maxMp;
     // Start is called before the first frame update
     void Start()
     {
-        
+        stats = GetComponent<PlayerStats>();
+
+        maxHp = stats.GetHeartContainerAmount() * heartContainerInHp;
+        maxMp = stats.GetMagicBottleAmount() * magicBottleInHp;
+
+        currentHp = maxHp;
+        currentMp = maxMp;
+
+        Debug.Log($"current HP {currentHp}/max HP{maxHp} n/ current MP {currentMp} / Max Mp {maxMp}");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.End))
-        {
-            SetGoldAmount(goldAmount + 1);
-            Debug.Log("Current Gold Amount: " + GetGoldAmount());
-        }
-    }
-
-    public int GetGoldAmount()
-    {
-        return goldAmount;
-    }
-
-    public Vector3 GetPosition()
-    {
-        return transform.position;
-    }
-
-    public void SetGoldAmount(int goldAmount)
-    {
-       this.goldAmount = goldAmount;
-    }
-
-    public void SetPosition(Vector3 position)
-    {
-        transform.position = position;
-    }
 }

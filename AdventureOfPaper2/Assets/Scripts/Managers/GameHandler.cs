@@ -14,7 +14,7 @@ public class GameHandler : MonoBehaviour
     void Awake()
     {
         unit = unitGameObject.GetComponent<IUnit>();
-        Debug.Log(unit.GetGoldAmount());
+        Debug.Log(unit.GetLevel());
         SaveSystem.Init();
 
         #region test stuff ja esimerkki
@@ -54,12 +54,35 @@ public class GameHandler : MonoBehaviour
 
     private void Save()
     {
-        Vector3 playerPosition = unit.GetPosition();
-        int goldAmount = unit.GetGoldAmount();
+        #region Levels:
+        int currentLevel = unit.GetLevel();
+        int swordLevel = unit.GetSwordLevel();
+        int magicLevel = unit.GetMagicLevel();
+        int hpLevel = unit.GetHPLevel();
+        #endregion
 
-        PlayerData playerdata = new PlayerData();
-        playerdata.goldAmount = goldAmount;
-        playerdata.position = playerPosition;
+        #region Containers:
+        int heartContainer = unit.GetHeartContainerAmount();
+        int magicBottle = unit.GetMagicBottleAmount();
+        #endregion
+
+        #region Progress:
+        Vector3 playerPosition = unit.GetPosition();
+        #endregion
+
+        SaveData playerdata = new SaveData();
+
+        //Levels:
+        playerdata.level = currentLevel;
+        playerdata.swordLevel = swordLevel;
+        playerdata.magicLevel = magicLevel;
+        playerdata.hpLevel = hpLevel;
+        //Containers:
+        playerdata.heartContainer = heartContainer;
+        playerdata.magicBottle = magicBottle;
+        //Progress:
+        playerdata.playerPosition = playerPosition;
+        //json matskut
         string json = JsonUtility.ToJson(playerdata);
         SaveSystem.Save(json);
     }
@@ -70,10 +93,23 @@ public class GameHandler : MonoBehaviour
 
         if(saveString != null)
         {
-            PlayerData playerdata = JsonUtility.FromJson<PlayerData>(saveString);
-            unit.SetGoldAmount(playerdata.goldAmount);
-            unit.SetPosition(playerdata.position);
-            Debug.Log(unit.GetGoldAmount());
+            SaveData playerdata = JsonUtility.FromJson<SaveData>(saveString);
+            #region Levels:
+            unit.SetLevel(playerdata.level);
+            unit.SetSwordlLevel(playerdata.swordLevel);
+            unit.SetMagicLevel(playerdata.magicBottle);
+            unit.SetHPLevel(playerdata.hpLevel);
+            #endregion
+
+            #region Containers:
+            unit.SetHeartContainerAmount(playerdata.heartContainer);
+            unit.SetMagicBottleAmount(playerdata.magicBottle);
+            #endregion
+
+            #region Progress:
+            unit.SetPosition(playerdata.playerPosition);
+            #endregion
+            Debug.Log(unit.GetLevel());
         }
         else
         {
@@ -82,12 +118,35 @@ public class GameHandler : MonoBehaviour
 
     }
 
-    private class PlayerData
+    private class SaveData
     {
-        public int goldAmount;
-        //public string playerName;
-        //public string sceneName;
-        public Vector3 position;
+        public Vector3 playerPosition;
+
+        #region Levels
+        public int level;
+        public int swordLevel;
+        public int hpLevel;
+        public int magicLevel;
+        #endregion
+
+        #region Containers
+        public int heartContainer;
+        public int magicBottle;
+        #endregion
+
+        #region InventoryList
+        //itemeitä mitkä on saatu
+        #endregion
+
+        #region Progress
+        //pelaajan nimi
+        public string playerName;
+        //scene mihin jäätiin
+        public string sceneName;
+        //voitetut temppelit
+        //avainten määrä
+        #endregion
+        
         //public int health;
     }
 }
