@@ -25,7 +25,22 @@ public class PlayerManager : MonoBehaviour
         currentHp = maxHp;
         currentMp = maxMp;
 
+        //stats.UpdateUIStats();
         Debug.Log($"current HP {currentHp}/max HP{maxHp} n/ current MP {currentMp} / Max Mp {maxMp}");
+    }
+
+    public void UpdateUIStats()
+    {
+        MasterCanvasManager.instance.UpdateStats(
+            stats.GetSwordLevel(),
+            stats.GetMagicLevel(),
+            currentMp,
+            maxMp,
+            stats.GetHPLevel(),
+            currentHp,
+            maxHp,
+            stats.currentEXP,
+            stats.expToNextLevel[stats.playerLevel]);
     }
 
 }

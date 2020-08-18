@@ -24,11 +24,9 @@ public class PlayerStats : MonoBehaviour, IUnit
     public float levelExpGrowthRate = 1.05f;
 
     [Header("Stats")]
-    public int currentHp;
-    public int maxHP = 16;
+
     public float hpGrowthRate = 1.05f;
-    public int currentMP;
-    public int maxMp = 16;
+
     public int[] mpLvlBonus;
     public int strength;
     public int defence;
@@ -40,8 +38,10 @@ public class PlayerStats : MonoBehaviour, IUnit
     public int weaponPower;
     public int armorPower;
 
+    PlayerManager pManager;
+
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         
         expToNextLevel = new int[maxLevel];
@@ -50,35 +50,61 @@ public class PlayerStats : MonoBehaviour, IUnit
         {
             expToNextLevel[i] = Mathf.FloorToInt(expToNextLevel[i - 1] * levelExpGrowthRate);
         }
+
+        //UpdateUIStats();
+     
+    }
+
+    private void Start()
+    {
+        pManager = GetComponent<PlayerManager>();
+        if (pManager == null)
+        {
+            Debug.LogError("Mitä helvettiä!");
+        }
     }
 
     public void AddExp(int expToAdd)
     {
+        Debug.Log("lisätään exp:tä " + expToAdd);
         currentEXP += expToAdd;
-        if(playerLevel < maxLevel)
+        if (playerLevel < maxLevel)
         {
-            if(currentEXP > expToNextLevel[playerLevel] && playerLevel < maxLevel)
+            if (currentEXP >= expToNextLevel[playerLevel] && playerLevel < maxLevel)
             {
                 currentEXP -= expToNextLevel[playerLevel];
                 playerLevel++;
 
-                if(playerLevel % 2== 0)
-                {
-                    strength++;
-                }
-                else
-                {
-                    defence++;
-                }
+                //if(playerLevel % 2== 0)
+                //{
+                //    strength++;
+                //}
+                //else
+                //{
+                //    defence++;
+                //}
 
-                maxHP = Mathf.FloorToInt(maxHP * hpGrowthRate);
-                currentHp = maxHP;
+                //maxHP = Mathf.FloorToInt(maxHP * hpGrowthRate);
 
-                maxMp += mpLvlBonus[playerLevel];
-                currentMP = maxMp;
+
+                //maxMp += mpLvlBonus[playerLevel];
+
+                SetLevel(playerLevel + 1);
+                SetSwordlLevel(swordLevel + 1);
+                SetHPLevel(HPLevel + 1);
+                SetMagicLevel(magicLevel + 1);
+
             }
         }
+        if(pManager == null)
+        {
+            pManager = GetComponent<PlayerManager>();
+        }
+
+        pManager.UpdateUIStats();
     }
+
+    
 
     public Vector3 GetPosition()
     {
@@ -98,6 +124,7 @@ public class PlayerStats : MonoBehaviour, IUnit
     public void SetLevel(int currentLevel)
     {
         playerLevel = currentLevel;
+        pManager.UpdateUIStats();
     }
 
     public int GetSwordLevel()
@@ -108,6 +135,7 @@ public class PlayerStats : MonoBehaviour, IUnit
     public void SetSwordlLevel(int currentLevel)
     {
         swordLevel = currentLevel;
+        pManager.UpdateUIStats();
     }
 
     public int GetMagicLevel()
@@ -118,6 +146,7 @@ public class PlayerStats : MonoBehaviour, IUnit
     public void SetMagicLevel(int currentMagicLevel)
     {
         magicLevel = currentMagicLevel;
+        pManager.UpdateUIStats();
     }
 
     public int GetHPLevel()
@@ -128,6 +157,7 @@ public class PlayerStats : MonoBehaviour, IUnit
     public void SetHPLevel(int currentHpLevel)
     {
         HPLevel = currentHpLevel;
+        pManager.UpdateUIStats();
     }
 
     public int GetHeartContainerAmount()
@@ -138,6 +168,7 @@ public class PlayerStats : MonoBehaviour, IUnit
     public void SetHeartContainerAmount(int currentHeartContainerAmount)
     {
         heartContainer = currentHeartContainerAmount;
+        pManager.UpdateUIStats();
     }
 
     public int GetMagicBottleAmount()
@@ -148,5 +179,6 @@ public class PlayerStats : MonoBehaviour, IUnit
     public void SetMagicBottleAmount(int currentBottleAmount)
     {
         magicBottle = currentBottleAmount;
+        pManager.UpdateUIStats();
     }
 }

@@ -82,7 +82,7 @@ public class PlayerAttack : MonoBehaviour
         if(enemyToDamage != null)
         {
             enemyToDamage.Damage(damageArray[stats.GetSwordLevel()]);
-            Debug.Log($"Attacking enemy: {enemy.name} Do damage! {damageArray[stats.GetSwordLevel()]} ");
+            //Debug.LogWarning($"Attacking enemy: {enemy.name} Do damage! {damageArray[stats.GetSwordLevel()]} ");
         }
     }
 

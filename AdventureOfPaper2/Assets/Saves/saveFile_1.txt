@@ -1,1 +1,1 @@
-{"goldAmount":0,"position":{"x":-9.877081871032715,"y":0.009861290454864502,"z":0.0}}
+{"playerPosition":{"x":-3.3586816787719728,"y":0.009861469268798828,"z":0.0},"level":1,"swordLevel":1,"hpLevel":1,"magicLevel":1,"heartContainer":4,"magicBottle":4,"playerName":"","sceneName":""}
