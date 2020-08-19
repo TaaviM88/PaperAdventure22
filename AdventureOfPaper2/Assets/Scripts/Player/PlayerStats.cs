@@ -6,13 +6,13 @@ public class PlayerStats : MonoBehaviour, IUnit
 {
     [Header("Levels")]
     public int swordLevel = 1;
-    public int maxSwordLevel = 9;
+    public int maxSwordLevel = 8;
 
     public int HPLevel = 1;
-    public int maxHitpointLevel = 9;
+    public int maxHitpointLevel = 8;
 
     public int magicLevel = 1;
-    public int maxMagicpointLevel = 9;
+    public int maxMagicpointLevel = 8;
     
     public int playerLevel = 1;
     public int maxLevel = 27; 
@@ -52,17 +52,14 @@ public class PlayerStats : MonoBehaviour, IUnit
         }
 
         //UpdateUIStats();
-     
-    }
-
-    private void Start()
-    {
         pManager = GetComponent<PlayerManager>();
         if (pManager == null)
         {
-            Debug.LogError("Mitä helvettiä!");
+           Debug.LogError("Mitä helvettiä!");
         }
+
     }
+
 
     public void AddExp(int expToAdd)
     {
@@ -89,19 +86,16 @@ public class PlayerStats : MonoBehaviour, IUnit
 
                 //maxMp += mpLvlBonus[playerLevel];
 
-                SetLevel(playerLevel + 1);
-                SetSwordlLevel(swordLevel + 1);
-                SetHPLevel(HPLevel + 1);
-                SetMagicLevel(magicLevel + 1);
+                //SetLevel(playerLevel + 1);
+                //SetSwordlLevel(swordLevel + 1);
+                //SetHPLevel(HPLevel + 1);
+                //SetMagicLevel(magicLevel + 1);
+                MasterCanvasManager.instance.ShowLevelUpUI();
 
             }
         }
-        if(pManager == null)
-        {
-            pManager = GetComponent<PlayerManager>();
-        }
 
-        pManager.UpdateUIStats();
+        pManager?.UpdateUIStats();
     }
 
     

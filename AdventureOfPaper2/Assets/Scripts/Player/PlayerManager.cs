@@ -14,6 +14,7 @@ public class PlayerManager : MonoBehaviour
 
     int currentMp;
     int maxMp;
+    bool initialCheck = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +29,14 @@ public class PlayerManager : MonoBehaviour
         //stats.UpdateUIStats();
         Debug.Log($"current HP {currentHp}/max HP{maxHp} n/ current MP {currentMp} / Max Mp {maxMp}");
     }
-
+    private void Update()
+    {
+        if(!initialCheck)
+        {
+            UpdateUIStats();
+            initialCheck = true;
+        }
+    }
     public void UpdateUIStats()
     {
         MasterCanvasManager.instance.UpdateStats(

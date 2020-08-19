@@ -6,6 +6,8 @@ using TMPro;
 public class MasterCanvasManager : MonoBehaviour
 {
     public static MasterCanvasManager instance;
+    public GameObject LevelUpUI;
+    public GameObject itemAndSpell;
     public TMP_Text swordStat;
     public TMP_Text magicStat;
     public TMP_Text lifeStat;
@@ -24,6 +26,16 @@ public class MasterCanvasManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
+
+        if(LevelUpUI.activeInHierarchy)
+        {
+            LevelUpUI.SetActive(false);
+        }
+
+        if(itemAndSpell.activeInHierarchy)
+        {
+            itemAndSpell.SetActive(false);
+        }
     }
 
     public void UpdateStats(int sword, int magic, int mp, int maxMp, int life, int hp, int maxHp, int currenttexp, int toNextLevelExp)
@@ -34,4 +46,28 @@ public class MasterCanvasManager : MonoBehaviour
         ExpStat.text = $"Next {currenttexp} / {toNextLevelExp}";
     }
 
+    public void ShowLevelUpUI()
+    {
+        LevelUpUI.SetActive(true);
+    }
+
+    public void HideLevelUpUI()
+    {
+        if(LevelUpUI.activeInHierarchy)
+        {
+            LevelUpUI.SetActive(false);
+        }
+    }
+
+    public void ToggleItemAndSpellUI()
+    {
+        if(!itemAndSpell.activeInHierarchy)
+        {
+            itemAndSpell.SetActive(true);
+        }
+        else
+        {
+            itemAndSpell.SetActive(false);
+        }
+    }
 }
