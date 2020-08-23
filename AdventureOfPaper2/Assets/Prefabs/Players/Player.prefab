@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: 4103202607146047763}
   - component: {fileID: 4103202607146047760}
   - component: {fileID: 4103202607146047761}
+  - component: {fileID: 672485846}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -280,6 +281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackPower: 1
   attackCoolDownMultiplayer: 0.2
+  damageArray: 02000000030000000400000006000000090000000c0000001200000018000000
 --- !u!114 &4103202607146047760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,6 +308,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11650d959810eb7449bd67825ac9ef59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  heartContainerInHp: 16
+  magicBottleInHp: 16
+--- !u!114 &672485846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4103202607146047749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecd5d4e17db59f46bc593fa9e6828b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordLevel: 1
+  maxSwordLevel: 8
+  HPLevel: 1
+  maxHitpointLevel: 8
+  magicLevel: 1
+  maxMagicpointLevel: 8
+  playerLevel: 1
+  maxLevel: 24
+  currentEXP: 0
+  expToNextLevel: 
+  baseEXP: 10
+  levelExpGrowthRate: 1.5
+  hpGrowthRate: 1.05
+  mpLvlBonus: 
+  strength: 0
+  defence: 0
+  heartContainer: 4
+  magicBottle: 4
+  weaponPower: 0
+  armorPower: 0
 --- !u!1 &4103202607296187890
 GameObject:
   m_ObjectHideFlags: 0

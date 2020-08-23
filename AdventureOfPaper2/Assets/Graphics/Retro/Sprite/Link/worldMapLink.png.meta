@@ -1,0 +1,1277 @@
+fileFormatVersion: 2
+guid: 207a0aa4a5569614fba8e323378b9a80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6868693214623557905
+    second: zzz
+  - first:
+      213: 5337679612904386191
+    second: worldMapLink_Down_0
+  - first:
+      213: -1935916981041595564
+    second: worldMapLink_Down_1
+  - first:
+      213: 7048173162889325506
+    second: worldMapLink_Right_0
+  - first:
+      213: 6922871770799591971
+    second: worldMapLink_Right_1
+  - first:
+      213: -369974187246291155
+    second: worldMapLink_Up_0
+  - first:
+      213: -94544149978001615
+    second: worldMapLink_Up_1
+  - first:
+      213: 3570511871363283211
+    second: worldMapLink_7
+  - first:
+      213: 7756148801643787372
+    second: worldMapLink_8
+  - first:
+      213: -959715154337601359
+    second: worldMapLink_9
+  - first:
+      213: -1802626311607379482
+    second: worldMapLink_10
+  - first:
+      213: -9005247596888149775
+    second: worldMapLink_11
+  - first:
+      213: 7268586293716820945
+    second: worldMapLink_12
+  - first:
+      213: -7912535621783292989
+    second: worldMapLink_13
+  - first:
+      213: 3455141077861348223
+    second: worldMapLink_14
+  - first:
+      213: 8142306133474016312
+    second: worldMapLink_15
+  - first:
+      213: 6388081357564547050
+    second: blueWoman_0
+  - first:
+      213: 6868733677689883168
+    second: blueWoman_1
+  - first:
+      213: 1514731505170163513
+    second: oldWoman_0
+  - first:
+      213: -4001208828010506041
+    second: oldWoman_1
+  - first:
+      213: 4475398266639196825
+    second: Fairy_0
+  - first:
+      213: 5651570002877748842
+    second: fairy_1
+  - first:
+      213: 9169039786144658533
+    second: sword_Icon_Ui
+  - first:
+      213: -2976690346908134594
+    second: magicBottle_Icon_Ui
+  - first:
+      213: 2720074756782856122
+    second: heart_icon_UI
+  - first:
+      213: -3316060861635569583
+    second: worldMapLink_25
+  - first:
+      213: 9051867846726641458
+    second: worldMapLink_26
+  - first:
+      213: -3969791326557067405
+    second: worldMapLink_27
+  - first:
+      213: 2409947797603175070
+    second: worldMapLink_28
+  - first:
+      213: -769455366153451418
+    second: worldMapLink_29
+  - first:
+      213: -873241271761474097
+    second: worldMapLink_30
+  - first:
+      213: 8869527599528196489
+    second: worldMapLink_31
+  - first:
+      213: -6446186136471564217
+    second: worldMapLink_32
+  - first:
+      213: -1373416083267518143
+    second: worldMapLink_33
+  - first:
+      213: 4384503924700505623
+    second: worldMapLink_34
+  - first:
+      213: 7517731789753670734
+    second: worldMapLink_35
+  - first:
+      213: 3284003788207860178
+    second: worldMapLink_36
+  - first:
+      213: 6816260907622928730
+    second: worldMapLink_37
+  - first:
+      213: 6973139547496869988
+    second: worldMapLink_38
+  - first:
+      213: 1569147895311472876
+    second: worldMapLink_39
+  - first:
+      213: 31978365403464883
+    second: worldMapLink_40
+  - first:
+      213: -5711353530856031388
+    second: worldMapLink_41
+  - first:
+      213: -4523989615442094942
+    second: worldMapLink_42
+  - first:
+      213: -8008046449248242826
+    second: worldMapLink_43
+  - first:
+      213: -7990565493870953207
+    second: worldMapLink_44
+  - first:
+      213: -2615699465649621710
+    second: worldMapLink_45
+  - first:
+      213: 1827605994999006456
+    second: worldMapLink_46
+  - first:
+      213: -8153469939752519309
+    second: worldMapLink_47
+  - first:
+      213: 2008205975071204745
+    second: worldMapLink_48
+  - first:
+      213: 5637137149407363515
+    second: worldMapLink_49
+  - first:
+      213: -7936262565011568778
+    second: worldMapLink_50
+  - first:
+      213: -3814329019074675696
+    second: worldMapLink_51
+  - first:
+      213: -5397940535689975104
+    second: worldMapLink_52
+  - first:
+      213: 9163291555910459191
+    second: worldMapLink_53
+  - first:
+      213: -1127157158120798444
+    second: worldMapLink_54
+  - first:
+      213: -2888911335963025244
+    second: worldMapLink_55
+  - first:
+      213: -1261454324631305062
+    second: worldMapLink_56
+  - first:
+      213: 7724891276030246463
+    second: worldMapLink_57
+  - first:
+      213: -5134127065695872753
+    second: worldMapLink_58
+  - first:
+      213: 8548136370019601297
+    second: worldMapLink_59
+  - first:
+      213: 3391265501649712451
+    second: worldMapLink_60
+  - first:
+      213: -7578594472593494844
+    second: worldMapLink_61
+  - first:
+      213: 8848304068673818105
+    second: worldMapLink_62
+  - first:
+      213: -4588879892193219868
+    second: worldMapLink_63
+  - first:
+      213: 1653305959477458672
+    second: worldMapLink_64
+  - first:
+      213: -5744756495821071885
+    second: worldMapLink_65
+  - first:
+      213: 5953134151256873770
+    second: worldMapLink_66
+  - first:
+      213: -3281904717387766491
+    second: worldMapLink_67
+  - first:
+      213: 832456882006357633
+    second: worldMapLink_68
+  - first:
+      213: -3534671394253225470
+    second: worldMapLink_69
+  - first:
+      213: 1231061052424421000
+    second: worldMapLink_70
+  - first:
+      213: 6990533574608636714
+    second: worldMapLink_71
+  - first:
+      213: 4498431569595204378
+    second: worldMapLink_72
+  - first:
+      213: -7421616795668708656
+    second: worldMapLink_73
+  - first:
+      213: -4034560547708450441
+    second: worldMapLink_74
+  - first:
+      213: 7645195083313224037
+    second: worldMapLink_75
+  - first:
+      213: -1705250234582276362
+    second: worldMapLink_76
+  - first:
+      213: 4312417366400719635
+    second: worldMapLink_77
+  - first:
+      213: 2329714531565062295
+    second: worldMapLink_78
+  - first:
+      213: -2601134978632366367
+    second: worldMapLink_79
+  - first:
+      213: 5033919420673649664
+    second: worldMapLink_80
+  - first:
+      213: -8194345157205637755
+    second: worldMapLink_81
+  - first:
+      213: -6858673739371820403
+    second: worldMapLink_82
+  - first:
+      213: 7620451821401456026
+    second: worldMapLink_83
+  - first:
+      213: -3411961724130808331
+    second: worldMapLink_84
+  - first:
+      213: -1960571242328311447
+    second: worldMapLink_85
+  - first:
+      213: 5436814635380390981
+    second: worldMapLink_86
+  - first:
+      213: 1609928127388658055
+    second: worldMapLink_87
+  - first:
+      213: 5081565795336217257
+    second: worldMapLink_88
+  - first:
+      213: 3520907578233759122
+    second: worldMapLink_89
+  - first:
+      213: 2434369616271258069
+    second: worldMapLink_90
+  - first:
+      213: 6328479381684469523
+    second: worldMapLink_91
+  - first:
+      213: 6684920983440512743
+    second: worldMapLink_92
+  - first:
+      213: -3574328367923822177
+    second: worldMapLink_93
+  - first:
+      213: 394264643432048575
+    second: worldMapLink_94
+  - first:
+      213: -8082238878187289468
+    second: worldMapLink_95
+  - first:
+      213: -9223074060487312820
+    second: worldMapLink_96
+  - first:
+      213: -6539501113324974030
+    second: worldMapLink_97
+  - first:
+      213: -6763735214404423099
+    second: worldMapLink_98
+  - first:
+      213: 2568104104680785146
+    second: worldMapLink_99
+  - first:
+      213: 3806300099465250225
+    second: worldMapLink_100
+  - first:
+      213: -6153115982944573270
+    second: worldMapLink_101
+  - first:
+      213: 3646831241416832107
+    second: worldMapLink_102
+  - first:
+      213: -7451243771773152324
+    second: worldMapLink_103
+  - first:
+      213: 5207525048075986310
+    second: worldMapLink_104
+  - first:
+      213: -2068381492595069582
+    second: worldMapLink_105
+  - first:
+      213: -541928629244964711
+    second: worldMapLink_106
+  - first:
+      213: 8741254143241460769
+    second: worldMapLink_107
+  - first:
+      213: 7599762253088033498
+    second: worldMapLink_108
+  - first:
+      213: -6282748981851623734
+    second: worldMapLink_109
+  - first:
+      213: 4259289757654945891
+    second: worldMapLink_110
+  - first:
+      213: -186356656978285578
+    second: worldMapLink_111
+  - first:
+      213: 6221792047468255038
+    second: worldMapLink_112
+  - first:
+      213: -4884185401913335587
+    second: worldMapLink_113
+  - first:
+      213: 8836256117553094980
+    second: worldMapLink_114
+  - first:
+      213: 3978569154638144487
+    second: worldMapLink_115
+  - first:
+      213: 3459646305192537367
+    second: worldMapLink_116
+  - first:
+      213: -4837945249795997266
+    second: worldMapLink_117
+  - first:
+      213: -1036778973179670017
+    second: worldMapLink_118
+  - first:
+      213: 3618053985454078705
+    second: worldMapLink_119
+  - first:
+      213: -355128746579756004
+    second: worldMapLink_120
+  - first:
+      213: -1643268886597167523
+    second: worldMapLink_121
+  - first:
+      213: 5210253734427038315
+    second: worldMapLink_122
+  - first:
+      213: 8939812272371724599
+    second: worldMapLink_123
+  - first:
+      213: 5080488597826595848
+    second: worldMapLink_124
+  - first:
+      213: 2278223935171730828
+    second: worldMapLink_125
+  - first:
+      213: 685700012751284059
+    second: worldMapLink_126
+  - first:
+      213: 8105110315762792388
+    second: worldMapLink_127
+  - first:
+      213: -3706305228921076924
+    second: worldMapLink_128
+  - first:
+      213: -5401111820555954634
+    second: worldMapLink_129
+  - first:
+      213: -6334930940790740870
+    second: worldMapLink_130
+  - first:
+      213: -4784946156079118594
+    second: worldMapLink_131
+  - first:
+      213: -6675843642337419337
+    second: worldMapLink_132
+  - first:
+      213: -9096339669333285618
+    second: worldMapLink_133
+  - first:
+      213: -1660917083289522244
+    second: worldMapLink_134
+  - first:
+      213: 5752529634785845179
+    second: worldMapLink_135
+  - first:
+      213: 2648781197079009637
+    second: worldMapLink_136
+  - first:
+      213: 5060826631418310147
+    second: worldMapLink_137
+  - first:
+      213: -4488667244009783341
+    second: worldMapLink_138
+  - first:
+      213: 905980774202077348
+    second: worldMapLink_139
+  - first:
+      213: -8247204966697721430
+    second: worldMapLink_140
+  - first:
+      213: 6088311574043238629
+    second: worldMapLink_141
+  - first:
+      213: 2480180965670723785
+    second: worldMapLink_142
+  - first:
+      213: 3802996906670064075
+    second: worldMapLink_143
+  - first:
+      213: 7095614157063839275
+    second: worldMapLink_144
+  - first:
+      213: -6078387812942848709
+    second: worldMapLink_145
+  - first:
+      213: -5699852221721601020
+    second: worldMapLink_146
+  - first:
+      213: 949364041840865282
+    second: worldMapLink_147
+  - first:
+      213: 5668388078436144377
+    second: worldMapLink_148
+  - first:
+      213: 4538776710066383190
+    second: worldMapLink_149
+  - first:
+      213: 1865555539073333736
+    second: worldMapLink_150
+  - first:
+      213: -1466350164837396967
+    second: worldMapLink_151
+  - first:
+      213: -5562856620278230207
+    second: worldMapLink_152
+  - first:
+      213: 906489498821223510
+    second: worldMapLink_153
+  - first:
+      213: 7828765762639223911
+    second: worldMapLink_154
+  - first:
+      213: -9069875118125338420
+    second: worldMapLink_155
+  - first:
+      213: 4431403902758845268
+    second: worldMapLink_156
+  - first:
+      213: -520471993187898134
+    second: worldMapLink_157
+  - first:
+      213: 6918767587931801669
+    second: worldMapLink_158
+  - first:
+      213: -8170969094949251341
+    second: worldMapLink_159
+  - first:
+      213: -1036564969940809307
+    second: worldMapLink_160
+  - first:
+      213: 3107918819164735097
+    second: worldMapLink_161
+  - first:
+      213: 7093490839977357916
+    second: worldMapLink_162
+  - first:
+      213: -8259440731026735568
+    second: worldMapLink_163
+  - first:
+      213: 1319202979191250874
+    second: worldMapLink_164
+  - first:
+      213: 7994298178606649072
+    second: worldMapLink_165
+  - first:
+      213: 5968709959444715878
+    second: worldMapLink_166
+  - first:
+      213: 214244595539717073
+    second: worldMapLink_167
+  - first:
+      213: 3455952763255267091
+    second: worldMapLink_168
+  - first:
+      213: 4747352706596277203
+    second: worldMapLink_169
+  - first:
+      213: 6659097973591606684
+    second: worldMapLink_170
+  - first:
+      213: 2482656142152669046
+    second: worldMapLink_171
+  - first:
+      213: 4536693416709549391
+    second: worldMapLink_172
+  - first:
+      213: 1524550232761918327
+    second: worldMapLink_173
+  - first:
+      213: 4911869955858223969
+    second: worldMapLink_174
+  - first:
+      213: 5576865047220484848
+    second: worldMapLink_175
+  - first:
+      213: 8482722631812821715
+    second: worldMapLink_176
+  - first:
+      213: 7649425406587881891
+    second: worldMapLink_177
+  - first:
+      213: 7077616487880297970
+    second: worldMapLink_178
+  - first:
+      213: 406348248921403108
+    second: worldMapLink_179
+  - first:
+      213: 7952309152685269484
+    second: worldMapLink_180
+  - first:
+      213: -6240158423659975017
+    second: worldMapLink_181
+  - first:
+      213: -5910868410237462783
+    second: worldMapLink_182
+  - first:
+      213: 7787825864264206110
+    second: worldMapLink_183
+  - first:
+      213: -6300793744754350897
+    second: worldMapLink_184
+  - first:
+      213: -6086627284988043558
+    second: worldMapLink_185
+  - first:
+      213: 5843187084603012034
+    second: worldMapLink_186
+  - first:
+      213: 2947250514558274426
+    second: worldMapLink_187
+  - first:
+      213: 2476047224753424143
+    second: worldMapLink_188
+  - first:
+      213: 1496059411043593505
+    second: worldMapLink_189
+  - first:
+      213: -3449288078242462028
+    second: worldMapLink_190
+  - first:
+      213: 4290266880271406628
+    second: worldMapLink_191
+  - first:
+      213: 137758622546987532
+    second: worldMapLink_192
+  - first:
+      213: 7165915131018457878
+    second: worldMapLink_193
+  - first:
+      213: -9181019908411960280
+    second: worldMapLink_194
+  - first:
+      213: 5332042603959310825
+    second: worldMapLink_195
+  - first:
+      213: 5985492655668936080
+    second: worldMapLink_196
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zzz
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 248
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe61a37c9ef7da0a0800000000000000
+      internalID: -6868693214623557905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_Down_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 248
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ea204e35f331a40800000000000000
+      internalID: 5337679612904386191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_Down_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 248
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b7e5e33cd3225e0800000000000000
+      internalID: -1935916981041595564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_Right_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 229
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cba579162420d160800000000000000
+      internalID: 7048173162889325506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_Right_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 229
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322d614523bf21060800000000000000
+      internalID: 6922871770799591971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_Up_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 211
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27fe19df669ddaf0800000000000000
+      internalID: -369974187246291155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_Up_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 211
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f48f4b89c10bef0800000000000000
+      internalID: -94544149978001615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 175
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b097cee21a10d8130800000000000000
+      internalID: 3570511871363283211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 175
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64bc03cd3063ab60800000000000000
+      internalID: 7756148801643787372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 175
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8e524e6286ea2f0800000000000000
+      internalID: -959715154337601359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 175
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e99ed99be8cbf6e0800000000000000
+      internalID: -1802626311607379482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 143
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0ba01c50fe60380800000000000000
+      internalID: -9005247596888149775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3a34839b43fd460800000000000000
+      internalID: 7268586293716820945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 107
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c37bfe36c6013290800000000000000
+      internalID: -7912535621783292989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 107
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7339c2118023ff20800000000000000
+      internalID: 3455141077861348223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 107
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cf332e9484ff070800000000000000
+      internalID: 8142306133474016312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueWoman_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 67
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef0ee1362607a850800000000000000
+      internalID: 6388081357564547050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blueWoman_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 67
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ac77343e4a25f50800000000000000
+      internalID: 6868733677689883168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldWoman_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 33
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937a2cf4748650510800000000000000
+      internalID: 1514731505170163513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldWoman_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 33
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8d64e25c9d878c0800000000000000
+      internalID: -4001208828010506041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fairy_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 8
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992ad67030fcb1e30800000000000000
+      internalID: 4475398266639196825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fairy_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 8
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6618cc69f86e6e40800000000000000
+      internalID: 5651570002877748842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sword_Icon_Ui
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56473981b19fe3f70800000000000000
+      internalID: 9169039786144658533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magicBottle_Icon_Ui
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33d43296eba0b6d0800000000000000
+      internalID: -2976690346908134594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heart_icon_UI
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab79c886495afb520800000000000000
+      internalID: 2720074756782856122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldMapLink_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 7
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158d2a0373cfaf1d0800000000000000
+      internalID: -3316060861635569583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

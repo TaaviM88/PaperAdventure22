@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    public static PlayerManager instance; 
     PlayerStats stats;
-
     ////One bar of your magic/heart meter = 16 points
     public int heartContainerInHp = 16;
     public int magicBottleInHp = 16;
@@ -15,6 +15,19 @@ public class PlayerManager : MonoBehaviour
     int currentMp;
     int maxMp;
     bool initialCheck = false;
+
+    private void Awake()
+    {
+        if(instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +62,11 @@ public class PlayerManager : MonoBehaviour
             maxHp,
             stats.currentEXP,
             stats.expToNextLevel[stats.playerLevel]);
+    }
+
+    public void MoveToSpot(Vector3  spawnpoint)
+    {
+        transform.position = spawnpoint;
     }
 
 }

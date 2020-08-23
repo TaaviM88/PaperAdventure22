@@ -30,6 +30,7 @@ public class ButtonActions : MonoBehaviour
         }
 
         stats?.SetSwordlLevel(stats.GetSwordLevel() + 1);
+        stats?.LeveledUp();
         HideLevelUpWindow();
     }
 
@@ -41,6 +42,7 @@ public class ButtonActions : MonoBehaviour
         }
 
         stats?.SetHPLevel(stats.GetHPLevel() + 1);
+        stats?.LeveledUp();
         HideLevelUpWindow();
     }
 
@@ -51,6 +53,7 @@ public class ButtonActions : MonoBehaviour
             FindPlayer();
         }
         stats?.SetMagicLevel(stats.GetMagicLevel() + 1);
+        stats?.LeveledUp();
         HideLevelUpWindow();
     }
 

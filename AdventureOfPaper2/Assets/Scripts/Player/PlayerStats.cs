@@ -69,8 +69,7 @@ public class PlayerStats : MonoBehaviour, IUnit
         {
             if (currentEXP >= expToNextLevel[playerLevel] && playerLevel < maxLevel)
             {
-                currentEXP -= expToNextLevel[playerLevel];
-                playerLevel++;
+              
 
                 //if(playerLevel % 2== 0)
                 //{
@@ -98,7 +97,11 @@ public class PlayerStats : MonoBehaviour, IUnit
         pManager?.UpdateUIStats();
     }
 
-    
+    public void LeveledUp()
+    {
+        currentEXP -= expToNextLevel[playerLevel];
+        playerLevel++;
+    }
 
     public Vector3 GetPosition()
     {

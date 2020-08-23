@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scenes/areas/TestScene.unity
+    guid: d65c38d6410291f419c978253b5f1905
+  - enabled: 1
+    path: Assets/Scenes/areas/WorldMap_Retro.unity
+    guid: 4c030d9e932a67d44a1c6dd4f97043ae
+  - enabled: 1
+    path: Assets/Scenes/areas/1DarkCave.unity
+    guid: aa8ebe6a973fd244b94b273f90397b6d
   m_configObjects: {}

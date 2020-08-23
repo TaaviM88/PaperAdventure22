@@ -13,9 +13,23 @@ public enum PlayerLookDir
     left
 }
 
+public enum WorldMapPlayerLookDir
+{
+    down,
+    left,
+    up,
+    right
+}
 public enum GameState
 {
     running,
     pause
 }
 
+public enum StartPoint
+{
+    Apoint,
+    Bpoint,
+    Cpoint,
+    Dpoint
+}
