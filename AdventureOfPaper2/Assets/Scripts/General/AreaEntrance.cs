@@ -15,11 +15,11 @@ public class AreaEntrance : MonoBehaviour
 
     private void Start()
     {
-       if(areaToLoad == GameManager.instance.GetLastSceneName())
+        if (areaToLoad == GameManager.instance.GetLastSceneName() && starpoint == GameManager.instance.GetSpawnpoint())
         {
             playerStartHere = true;
-            PlayerManager.instance.MoveToSpot(transform.position);
-
+            //PlayerManager.instance.MoveToSpot(transform.position);
+            WorldMapPlayerManager.instance.MoveToSpot(transform.position);
         }
     }
 

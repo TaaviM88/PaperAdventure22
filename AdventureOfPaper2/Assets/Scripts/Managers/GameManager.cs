@@ -25,18 +25,26 @@ public class GameManager : MonoBehaviour
     {
         startpoint = spawnpoint;
         SceneManager.LoadScene(levelName);
-
+        MasterCanvasManager.instance.ToggleStatsUI(true);
+        MasterCanvasManager.instance.SetRenderCamera();
     }
 
-    public void LoadWorldMap()
+    public void LoadWorldMap(StartPoint spawnPoint)
     {
         lastSceneName = SceneManager.GetActiveScene().name;
+        startpoint = spawnPoint;
         SceneManager.LoadScene("WorldMap_Retro");
+        MasterCanvasManager.instance.ToggleStatsUI(false);
         Debug.Log(lastSceneName);
     }
 
     public string GetLastSceneName()
     {
         return lastSceneName;
+    }
+
+    public StartPoint GetSpawnpoint()
+    {
+        return startpoint;
     }
 }

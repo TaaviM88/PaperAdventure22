@@ -6,7 +6,7 @@ public class AreaExit : MonoBehaviour
 {
     public string areaToLoad = "";
     public string areaTransitionName;
-    public StartPoint starpoint = StartPoint.Apoint;
+    public StartPoint startpoint = StartPoint.Apoint;
     AreaEntrance entrance;
     public float waitToLoad = 0.1f;
     private bool shouldLoadAfter;
@@ -16,7 +16,7 @@ public class AreaExit : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            GameManager.instance.LoadWorldMap();
+            GameManager.instance.LoadWorldMap(startpoint);
         }
     }
 }

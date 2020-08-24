@@ -14,9 +14,10 @@ public class WorldMapPlayerMovement : MonoBehaviour
     private Vector2 moveDir;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _rb2D = GetComponent<Rigidbody2D>();
+        anime = GetComponent<WorldMapPlayerAnimationController>();
     }
 
     // Update is called once per frame
@@ -25,7 +26,7 @@ public class WorldMapPlayerMovement : MonoBehaviour
         horizontalX = Input.GetAxis("Horizontal");
         verticalY = Input.GetAxis("Vertical");
         moveDir = new Vector2(horizontalX, verticalY);
-        anime = GetComponent<WorldMapPlayerAnimationController>();
+       
     }
 
     private void FixedUpdate()
@@ -35,7 +36,6 @@ public class WorldMapPlayerMovement : MonoBehaviour
 
     private void Move()
     {
-     
         _rb2D.velocity = new Vector2(moveDir.x * speed, moveDir.y * speed);
         anime.SetInputAxis(moveDir.x, moveDir.y);
 
