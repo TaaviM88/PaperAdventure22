@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using  Cinemachine;
+using System;
 
 public class PlayerManager : MonoBehaviour
 {
@@ -38,10 +40,14 @@ public class PlayerManager : MonoBehaviour
 
         currentHp = maxHp;
         currentMp = maxMp;
-
+        SetCameraFollowPlayer();
         //stats.UpdateUIStats();
+        
         Debug.Log($"current HP {currentHp}/max HP{maxHp} n/ current MP {currentMp} / Max Mp {maxMp}");
     }
+
+
+
     private void Update()
     {
         if(!initialCheck)
@@ -67,6 +73,12 @@ public class PlayerManager : MonoBehaviour
     public void MoveToSpot(Vector3  spawnpoint)
     {
         transform.position = spawnpoint;
+    }
+
+    public void SetCameraFollowPlayer()
+    {
+        var vcam = GameObject.FindObjectOfType<CinemachineVirtualCamera>();
+        vcam.Follow = this.gameObject.transform;
     }
 
 }

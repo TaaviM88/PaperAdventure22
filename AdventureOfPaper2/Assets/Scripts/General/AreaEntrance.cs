@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AreaEntrance : MonoBehaviour
 {
-    public string areaToLoad = "";
+    public string[] areaToLoad;
 
     public StartPoint starpoint = StartPoint.Apoint;
     AreaEntrance entrance;
@@ -15,11 +15,14 @@ public class AreaEntrance : MonoBehaviour
 
     private void Start()
     {
-        if (areaToLoad == GameManager.instance.GetLastSceneName() && starpoint == GameManager.instance.GetSpawnpoint())
+        for (int i = 0; i < areaToLoad.Length; i++)
         {
-            playerStartHere = true;
-            //PlayerManager.instance.MoveToSpot(transform.position);
-            WorldMapPlayerManager.instance.MoveToSpot(transform.position);
+            if (areaToLoad[i] == GameManager.instance.GetLastSceneName() && starpoint == GameManager.instance.GetSpawnpoint())
+            {
+                playerStartHere = true;
+                //PlayerManager.instance.MoveToSpot(transform.position);
+                WorldMapPlayerManager.instance.MoveToSpot(transform.position);
+            }
         }
     }
 
@@ -27,7 +30,7 @@ public class AreaEntrance : MonoBehaviour
     {
         if (collision.tag == "Player" && !playerStartHere)
         {
-            GameManager.instance.LoadInsideScene(areaToLoad, starpoint);
+            GameManager.instance.LoadInsideScene(areaToLoad[0], starpoint);
         }
     }
 

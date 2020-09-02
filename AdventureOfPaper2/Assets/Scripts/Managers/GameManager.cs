@@ -19,11 +19,13 @@ public class GameManager : MonoBehaviour
         {
             instance = this;    
         }
+        DontDestroyOnLoad(gameObject);
     }
 
     public void LoadInsideScene(string levelName, StartPoint spawnpoint)
     {
         startpoint = spawnpoint;
+        Debug.Log("Current spawnpoint" + spawnpoint);
         SceneManager.LoadScene(levelName);
         MasterCanvasManager.instance.ToggleStatsUI(true);
         MasterCanvasManager.instance.SetRenderCamera();

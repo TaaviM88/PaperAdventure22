@@ -62,7 +62,7 @@ public class MasterCanvasManager : MonoBehaviour
 
     public void UpdateStats(int sword, int magic, int mp, int maxMp, int life, int hp, int maxHp, int currenttexp, int toNextLevelExp)
     {
-        swordStat.text = $"Sword: {sword}";
+        swordStat.text = $"{sword}";
         magicStat.text = $"Magic: {magic} : {mp} / {maxMp}";
         lifeStat.text = $"Life: {life} : {hp} / {maxHp}";
         ExpStat.text = $"Next {currenttexp} / {toNextLevelExp}";
