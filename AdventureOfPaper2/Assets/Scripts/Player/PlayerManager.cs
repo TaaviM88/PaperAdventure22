@@ -8,6 +8,7 @@ public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager instance; 
     PlayerStats stats;
+    PlayerInventory inventory;
     ////One bar of your magic/heart meter = 16 points
     public int heartContainerInHp = 16;
     public int magicBottleInHp = 16;
@@ -34,7 +35,7 @@ public class PlayerManager : MonoBehaviour
     void Start()
     {
         stats = GetComponent<PlayerStats>();
-
+        inventory = GetComponent<PlayerInventory>();
         maxHp = stats.GetHeartContainerAmount() * heartContainerInHp;
         maxMp = stats.GetMagicBottleAmount() * magicBottleInHp;
 
@@ -79,6 +80,11 @@ public class PlayerManager : MonoBehaviour
     {
         var vcam = GameObject.FindObjectOfType<CinemachineVirtualCamera>();
         vcam.Follow = this.gameObject.transform;
+    }
+
+    public void AddSmallKeyToInventory()
+    {
+        inventory.AddSmallKey();
     }
 
 }

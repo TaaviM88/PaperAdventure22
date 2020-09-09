@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 679201698}
   - component: {fileID: 679201697}
   - component: {fileID: 679201696}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2023,7 +2023,7 @@ PrefabInstance:
     - target: {fileID: 3886010146512054228, guid: 0dd69224fff15b04fac27aa2d075e094,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.17
+      value: -22.32
       objectReference: {fileID: 0}
     - target: {fileID: 3886010146712279715, guid: 0dd69224fff15b04fac27aa2d075e094,
         type: 3}
@@ -2133,12 +2133,12 @@ PrefabInstance:
     - target: {fileID: 479608610117185903, guid: 2f58835f039ece24486f198402ea5b9c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.298365
+      value: -11.292099
       objectReference: {fileID: 0}
     - target: {fileID: 479608610117185903, guid: 2f58835f039ece24486f198402ea5b9c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.544691
+      value: 4.5446844
       objectReference: {fileID: 0}
     - target: {fileID: 479608610117185903, guid: 2f58835f039ece24486f198402ea5b9c,
         type: 3}
@@ -4314,6 +4314,11 @@ PrefabInstance:
         type: 3}
       propertyPath: areaToLoad.Array.data[0]
       value: RauruHouses
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128129028052350745, guid: 19ba9bbaf4e8ace4db5c04b17f372a7d,
+        type: 3}
+      propertyPath: playerPressUpToEnter
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19ba9bbaf4e8ace4db5c04b17f372a7d, type: 3}

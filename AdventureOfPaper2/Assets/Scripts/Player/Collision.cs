@@ -42,6 +42,8 @@ public class Collision : MonoBehaviour
         onRightWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, groundLayer);
         onLeftWall = Physics2D.OverlapCircle((Vector2)transform.position + leftOffset, collisionRadius, groundLayer); 
         wallSide = onRightWall ? -1 : 1;
+
+
     }
 
     public GameObject CheckIfStandStabCollide()
@@ -50,12 +52,13 @@ public class Collision : MonoBehaviour
 
         //stabHit = Physics2D.BoxCast(Stab.position, (Vector2)stabBoxSize, 0f, Vector2.right, enemyLayer); 
         if (move.side == 1)
-        {
-             hit2D = Physics2D.BoxCast(stabRight.position, stabRightBoxSize, 0f, transform.right, stabDistance, enemyLayer);
+        {      
+            hit2D = Physics2D.BoxCast(stabRight.position, stabRightBoxSize, 0f, stabRight.transform.right, stabDistance, enemyLayer);
+            //Gizmos.DrawWireCube(stabRight.position, stabRightBoxSize);
         }
         else
         {
-            hit2D = Physics2D.BoxCast(stabLeft.position, stabLeftBoxSize, 0f, -transform.right, stabDistance, enemyLayer);
+            hit2D = Physics2D.BoxCast(stabLeft.position, stabLeftBoxSize, 0f, -stabRight.transform.right, stabDistance, enemyLayer);
         }
 
            
@@ -71,6 +74,7 @@ public class Collision : MonoBehaviour
         if (move.side == 1)
         {
             hit2D = Physics2D.BoxCast(duckRightStab.position, stabRightBoxSize, 0f, transform.right, stabDistance, enemyLayer);
+
         }
         else
         {
@@ -111,13 +115,14 @@ public class Collision : MonoBehaviour
         Gizmos.DrawWireSphere((Vector2)transform.position + leftOffset, collisionRadius);
 
         Gizmos.DrawWireCube(stabRight.position, stabRightBoxSize);
-        Gizmos.DrawWireCube(stabLeft.position, stabLeftBoxSize);
+        Gizmos.DrawWireCube(stabLeft.position , stabLeftBoxSize);
 
         Gizmos.DrawWireCube(duckRightStab.position, stabRightBoxSize);
         Gizmos.DrawWireCube(duckLeftStab.position, stabLeftBoxSize);
 
         Gizmos.DrawWireSphere(downStab.position, downStabRadius);
         Gizmos.DrawWireSphere(upStab.position, upStabRadius);
+        //Gizmos.color = Color.blue;
 
     }
 

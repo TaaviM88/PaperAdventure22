@@ -11,6 +11,8 @@ public class AreaEntrance : MonoBehaviour
     public float waitToLoad = 0.1f;
     private bool shouldLoadAfter;
     bool playerStartHere = false;
+    bool playerPressUp = false;
+    public bool playerPressUpToEnter = false;
     // Start is called before the first frame update
 
     private void Start()
@@ -26,11 +28,24 @@ public class AreaEntrance : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if(!playerPressUpToEnter)
+        {
+            return;
+        }
+
+        if(Input.GetAxis("Vertical") > 0)
+        {
+            playerPressUp = true;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player" && !playerStartHere)
         {
-            GameManager.instance.LoadInsideScene(areaToLoad[0], starpoint);
+            EnterTheAre();
         }
     }
 
@@ -40,6 +55,28 @@ public class AreaEntrance : MonoBehaviour
         {
             playerStartHere = false;
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Player" && !playerStartHere)
+        {
+            EnterTheAre();
+        }
+    }
+
+    public void EnterTheAre()
+    {
+        if(!playerPressUpToEnter)
+        {
+            GameManager.instance.LoadInsideScene(areaToLoad[0], starpoint);
+        }
+        
+       if(playerPressUp)
+        {
+            GameManager.instance.LoadInsideScene(areaToLoad[0], starpoint);
+        }
+
     }
 
 }

@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/areas/Towns/Rauru/Houses/RauruHouses.unity
     guid: 69d13b547589b7f4ca68d53de9c18fe0
+  - enabled: 1
+    path: Assets/Scenes/areas/Towns/Rauru/Houses/RauruMagicHouse.unity
+    guid: 3036593775b43e7428f8db907885a554
+  - enabled: 1
+    path: Assets/Scenes/areas/Towns/Rauru/Houses/RauruMagicRoom.unity
+    guid: b5c7b43bd2fffc944a2b84dcd9beb6de
   m_configObjects: {}

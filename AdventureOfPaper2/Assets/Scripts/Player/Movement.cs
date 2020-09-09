@@ -63,6 +63,7 @@ public class Movement : MonoBehaviour
         {
             anime.SetInputAxis(moveDir.x, moveDir.y, _rb2D.velocity.y);
             anime.SetBool("isDucking", true);
+            SetVelocityZero();
             return;
         }
         else
@@ -106,7 +107,6 @@ public class Movement : MonoBehaviour
             
     }
       
-
     public void DoJump()
     {
         anime.SetTrigger("Jump");
@@ -122,5 +122,10 @@ public class Movement : MonoBehaviour
             betterjumping.enabled = true;
             jumping = false;
         }
+    }
+
+    public void SetVelocityZero()
+    {
+        _rb2D.velocity = new Vector2(0, _rb2D.velocity.y);
     }
 }

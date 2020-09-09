@@ -36,12 +36,11 @@ public class PlayerAttack : MonoBehaviour
     }
 
     public void Attack()
-    {
-        GameObject enemy = coll.CheckIfStandStabCollide();
+    { 
+       GameObject enemy = coll.CheckIfStandStabCollide();
 
        if(enemy != null)
         {
-            
             DoDamage(enemy);
         }
 
@@ -82,7 +81,7 @@ public class PlayerAttack : MonoBehaviour
         if(enemyToDamage != null)
         {
             enemyToDamage.Damage(damageArray[stats.GetSwordLevel()]);
-            //Debug.LogWarning($"Attacking enemy: {enemy.name} Do damage! {damageArray[stats.GetSwordLevel()]} ");
+            Debug.LogWarning($"Attacking enemy: {enemy.name} Do damage! {damageArray[stats.GetSwordLevel()]} ");
         }
     }
 

@@ -33,3 +33,9 @@ public enum StartPoint
     Cpoint,
     Dpoint
 }
+
+public enum DoorState{
+    Open,
+    Close,
+    Locked
+}
