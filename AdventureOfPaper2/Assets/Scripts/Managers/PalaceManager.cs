@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class PalaceManager : MonoBehaviour
 {
     public static PalaceManager instance;
+
     public GameObject[] Items;
+
     public Dictionary<int, bool> ItemsD =  new Dictionary<int, bool>();
     string palaceSceneName;
     // Start is called before the first frame update
@@ -22,14 +24,18 @@ public class PalaceManager : MonoBehaviour
         }
         palaceSceneName = SceneManager.GetActiveScene().name;
         Debug.Log("palace name : " + palaceSceneName);
+
         CheckItems();
     }
 
     private void CheckItems()
-    { 
-        foreach (var key in ItemsD.Keys)
+    {
+        for (int i = 0; i < Items.Length; i++)
         {
-            
+           if(Items[i].GetComponent<ICollectables>().IsCollected())
+            {
+                Items[i].GetComponent<ICollectables>()?.SetCollectable(true);
+            }
         }
     }
 
@@ -38,7 +44,7 @@ public class PalaceManager : MonoBehaviour
     {
         
     }
-
+        
     public void RemoveItem(int id, bool collected)
     {
         ItemsD[id] = collected;
@@ -49,4 +55,13 @@ public class PalaceManager : MonoBehaviour
 
     }
 
+    public string GetPalaceName()
+    {
+        return palaceSceneName;
+    }
+    
+    public GameObject[] GetItemList()
+    {
+        return Items;
+    }
 }

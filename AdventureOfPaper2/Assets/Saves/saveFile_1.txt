@@ -1,1 +1,1 @@
-{"playerPosition":{"x":-6.261452674865723,"y":0.01302117109298706,"z":0.0},"level":3,"swordLevel":2,"hpLevel":2,"magicLevel":2,"heartContainer":4,"magicBottle":4,"playerName":"","sceneName":""}
+{"playerPosition":{"x":-46.07682418823242,"y":-21.047969818115236,"z":0.0},"level":1,"swordLevel":1,"hpLevel":1,"magicLevel":1,"heartContainer":4,"magicBottle":4,"playerName":"","sceneName":"","beatenPalaceAmount":0,"smallKeyAmount":0,"palaceName":"ParapaPalace","parapaPalaceItemList":[]}

@@ -10,6 +10,7 @@ public class GameHandler : MonoBehaviour
     //muista lisätä yhteys pelajaan?
     [SerializeField] private GameObject unitGameObject;
     private IUnit unit;
+    [SerializeField] public PalaceManager palaceManager;
     // Start is called before the first frame update
     void Awake()
     {
@@ -68,6 +69,8 @@ public class GameHandler : MonoBehaviour
 
         #region Progress:
         Vector3 playerPosition = unit.GetPosition();
+        string palaceName = palaceManager?.GetPalaceName();
+        GameObject[] itemList = palaceManager.GetItemList();
         #endregion
 
         SaveData playerdata = new SaveData();
@@ -82,6 +85,8 @@ public class GameHandler : MonoBehaviour
         playerdata.magicBottle = magicBottle;
         //Progress:
         playerdata.playerPosition = playerPosition;
+        playerdata.palaceName = palaceName;
+
         //json matskut
         string json = JsonUtility.ToJson(playerdata);
         SaveSystem.Save(json);
@@ -144,9 +149,17 @@ public class GameHandler : MonoBehaviour
         //scene mihin jäätiin
         public string sceneName;
         //voitetut temppelit
+        public int beatenPalaceAmount;
         //avainten määrä
+        public int smallKeyAmount;
         #endregion
-        
+
+
+        #region Palace
+        public string palaceName;
+        public GameObject[] parapaPalaceItemList;
+        #endregion
+
         //public int health;
     }
 }

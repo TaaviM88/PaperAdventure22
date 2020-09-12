@@ -100,3 +100,10 @@ public interface IProgress
     string GetScene();
 
 }
+
+public interface ICollectables
+{
+    bool IsCollected();
+    void SetCollectable(bool collected);
+    
+}
