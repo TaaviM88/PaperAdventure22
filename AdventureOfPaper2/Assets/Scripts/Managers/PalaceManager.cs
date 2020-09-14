@@ -7,7 +7,7 @@ public class PalaceManager : MonoBehaviour
 {
     public static PalaceManager instance;
 
-    public GameObject[] Items;
+    public List<GameObject> Items = new List<GameObject>();
 
     public Dictionary<int, bool> ItemsD =  new Dictionary<int, bool>();
     string palaceSceneName;
@@ -30,7 +30,7 @@ public class PalaceManager : MonoBehaviour
 
     private void CheckItems()
     {
-        for (int i = 0; i < Items.Length; i++)
+        for (int i = 0; i < Items.Count; i++)
         {
            if(Items[i].GetComponent<ICollectables>().IsCollected())
             {
@@ -60,7 +60,7 @@ public class PalaceManager : MonoBehaviour
         return palaceSceneName;
     }
     
-    public GameObject[] GetItemList()
+    public List<GameObject> GetItemList()
     {
         return Items;
     }

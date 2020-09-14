@@ -70,7 +70,7 @@ public class GameHandler : MonoBehaviour
         #region Progress:
         Vector3 playerPosition = unit.GetPosition();
         string palaceName = palaceManager?.GetPalaceName();
-        GameObject[] itemList = palaceManager.GetItemList();
+        List<GameObject> itemList = palaceManager.GetItemList();
         #endregion
 
         SaveData playerdata = new SaveData();
@@ -123,6 +123,12 @@ public class GameHandler : MonoBehaviour
 
     }
 
+    private void LoadPalaceItemList()
+    {
+
+    }
+
+
     private class SaveData
     {
         public Vector3 playerPosition;
@@ -157,9 +163,14 @@ public class GameHandler : MonoBehaviour
 
         #region Palace
         public string palaceName;
-        public GameObject[] parapaPalaceItemList;
+
         #endregion
 
         //public int health;
+    }
+
+    private class ParapaPalaceItemList
+    {
+        public List<GameObject> parapaPalaceItemList;
     }
 }

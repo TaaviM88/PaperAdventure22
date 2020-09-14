@@ -3,10 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class SaveSystem
 {
     private static readonly string SAVE_FOLDER = Application.dataPath + "/Saves/";
-    private const string SAVE_EXTENSION = "txt";
+    //private const string SAVE_EXTENSION = "txt";
+    private const string SAVE_EXTENSION = "json";
     public static void Init()
     {
         if (!Directory.Exists(SAVE_FOLDER))
