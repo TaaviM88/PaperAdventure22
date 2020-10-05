@@ -1396,6 +1396,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: smallKey
       objectReference: {fileID: 0}
+    - target: {fileID: 6872318227663173882, guid: 32bc2636a04a0f440bb09f2ea414c5cc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32bc2636a04a0f440bb09f2ea414c5cc, type: 3}
 --- !u!1 &672485834 stripped
@@ -4501,7 +4506,7 @@ PrefabInstance:
     - target: {fileID: 479608610117185903, guid: 2f58835f039ece24486f198402ea5b9c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.427773
+      value: -1.4275737
       objectReference: {fileID: 0}
     - target: {fileID: 479608610117185903, guid: 2f58835f039ece24486f198402ea5b9c,
         type: 3}
@@ -4899,7 +4904,7 @@ PrefabInstance:
     - target: {fileID: 7130135738920588873, guid: f0190577f5ca39d44aecae3efca6e6f5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.427773
+      value: -1.4275737
       objectReference: {fileID: 0}
     - target: {fileID: 7130135738920588873, guid: f0190577f5ca39d44aecae3efca6e6f5,
         type: 3}
