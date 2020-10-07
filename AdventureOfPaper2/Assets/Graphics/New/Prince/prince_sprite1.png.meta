@@ -80,6 +80,33 @@ TextureImporter:
   - first:
       213: 1921671101889261210
     second: prince_sprite1_15
+  - first:
+      213: 7132892103092308763
+    second: prince_sprite1_10
+  - first:
+      213: -1339867162379653634
+    second: prince_sprite1_11
+  - first:
+      213: -6703454553707960557
+    second: prince_sprite1_12
+  - first:
+      213: -4215687344881648175
+    second: prince_sprite1_13
+  - first:
+      213: -8353946952386573362
+    second: prince_sprite1_16
+  - first:
+      213: 5302830520629926659
+    second: prince_sprite1_17
+  - first:
+      213: 6839089600104298327
+    second: prince_sprite1_14
+  - first:
+      213: 7892981303608594418
+    second: prince_sprite1_15
+  - first:
+      213: 2916566740589956554
+    second: prince_sprite1_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -217,7 +244,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -238,7 +265,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 256
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -259,7 +286,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 512
-        y: 256
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -280,7 +307,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 768
-        y: 256
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -301,7 +328,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 256
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -322,7 +349,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1280
-        y: 256
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -343,7 +370,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
-        y: 256
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -364,7 +391,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1792
-        y: 256
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -385,7 +412,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 256
         width: 256
         height: 256
       alignment: 0
@@ -406,7 +433,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 256
-        y: 0
+        y: 256
         width: 256
         height: 256
       alignment: 0
@@ -427,7 +454,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 512
-        y: 0
+        y: 256
         width: 256
         height: 256
       alignment: 0
@@ -437,8 +464,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01eebe8309f65b200800000000000000
-      internalID: 195184824081444368
+      spriteID: b1b810a739f1df260800000000000000
+      internalID: 7132892103092308763
       vertices: []
       indices: 
       edges: []
@@ -448,7 +475,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 768
-        y: 0
+        y: 256
         width: 256
         height: 256
       alignment: 0
@@ -458,8 +485,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dcf43aeaa6aa2fd0800000000000000
-      internalID: -2365895401225782064
+      spriteID: efd662c2ae5d76de0800000000000000
+      internalID: -1339867162379653634
       vertices: []
       indices: 
       edges: []
@@ -469,7 +496,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1024
-        y: 0
+        y: 256
         width: 256
         height: 256
       alignment: 0
@@ -479,8 +506,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7aac642a04533a0800000000000000
-      internalID: -6686367006045067313
+      spriteID: 317234e899b88f2a0800000000000000
+      internalID: -6703454553707960557
       vertices: []
       indices: 
       edges: []
@@ -490,6 +517,69 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd383c02bede75c0800000000000000
+      internalID: -4215687344881648175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_sprite1_14
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f84991c359ee50800000000000000
+      internalID: 6839089600104298327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_sprite1_15
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffc3644da0898d60800000000000000
+      internalID: 7892981303608594418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_sprite1_16
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 256
         height: 256
@@ -500,8 +590,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8105b3f26c74d2bf0800000000000000
-      internalID: -347542679716147176
+      spriteID: acd45987ff9b97820800000000000000
+      internalID: 2916566740589956554
       vertices: []
       indices: 
       edges: []
