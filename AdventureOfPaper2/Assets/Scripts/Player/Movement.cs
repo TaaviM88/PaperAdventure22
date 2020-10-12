@@ -127,5 +127,6 @@ public class Movement : MonoBehaviour
     public void SetVelocityZero()
     {
         _rb2D.velocity = new Vector2(0, _rb2D.velocity.y);
+        
     }
 }

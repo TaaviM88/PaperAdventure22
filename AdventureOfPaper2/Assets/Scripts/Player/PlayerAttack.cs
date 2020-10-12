@@ -32,13 +32,14 @@ public class PlayerAttack : MonoBehaviour
         if(Input.GetButtonDown("Fire1") && canAttack)
         {
             StartCoroutine(AttackCoolDown());
+            move.SetVelocityZero();
         }
     }
 
     public void Attack()
     { 
        GameObject enemy = coll.CheckIfStandStabCollide();
-
+        
        if(enemy != null)
         {
             DoDamage(enemy);
