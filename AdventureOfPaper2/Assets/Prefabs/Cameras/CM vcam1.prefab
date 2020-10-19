@@ -64,17 +64,17 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_TargetMovementOnly: 0
-  m_ScreenX: 0.46652755
-  m_ScreenY: 0.741283
+  m_ScreenX: 0.5
+  m_ScreenY: 0.5
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.24937238
-  m_DeadZoneHeight: 0.205
+  m_DeadZoneWidth: 0.37
+  m_DeadZoneHeight: 0.41
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.8
-  m_SoftZoneHeight: 0.649
-  m_BiasX: 0
-  m_BiasY: -0.12699991
+  m_SoftZoneWidth: 0.89
+  m_SoftZoneHeight: 0.96
+  m_BiasX: 0.088000074
+  m_BiasY: -0.00000010837209
   m_CenterOnActivate: 1
   m_GroupFramingMode: 2
   m_AdjustmentMode: 0
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7.5
+    OrthographicSize: 1.85
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7130135738920588876}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a8a05de0ac134f4f9d01bef6b9da077, type: 3}
   m_Name: 
