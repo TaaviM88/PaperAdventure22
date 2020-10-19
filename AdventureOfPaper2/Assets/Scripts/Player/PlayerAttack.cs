@@ -44,7 +44,6 @@ public class PlayerAttack : MonoBehaviour
         {
             DoDamage(enemy);
         }
-
     }
 
     public void DownAttack()

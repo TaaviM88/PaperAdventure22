@@ -42,8 +42,8 @@ public class Movement : MonoBehaviour
     void Update()
     {
         CheckGround();
-        horizontalX = Input.GetAxis("Horizontal");
-        verticalY = Input.GetAxis("Vertical");
+        horizontalX = Input.GetAxisRaw("Horizontal");
+        verticalY = Input.GetAxisRaw("Vertical");
         moveDir = new Vector2(horizontalX, verticalY);
 
         if(Input.GetButtonDown("Jump"))
@@ -86,11 +86,17 @@ public class Movement : MonoBehaviour
             anime.Flip(side);
         }
 
-        if(moveDir.y > -0.1f)
-        {
-            _rb2D.velocity = new Vector2(moveDir.x * speed, _rb2D.velocity.y);
-        }
-        
+        //jos painetaan alaspäin niin ei voi enää hallita tippumista(aka alaspäin hyökkäys)
+        //if(moveDir.y > -0.1f)
+        //{
+        //    //orggis
+        //    
+        //    //uus
+
+        //}
+
+        //lisää tuohon ylös mikä päätätte jotenkin niin joo näin
+        _rb2D.velocity = new Vector2(moveDir.x * speed, _rb2D.velocity.y);
         //pistä animaatio kuntoon
         anime.SetInputAxis(moveDir.x, moveDir.y, _rb2D.velocity.y);
     }
