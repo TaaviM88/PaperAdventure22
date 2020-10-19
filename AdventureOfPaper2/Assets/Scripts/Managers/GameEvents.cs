@@ -12,4 +12,5 @@ public class GameEvents : MonoBehaviour
         current = this;
     }
 
+
 }
