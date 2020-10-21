@@ -51,6 +51,7 @@ GameObject:
   - component: {fileID: 4103202607146047760}
   - component: {fileID: 4103202607146047761}
   - component: {fileID: 672485846}
+  - component: {fileID: 427823040}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -157,8 +158,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.030712962, y: -0.13019407}
-  m_Size: {x: 0.35340762, y: 0.7719848}
+  m_Offset: {x: -0.0017287731, y: -0.13019407}
+  m_Size: {x: 0.29543924, y: 0.7719848}
   m_Direction: 0
 --- !u!50 &4103202607146047768
 Rigidbody2D:
@@ -212,15 +213,15 @@ MonoBehaviour:
   upStab: {fileID: 4103202608640211633}
   duckRightStab: {fileID: 4103202608325985780}
   duckLeftStab: {fileID: 4103202607040608118}
-  stabRightBoxSize: {x: 0.51, y: 0.24, z: 0}
-  stabLeftBoxSize: {x: 0.51, y: 0.24, z: 0}
+  stabRightBoxSize: {x: 0.51, y: 0.18, z: 0}
+  stabLeftBoxSize: {x: 0.51, y: 0.18, z: 0}
   stabDistance: 0
   downStabRadius: 0.12
-  upStabRadius: 0.3
+  upStabRadius: 0.121
   collisionRadius: 0.06
   bottomOffset: {x: 0, y: -0.5}
-  rightOffset: {x: 0.23, y: -0.2}
-  leftOffset: {x: -0.23, y: -0.22}
+  rightOffset: {x: 0.15, y: -0.2}
+  leftOffset: {x: -0.15, y: -0.22}
   ceilingOffset: {x: 0, y: 0.25}
 --- !u!114 &4103202607146047774
 MonoBehaviour:
@@ -234,8 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b473f968c7c5b5e4da9207794603ab52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 7
+  speed: 2.5
+  jumpForce: 3.5
   knockbackForceX: 15
   knockbackForceY: 15
   side: 1
@@ -279,7 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPower: 1
-  attackCoolDownMultiplayer: 0.2
+  attackCoolDownMultiplayer: 0.3
   damageArray: 02000000030000000400000006000000090000000c0000001200000018000000
 --- !u!114 &4103202607146047760
 MonoBehaviour:
@@ -341,6 +342,19 @@ MonoBehaviour:
   magicBottle: 4
   weaponPower: 0
   armorPower: 0
+--- !u!114 &427823040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4103202607146047749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913e5c7cc2d8e254dab39436560072ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smallKeyAmount: 0
 --- !u!1 &4103202607296187890
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,7 +473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4103202607578682720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.264, y: -0.182, z: 0}
+  m_LocalPosition: {x: -0.522, y: -0.159, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4103202608141333514}
@@ -533,7 +547,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -251642235
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 3
   m_Sprite: {fileID: 8944619563498813675, guid: 0f69a5cfa546ba04b9abd1aaa25bd37e,
     type: 3}
@@ -571,7 +585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4103202607966788565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.25, y: -0.174, z: 0}
+  m_LocalPosition: {x: 0.522, y: -0.159, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4103202608141333514}
@@ -725,7 +739,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4103202608325985783}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.215, y: -0.386, z: 0}
+  m_LocalPosition: {x: 0.25, y: -0.386, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4103202608141333514}
