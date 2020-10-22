@@ -110,6 +110,18 @@ TextureImporter:
   - first:
       213: -6658117189309760490
     second: prince_sprite1_18
+  - first:
+      213: -1540709096971511728
+    second: prince_sprite1_17
+  - first:
+      213: 1493412899384307261
+    second: prince_sprite1_18
+  - first:
+      213: 6140298684759115469
+    second: prince_sprite1_19
+  - first:
+      213: -7336788661713260065
+    second: prince_sprite1_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -614,8 +626,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30b1f3e4340779940800000000000000
-      internalID: 5302830520629926659
+      spriteID: 058dcc44d3d4e9ae0800000000000000
+      internalID: -1540709096971511728
       vertices: []
       indices: 
       edges: []
@@ -635,8 +647,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61cf44a41bd9993a0800000000000000
-      internalID: -6658117189309760490
+      spriteID: d3ea9ca9e1ba9b410800000000000000
+      internalID: 1493412899384307261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_sprite1_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc68ddffe19b63550800000000000000
+      internalID: 6140298684759115469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_sprite1_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1b77a859d7e2a90800000000000000
+      internalID: -7336788661713260065
       vertices: []
       indices: 
       edges: []
