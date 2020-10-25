@@ -24,7 +24,6 @@ public class Spawnpoint : MonoBehaviour
                     if(Spawnpoints[i].gameObject.name == "Apoint")
                     {
                         PlayerManager.instance.MoveToSpot(Spawnpoints[i].transform.position);
-                        Debug.Log("No niin A");
                     }
                 }
                 break;
@@ -35,7 +34,6 @@ public class Spawnpoint : MonoBehaviour
                     if (Spawnpoints[i].gameObject.name == "Bpoint")
                     {
                         PlayerManager.instance.MoveToSpot(Spawnpoints[i].transform.position);
-                        Debug.Log("No niin B");
                     }
                 }
                 break;
@@ -46,7 +44,6 @@ public class Spawnpoint : MonoBehaviour
                     if (Spawnpoints[i].gameObject.name == "Cpoint")
                     {
                         PlayerManager.instance.MoveToSpot(Spawnpoints[i].transform.position);
-                        Debug.Log("No niin C");
                     }
                 }
                 break;
@@ -57,7 +54,6 @@ public class Spawnpoint : MonoBehaviour
                     if (Spawnpoints[i].gameObject.name == "Dpoint")
                     {
                         PlayerManager.instance.MoveToSpot(Spawnpoints[i].transform.position);
-                        Debug.Log("No niin D");
                     }
                 }
                 break;

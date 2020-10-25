@@ -4,11 +4,12 @@ using UnityEngine;
 using  Cinemachine;
 using System;
 
-public class PlayerManager : MonoBehaviour
+public class PlayerManager : MonoBehaviour, ITakeDamage<int>, IDie
 {
     public static PlayerManager instance; 
     PlayerStats stats;
     PlayerInventory inventory;
+    PlayerAnimationController anime;
     ////One bar of your magic/heart meter = 16 points
     public int heartContainerInHp = 16;
     public int magicBottleInHp = 16;
@@ -36,6 +37,8 @@ public class PlayerManager : MonoBehaviour
     {
         stats = GetComponent<PlayerStats>();
         inventory = GetComponent<PlayerInventory>();
+        anime = GetComponent<PlayerAnimationController>();
+
         maxHp = stats.GetHeartContainerAmount() * heartContainerInHp;
         maxMp = stats.GetMagicBottleAmount() * magicBottleInHp;
 
@@ -87,4 +90,21 @@ public class PlayerManager : MonoBehaviour
         inventory.AddSmallKey();
     }
 
+    public void Damage(int damage)
+    {
+        Debug.Log("Damage was  " + damage + " " + gameObject.name);
+        currentHp = Mathf.Min(currentHp - damage, 0);
+
+        anime.SetTrigger("Hurt");
+
+        if(currentHp <= 0)
+        {
+            Die();
+        }
+    }
+
+    public void Die()
+    {
+        Debug.Log("Kuolin " + gameObject.name);
+    }
 }

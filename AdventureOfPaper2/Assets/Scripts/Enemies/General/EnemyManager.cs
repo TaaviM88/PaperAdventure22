@@ -23,8 +23,8 @@ public class EnemyManager : MonoBehaviour, ITakeDamage<int>, IDie
     }
     public void Damage(int damage)
     {
-        Debug.Log("Damage was  " + damage);
-        health = Mathf.Min(health - damage, health);
+        Debug.Log("Damage was  " + damage + " " + gameObject.name);
+        health = Mathf.Min(health - damage, 0);
         anime.SetTrigger("Damaged");
 
         if(health <= 0)

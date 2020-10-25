@@ -15,7 +15,7 @@ public class GameHandler : MonoBehaviour
     void Awake()
     {
         unit = unitGameObject.GetComponent<IUnit>();
-        Debug.Log(unit.GetLevel());
+
         SaveSystem.Init();
 
         #region test stuff ja esimerkki
