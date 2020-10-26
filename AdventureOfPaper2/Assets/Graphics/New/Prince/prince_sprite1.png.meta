@@ -122,6 +122,15 @@ TextureImporter:
   - first:
       213: -7336788661713260065
     second: prince_sprite1_20
+  - first:
+      213: -7349575001979557975
+    second: prince_sprite1_19
+  - first:
+      213: -3835509697080622017
+    second: prince_sprite1_20
+  - first:
+      213: 2238705876693068298
+    second: prince_sprite1_21
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -668,8 +677,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc68ddffe19b63550800000000000000
-      internalID: 6140298684759115469
+      spriteID: 9a7eae4b970110a90800000000000000
+      internalID: -7349575001979557975
       vertices: []
       indices: 
       edges: []
@@ -689,8 +698,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd1b77a859d7e2a90800000000000000
-      internalID: -7336788661713260065
+      spriteID: f3481fc704885cac0800000000000000
+      internalID: -3835509697080622017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_sprite1_21
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aaed8322b711f10800000000000000
+      internalID: 2238705876693068298
       vertices: []
       indices: 
       edges: []
