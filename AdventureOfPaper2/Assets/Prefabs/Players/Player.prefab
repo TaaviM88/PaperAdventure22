@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  jumpForce: 3.5
+  jumpForce: 4.5
   knockbackForceX: 15
   knockbackForceY: 15
   side: 1
