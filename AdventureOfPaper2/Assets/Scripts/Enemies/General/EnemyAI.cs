@@ -6,7 +6,7 @@ public class EnemyAI : MonoBehaviour
 {
 
     [Header("Parameters")]
-
+    public LayerMask playerLayer;
     public EnemyType type = EnemyType.standing;
     public float targetRange = 3;
 
@@ -39,7 +39,11 @@ public class EnemyAI : MonoBehaviour
             case EnemyAIState.Spawning:
                 break;
             case EnemyAIState.Idling:
-
+                //tarkkaillaan jos  pelaaja tulee meidän target alueen sisään.
+                if(Physics2D.OverlapCircle((Vector2)transform.position,targetRange,playerLayer))
+                {
+                    aiState = EnemyAIState.ChasingTarget;
+                }
                 break;
             case EnemyAIState.Roaming:
 
@@ -70,5 +74,12 @@ public class EnemyAI : MonoBehaviour
     public EnemyAIState GetAIState()
     {
         return aiState;
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.blue;
+
+        Gizmos.DrawWireSphere((Vector2)transform.position, targetRange);
     }
 }
