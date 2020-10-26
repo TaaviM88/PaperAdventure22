@@ -10,7 +10,7 @@ public class EnemyAttack : MonoBehaviour
     [Header("Parameters")]
     public Transform attackpos;
 
-    public float attackRange = 0.5f, attackCooldown = 1f;
+    public float attackRange = 0.5f, attackCooldown = 1f, attackActivationRange;
 
     public int damage = 1; 
 
@@ -45,7 +45,7 @@ public class EnemyAttack : MonoBehaviour
 
             playerToDamage?.GetComponent<PlayerManager>().Damage(damage);
 
-            StartCoroutine(AttackCooldown());
+            //StartCoroutine(AttackCooldown());
             //Osuu useampaan
             //Collider2D[] playersToDamage = Physics2D.OverlapCircleAll(attackpos.position, attackRange, Players);
             //for (int i = 0; i < playersToDamage.Length; i++)
@@ -68,10 +68,12 @@ public class EnemyAttack : MonoBehaviour
     {
         return canAttack;
     }
+
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.;
-        
+        Gizmos.color = Color.yellow;
+
+        Gizmos.DrawWireSphere(attackpos.position, attackActivationRange);
         switch (attackType)
         {
             case EnemyAttackType.Box:
@@ -83,5 +85,17 @@ public class EnemyAttack : MonoBehaviour
             default:
                 break;
         }
+    }
+
+    internal bool CheckIfCanAttack()
+    {
+        Collider2D playerToDamage = Physics2D.OverlapCircle(attackpos.position, attackActivationRange, playerLayer);
+
+        if(playerToDamage != null)
+        {
+            return true;
+        }
+
+        return false;
     }
 }

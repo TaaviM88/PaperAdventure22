@@ -10,16 +10,19 @@ public class EnemyMove : MonoBehaviour
     AnimationCurve moveSpeedCurve;
     [SerializeField]
     AnimationCurve jumpHeightCurve;
-
+    [SerializeField]
+    AnimationCurve jumpForwardSpeedCurve;
     float jumpHeight;
     float jumpTime;
-
+    float jumpForwardForce;
     float moveSpeed;
     float moveTime;
 
     Rigidbody2D rb2D;
     EnemyManager manager;
     EnemyAI ai;
+    EnemyCollision eCollision;
+    EnemyAnimeManager anime;
     EnemyAIState AIState = EnemyAIState.Idling;
     // Start is called before the first frame update
     void Start()
@@ -27,6 +30,8 @@ public class EnemyMove : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         manager = GetComponent<EnemyManager>();
         ai = GetComponent<EnemyAI>();
+        eCollision = GetComponent<EnemyCollision>();
+        anime = GetComponent<EnemyAnimeManager>();
     }
 
     // Update is called once per frame
@@ -50,18 +55,43 @@ public class EnemyMove : MonoBehaviour
             case EnemyAIState.ChasingTarget:
                 break;
             case EnemyAIState.MovingForward:
+                if (eCollision.onGround)
+                {
+                    Debug.Log("Mun pitäis liikkua nytten");
+
+                    if (moveTime <= moveSpeedCurve.length)
+                    {
+                        moveTime += Time.deltaTime;
+                        moveSpeed = moveSpeedCurve.Evaluate(moveTime);
+                        rb2D.velocity = new Vector2(moveSpeed * manager.side, rb2D.velocity.y);
+                    }
+                    else
+                    {
+                        ResetMove();
+                    }
+                }
                 break;
             case EnemyAIState.Jumping:
+                
                 if(jumpTime <= jumpHeightCurve.length)
                 {
                     jumpTime += Time.deltaTime;
                     jumpHeight = jumpHeightCurve.Evaluate(jumpTime);
-                    rb2D.velocity = new Vector2(rb2D.velocity.x, jumpHeight);
+                    jumpForwardForce = jumpForwardSpeedCurve.Evaluate(jumpTime);
+
+                    rb2D.velocity = new Vector2(jumpForwardForce * manager.side, jumpHeight);
+                    //rb2D.AddForce(new Vector2(10 * manager.side, jumpHeight));
+
                 }
                 else
                 {
-                    ResetJump();
-                    ResetMove();
+                    if(eCollision.onGround)
+                    {
+                        ResetJump();
+                        ResetMove();
+                        ai.SetAIState(EnemyAIState.Idling);
+                    }
+                  
                 }
                 break;
             case EnemyAIState.Attacking:
@@ -74,13 +104,7 @@ public class EnemyMove : MonoBehaviour
                 break;
         }
 
-        if(moveTime <= moveSpeedCurve.length)
-        {
-            moveTime += Time.deltaTime;
-            moveSpeed = moveSpeedCurve.Evaluate(moveTime);
-            rb2D.velocity = new Vector2(moveSpeed * manager.side, rb2D.velocity.y);
-        }
-
+        anime.SetBool("OnGround", eCollision.onGround);
     }
 
     public void ResetJump()
@@ -95,8 +119,9 @@ public class EnemyMove : MonoBehaviour
         moveTime = 0;
     }
 
-   public void DoJump()
+    public void SetAiState(EnemyAIState newState)
     {
-
+        AIState = newState;
     }
+
 }

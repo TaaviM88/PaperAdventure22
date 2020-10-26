@@ -72,6 +72,36 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &4461125273372448702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8237621716349348685}
+  m_Layer: 11
+  m_Name: AttackPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8237621716349348685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4461125273372448702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5797238023067672828}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5797238023067672830
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,6 +122,7 @@ GameObject:
   - component: {fileID: 1555813602}
   - component: {fileID: 1555813603}
   - component: {fileID: 7502275483636727026}
+  - component: {fileID: 4929475158292657255}
   m_Layer: 11
   m_Name: WaxEnemy
   m_TagString: Untagged
@@ -112,6 +143,7 @@ Transform:
   m_Children:
   - {fileID: 5797238023374802842}
   - {fileID: 508969644}
+  - {fileID: 8237621716349348685}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -213,7 +245,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5797238023067672830}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -239,7 +271,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5797238023067672830}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -305,28 +337,28 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 3.9022567
-      outSlope: 3.9022567
+      time: -0.0019878305
+      value: 0.026992194
+      inSlope: 1.9282479
+      outSlope: 1.9282479
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.50000334
-      value: 1.9511414
-      inSlope: -0.000025987625
-      outSlope: -0.000025987625
+      time: 0.5026194
+      value: 1
+      inSlope: -0.035711884
+      outSlope: -0.035711884
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: -3.9023087
-      outSlope: -3.9023087
+      time: 0.9986572
+      value: 0.008087158
+      inSlope: -1.9996717
+      outSlope: -1.9996717
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -347,8 +379,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.44555148
-      value: 1.0256443
+      time: 0.47277576
+      value: 1.0173893
       inSlope: 0.31506085
       outSlope: 0.31506085
       tangentMode: 0
@@ -356,13 +388,46 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.983302
-      value: -1.5044329
+      time: 0.9974365
+      value: -0.35300925
+      inSlope: -3.5365882
+      outSlope: -3.5365882
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.0384014
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  jumpForwardSpeedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.48078445
+      value: 1.0339423
+      inSlope: 0.054089893
+      outSlope: 0.054089893
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.059820455
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2.7611747
+      outSlope: -2.7611747
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.0781217
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -379,8 +444,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce1df9d1953a0004dabeae1794fea8b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 1024
   type: 0
-  targetRange: 3
+  targetRange: 3.47
+  actionCooldown: 0.15
   aiState: 1
 --- !u!114 &7502275483636727026
 MonoBehaviour:
@@ -404,10 +473,32 @@ MonoBehaviour:
   onCeiling: 0
   wallSide: 0
   collisionRadius: 0.05
-  bottomOffset: {x: 0, y: -0.21}
+  bottomOffset: {x: 0, y: -0.31}
   frontOffset: {x: 0.17, y: -0.14}
   backOffset: {x: -0.17, y: -0.14}
   ceilingOffset: {x: 0, y: -0.02}
+--- !u!114 &4929475158292657255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5797238023067672830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b404a8fe39c2c649b5b8448b4c34d80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackpos: {fileID: 8237621716349348685}
+  attackRange: 0.26
+  attackCooldown: 1
+  attackActivationRange: 1
+  damage: 1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  attackType: 1
+  attackParcticle: {fileID: 0}
 --- !u!1 &5797238023374802853
 GameObject:
   m_ObjectHideFlags: 0

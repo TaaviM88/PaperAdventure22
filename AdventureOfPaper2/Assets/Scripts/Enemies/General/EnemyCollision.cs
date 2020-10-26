@@ -40,6 +40,8 @@ public class EnemyCollision : MonoBehaviour
         onFrontWall = Physics2D.OverlapCircle((Vector2)transform.position + frontOffset, collisionRadius, groundLayer);
         onBackWall = Physics2D.OverlapCircle((Vector2)transform.position + backOffset, collisionRadius, groundLayer);
         wallSide = onFrontWall ? -1 : 1;
+
+
     }
 
     private void OnDrawGizmos()

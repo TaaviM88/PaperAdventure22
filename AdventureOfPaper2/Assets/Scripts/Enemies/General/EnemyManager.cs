@@ -57,4 +57,12 @@ public class EnemyManager : MonoBehaviour, ITakeDamage<int>, IDie
         //pos = new Vector3(x, y, 0f); 
         Instantiate(expNumber, transform.position, Quaternion.identity).SetExp(exp);
     }
+
+    public void FlipEnemy()
+    {
+        Vector3 flipped = transform.localScale;
+        flipped.x *= -1;
+        transform.localScale = flipped;
+        side = (int)flipped.x;
+    }
 }
