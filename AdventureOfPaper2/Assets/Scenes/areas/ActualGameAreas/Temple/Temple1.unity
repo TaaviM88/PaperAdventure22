@@ -25674,6 +25674,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0190577f5ca39d44aecae3efca6e6f5, type: 3}
+--- !u!1001 &8307355403927555578
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 34.011
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.365444
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464240, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307355402898464243, guid: ba7c3d59e1e52cb4bb3c07bc89126f69,
+        type: 3}
+      propertyPath: m_Name
+      value: Temple_1_Elevator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba7c3d59e1e52cb4bb3c07bc89126f69, type: 3}
 --- !u!212 &8744135899413821028
 SpriteRenderer:
   m_ObjectHideFlags: 0
