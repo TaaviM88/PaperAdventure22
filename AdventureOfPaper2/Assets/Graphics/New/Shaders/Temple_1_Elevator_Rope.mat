@@ -20,10 +20,6 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _Emission:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -33,7 +29,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
-        m_Texture: {fileID: 2800000, guid: 84b5c7e0ad66ae24f89e69221b8dbf1c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5ef37a74e25de9d47b7dca253cdbcd86, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -41,13 +37,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_71CA9C1C: 0
-    - Vector1_E308A3AA: 0.25
-    - _EnableExternalAlpha: 0
+    - Vector1_E308A3AA: 0
     m_Colors:
-    - Color_7936818D: {r: 0.0007314645, g: 0.00018765319, b: 0, a: 0}
-    - Color_CBE2E7A5: {r: 5.992157, g: 2.7294118, b: 0, a: 0}
+    - Color_7936818D: {r: 0.00021063113, g: 0.000053615197, b: 0, a: 0}
     - Vector2_736DB58B: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_9FDA0974: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_B1B03D1C: {r: 0, g: 0, b: 0, a: 0}
