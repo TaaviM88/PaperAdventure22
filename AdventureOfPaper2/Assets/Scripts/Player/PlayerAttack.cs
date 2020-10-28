@@ -15,6 +15,9 @@ public class PlayerAttack : MonoBehaviour
     private ITakeDamage<int> enemyToDamage;
     PlayerStats stats;
     public int[] damageArray = { 2, 3, 4, 6, 9, 12, 18, 24 };
+
+    [Header("Axe Parameters")]
+    public int axeAttackPower = 18;
     // Start is called before t he first frame update
     void Start()
     {
@@ -33,6 +36,18 @@ public class PlayerAttack : MonoBehaviour
         {
             StartCoroutine(AttackCoolDown());
             move.SetVelocityZero();
+        }
+
+        if(Input.GetButtonDown("Fire3") )
+        {
+            
+            anim.SetTrigger("AxeCharge");
+            move.SetVelocityZero();
+        }
+
+        if(Input.GetButtonUp("Fire3"))
+        {
+            anim.SetTrigger("AxeAttack"); 
         }
     }
 
@@ -82,6 +97,24 @@ public class PlayerAttack : MonoBehaviour
         {
             enemyToDamage.Damage(damageArray[stats.GetSwordLevel()]);
             Debug.LogWarning($"Attacking enemy: {enemy.name} Do damage! {damageArray[stats.GetSwordLevel()]} ");
+        }
+    }
+
+
+    public void AxeAttack()
+    {
+        Collider2D[] objects = coll.CheckIfAxeCollide();
+
+        if(objects != null)
+        {
+            for (int i = 0; i < objects.Length; i++)
+            {
+                Debug.Log($"Osuin seuraaviin objekteihin: {objects[i]}");
+                //temp osumis setup
+                objects[i]?.GetComponent<ITakeDamage<int>>().Damage(axeAttackPower);
+
+                
+            }
         }
     }
 

@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1774915103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1774915104}
+  m_Layer: 10
+  m_Name: Axe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1774915104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774915103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.381, y: 0.346, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4103202608141333514}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4103202607040608113
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +230,9 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 2048
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 1024
   onGround: 0
   onWall: 0
   onRightWall: 0
@@ -218,6 +251,11 @@ MonoBehaviour:
   stabDistance: 0
   downStabRadius: 0.12
   upStabRadius: 0.121
+  axeTransform: {fileID: 1774915104}
+  axeRange: 0.72
+  panTransform: {fileID: 0}
+  panRightBoxSize: {x: 0, y: 0, z: 0}
+  panLeftBoxSize: {x: 0, y: 0, z: 0}
   collisionRadius: 0.06
   bottomOffset: {x: 0, y: -0.5}
   rightOffset: {x: 0.15, y: -0.2}
@@ -252,8 +290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92ee05746870c6d4dac082b355b86844, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallMultiplier: 8
-  lowJumpMultiplier: 5
+  fallMultiplier: 4
+  lowJumpMultiplier: 3
 --- !u!114 &4103202607146047762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,6 +320,7 @@ MonoBehaviour:
   attackPower: 1
   attackCoolDownMultiplayer: 0.3
   damageArray: 02000000030000000400000006000000090000000c0000001200000018000000
+  axeAttackPower: 18
 --- !u!114 &4103202607146047760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -712,6 +751,7 @@ Transform:
   - {fileID: 4103202607578682721}
   - {fileID: 4103202608325985780}
   - {fileID: 4103202607040608118}
+  - {fileID: 1774915104}
   m_Father: {fileID: 4103202607296187891}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -5,14 +5,25 @@ using UnityEngine;
 public class Collision : MonoBehaviour
 {
     [Header("Layers")]
-    public LayerMask groundLayer, enemyLayer;
+    public LayerMask groundLayer, enemyLayer, playerLayer;
     [Space]
     public bool onGround, onWall, onRightWall, onLeftWall, onCeiling, stabHit;
     public int wallSide;
+    [Header("Stab parameters")]
     public Transform stabRight, stabLeft, downStab, upStab, duckRightStab, duckLeftStab;
-    public Vector3 stabRightBoxSize = new Vector3(0f,0f,0f), stabLeftBoxSize = new Vector3(0f,0f,0f);
+    public Vector3 stabRightBoxSize = new Vector3(0f, 0f, 0f), stabLeftBoxSize = new Vector3(0f, 0f, 0f);
     public float stabDistance = 0.5f;
     public float downStabRadius = 1f, upStabRadius = 1f;
+
+    [Header("Axe parameters")]
+    public Transform axeTransform;
+    public float axeRange = 0.5f;
+
+    [Header("Pan parameters")]
+    public Transform panTransform;
+    public Vector3 panRightBoxSize = new Vector3(0, 0, 0);
+    public Vector3 panLeftBoxSize = new Vector3(0, 0, 0);
+
 
     [Space]
     [Header("Collision")]
@@ -103,6 +114,15 @@ public class Collision : MonoBehaviour
         return hit2D.collider?.gameObject;
     }
 
+
+    public Collider2D[] CheckIfAxeCollide()
+    {
+        Collider2D[] hit2D;
+        
+        hit2D = Physics2D.OverlapCircleAll(axeTransform.position, axeRange, ~playerLayer);
+        return hit2D;
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
@@ -121,6 +141,8 @@ public class Collision : MonoBehaviour
         Gizmos.DrawWireSphere(downStab.position, downStabRadius);
         Gizmos.DrawWireSphere(upStab.position, upStabRadius);
         //Gizmos.color = Color.blue;
+
+        Gizmos.DrawWireSphere((Vector2)axeTransform.position, axeRange);
 
     }
 
