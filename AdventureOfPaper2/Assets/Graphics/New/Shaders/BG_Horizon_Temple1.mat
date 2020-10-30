@@ -43,9 +43,12 @@ Material:
     m_Floats:
     - Vector1_E308A3AA: 0
     - _EnableExternalAlpha: 0
+    - _NormalIntensity: 0
+    - _WindIntensity: 0
+    - _WindSpeed: 0
     m_Colors:
     - Color_7936818D: {r: 0.005851716, g: 0.005851716, b: 0.005851716, a: 1}
     - Color_CBE2E7A5: {r: 5.992157, g: 2.7294118, b: 0, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.25, g: 0.25, b: 0.25, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
