@@ -19,6 +19,15 @@ public class PickableObject : MonoBehaviour
         boxColl = GetComponent<BoxCollider2D>();
     }
 
+
+    private void Update()
+    {
+        if(state == PickableObjState.lifted)
+        {
+            transform.localPosition = Vector3.zero;
+        }
+    }
+
     public void SetObjectState(PickableObjState newState)
     {
         state = newState;
@@ -33,12 +42,12 @@ public class PickableObject : MonoBehaviour
                 break;
             case PickableObjState.lifted:
                 rb2d.isKinematic = true;
-                boxColl.isTrigger = false;
+                boxColl.isTrigger = true;
                 canBeLifted = false;
                 break;
             case PickableObjState.lowered:
                 rb2d.isKinematic = false;
-                boxColl.isTrigger = true;
+                boxColl.isTrigger = false;
                 canBeLifted = true;
 
                 break;

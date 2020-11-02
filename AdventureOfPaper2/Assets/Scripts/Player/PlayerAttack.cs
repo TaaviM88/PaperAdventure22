@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour
     Collision coll;
     Movement move;
     PlayerAnimationController anim;
+    PlayerManager manager;
     private float timeBTWAttack = 0;
     private float startTimeBtwAttack;
     private ITakeDamage<int> enemyToDamage;
@@ -25,6 +26,8 @@ public class PlayerAttack : MonoBehaviour
         anim = GetComponent<PlayerAnimationController>();
         move = GetComponent<Movement>();
         stats = GetComponent<PlayerStats>();
+        manager = GetComponent<PlayerManager>();
+
         startTimeBtwAttack = attackCoolDownMultiplayer; 
         timeBTWAttack = attackCoolDownMultiplayer;
     }
@@ -32,8 +35,15 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!manager.GetCanAttack())
+        {
+            return;
+        }
+
         if(Input.GetButtonDown("Fire1") && canAttack)
         {
+
+            SetBooleans(false, false, true);
             StartCoroutine(AttackCoolDown());
             move.SetVelocityZero();
         }
@@ -41,13 +51,17 @@ public class PlayerAttack : MonoBehaviour
         if(Input.GetButtonDown("Fire3") )
         {
             
+            SetBooleans(false, false, false);
+
             anim.SetTrigger("AxeCharge");
             move.SetVelocityZero();
         }
 
         if(Input.GetButtonUp("Fire3"))
         {
-            anim.SetTrigger("AxeAttack"); 
+            anim.SetTrigger("AxeAttack");
+
+//            ResetBooleans();
         }
     }
 
@@ -59,6 +73,7 @@ public class PlayerAttack : MonoBehaviour
         {
             DoDamage(enemy);
         }
+        ResetBooleans();
     }
 
     public void DownAttack()
@@ -113,7 +128,6 @@ public class PlayerAttack : MonoBehaviour
                 //temp osumis setup
                 objects[i]?.GetComponent<ITakeDamage<int>>().Damage(axeAttackPower);
 
-                
             }
         }
     }
@@ -124,5 +138,19 @@ public class PlayerAttack : MonoBehaviour
         anim.SetTrigger("Attack");
         yield return new WaitForSeconds(timeBTWAttack);
         canAttack = true;
+    }
+
+    public void ResetBooleans()
+    {
+        manager.SetCanLift(true);
+        manager.SetCanMove(true);
+        canAttack = true;
+    }
+
+    public void SetBooleans(bool canlift, bool canmove, bool canattack)
+    {
+        manager.SetCanLift(canlift);
+        manager.SetCanMove(canmove);
+        canAttack = canattack;
     }
 }

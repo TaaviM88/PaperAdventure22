@@ -8,6 +8,7 @@ public class PickUp : MonoBehaviour
 {
     PlayerEnumManager eManager;
     PlayerAnimationController anime;
+    PlayerManager manager;
     //Movement move;
     [Header("PickUp Gameobjects")]
     public Transform carryNode;
@@ -18,7 +19,9 @@ public class PickUp : MonoBehaviour
     public float pickupSpeed = 1f;
     public LayerMask pickupLayer;
 
-    GameObject carryingObj;
+    bool canLift = true;
+
+    GameObject carryingObj = null;
     Vector3 orginalInteractivePosition, orginalCarryingPosition;
 
     // Start is called before the first frame update
@@ -26,9 +29,27 @@ public class PickUp : MonoBehaviour
     {
         eManager = GetComponent<PlayerEnumManager>();
         anime = GetComponent<PlayerAnimationController>();
+        manager = GetComponent<PlayerManager>();
         //move = GetComponent<Movement>();
         orginalInteractivePosition = interactiveNode.localPosition;
         orginalCarryingPosition = carryNode.localPosition;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.C) && manager.GetCanLift())
+        {
+            if(carryingObj == null)
+            {
+                PickUpObject();
+            }
+            else
+            {
+                LowerObject();
+            }
+            
+        }
+
     }
 
     // Update is called once per frame
@@ -38,78 +59,78 @@ public class PickUp : MonoBehaviour
         {
             interactiveNode.localPosition = orginalInteractivePosition;
             carryNode.localPosition = orginalCarryingPosition;
+            if(carryingObj != null)
+            {
+                carryingObj.transform.localScale = new Vector3(Mathf.Abs(carryingObj.transform.localScale.x), carryingObj.transform.localScale.y, carryingObj.transform.localScale.z);
+            }
         }
 
         if (eManager.GetLookDir() == PlayerLookDir.left && interactiveNode.localPosition == orginalInteractivePosition)
         {
             interactiveNode.localPosition = new Vector2(interactiveNode.localPosition.x * -1, interactiveNode.localPosition.y);
             carryNode.localPosition = new Vector2(carryNode.localPosition.x * -1, carryNode.localPosition.y);
+            if (carryingObj != null)
+            {
+                carryingObj.transform.localScale = new Vector3(Mathf.Abs(carryingObj.transform.localScale.x)* -1, carryingObj.transform.localScale.y, carryingObj.transform.localScale.z);
+            }
         }        
     }
 
     public void PickUpObject()
     {
-        switch (eManager.moveState)
+        //eManager.SetMoveState(PlayerMoveState.pickingUp);
+        Physics2D.OverlapCircle(interactiveNode.position, interactiveRange, pickupLayer);
+        Collider2D pickupObj = Physics2D.OverlapCircle(interactiveNode.position, interactiveRange, pickupLayer);
+        if (pickupObj?.GetComponent<PickableObject>() && pickupObj.transform.parent == null && pickupObj.GetComponent<PickableObject>().CanLift())
         {
-            case PlayerMoveState.idle:
-                if(Input.GetKeyDown(KeyCode.C))
-                {
-                    Debug.Log("Nostetaan saatana");
-                    if(GetPickableObj() != null)
-                    {
-                        eManager.SetMoveState(PlayerMoveState.pickingUp);
-                    }
-                    
-                }
-                break;
-            case PlayerMoveState.walk:
-                break;
-            case PlayerMoveState.duck:
-                break;
-            case PlayerMoveState.attack:
-                break;
-            case PlayerMoveState.jump:
-                break;
-            case PlayerMoveState.pickingUp:
-                Collider2D pickupObj = GetPickableObj();
-                if (pickupObj?.GetComponent<PickableObject>() && pickupObj.transform.parent == null && pickupObj.GetComponent<PickableObject>().CanLift())
-                {
-                    anime.SetTrigger("PickUp");
-                    carryingObj = pickupObj.gameObject;
-                    carryingObj.GetComponent<PickableObject>().SetObjectState(PickableObjState.lifted);
-                    //disabloi pelaajalta jos tarvetta
-                    carryingObj.transform.SetParent(carryNode);
-                    carryingObj.transform.DOMove(carryNode.position, pickupSpeed).SetEase(Ease.InFlash).OnComplete(() => eManager.SetMoveState(PlayerMoveState.carry));
-                }
-                else
-                {
-                    eManager.SetMoveState(PlayerMoveState.idle);
-                }
-                break;
-            case PlayerMoveState.carry:
 
-                break;
-            case PlayerMoveState.loweringObj:
-                anime.SetTrigger("LowerObj");
-                carryingObj?.transform.DOMove(interactiveNode.position, pickupSpeed).SetEase(Ease.InFlash).OnComplete(() => LowerObject());
-                break;
-            default:
-                break;
+            anime.SetTrigger("PickUp");
+            anime.SetBool("CarryingObj", true);
+
+            carryingObj = pickupObj.gameObject;
+
+            //disabloi pelaajalta jos tarvetta
+            manager.SetCanMove(false);
+            manager.SetCanAttack(false);
+
+            carryingObj.transform.SetParent(carryNode);
+            carryingObj.transform.DOMove(carryNode.position, pickupSpeed).SetEase(Ease.InFlash).OnComplete(() => FinishedLifting());
         }
+       
     }
 
-    private Collider2D GetPickableObj()
+    //private Collider2D GetPickableObj()
+    //{
+    //    return Physics2D.OverlapCircle(interactiveNode.position, interactiveRange, pickupLayer);
+    //}
+
+
+    public void FinishedLifting()
     {
-        return Physics2D.OverlapCircle(interactiveNode.position, interactiveRange, pickupLayer);
+
+        carryingObj.GetComponent<PickableObject>().SetObjectState(PickableObjState.lifted);
+        manager.SetCanMove(true);
     }
 
     private void LowerObject()
     {
+        manager.SetCanMove(false);
+        anime.SetTrigger("LowerObj");
+        anime.SetBool("CarryingObj", false);
+        carryingObj?.transform.DOMove(interactiveNode.position, pickupSpeed).SetEase(Ease.InFlash).OnComplete(() => LoweredObj());
+       
+    }
+
+    private void LoweredObj()
+    {
         carryingObj.GetComponent<PickableObject>().SetObjectState(PickableObjState.lowered);
+
         carryingObj.transform.parent = null;
         carryingObj = null;
-        eManager.SetMoveState(PlayerMoveState.idle);
-        
+        //eManager.SetMoveState(PlayerMoveState.idle);
+        canLift = true;
+        manager.SetCanAttack(true);
+        manager.SetCanMove(true);
     }
 
     private void OnDrawGizmos()

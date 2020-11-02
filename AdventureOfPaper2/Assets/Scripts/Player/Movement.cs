@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     PlayerEnumManager enums;
     private Rigidbody2D _rb2D;
     private PlayerAnimationController anime;
+    PlayerManager manager;
     [Header("Parameters")]
     public float speed = 7f;
     public float jumpForce = 14f;
@@ -36,7 +37,7 @@ public class Movement : MonoBehaviour
         betterjumping = GetComponent<BetterJumping>();
         anime = GetComponent<PlayerAnimationController>();
         enums = GetComponent<PlayerEnumManager>();
-
+        manager = GetComponent<PlayerManager>();
         if(side == 1)
         {
             enums.SetLookDirection(PlayerLookDir.right);
@@ -51,6 +52,12 @@ public class Movement : MonoBehaviour
     void Update()
     {
         CheckGround();
+
+        if(!manager.GetCanMove())
+        {
+            return;
+        }
+
         horizontalX = Input.GetAxisRaw("Horizontal");
         verticalY = Input.GetAxisRaw("Vertical");
         moveDir = new Vector2(horizontalX, verticalY);
@@ -63,7 +70,11 @@ public class Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Move();
+        if (manager.GetCanMove())
+        {
+            Move();
+        }
+        
     }
 
     private void Move()
