@@ -19,4 +19,13 @@ public class PlayerEnumManager : MonoBehaviour
         lookDir = newState;
     }
 
+    public PlayerLookDir GetLookDir()
+    {
+        return lookDir;
+    }
+
+    public PlayerMoveState GetMoveState()
+    {
+        return moveState;
+    }
 }

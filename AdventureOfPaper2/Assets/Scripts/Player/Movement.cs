@@ -36,6 +36,15 @@ public class Movement : MonoBehaviour
         betterjumping = GetComponent<BetterJumping>();
         anime = GetComponent<PlayerAnimationController>();
         enums = GetComponent<PlayerEnumManager>();
+
+        if(side == 1)
+        {
+            enums.SetLookDirection(PlayerLookDir.right);
+        }
+        else
+        {
+            enums.SetLookDirection(PlayerLookDir.left);
+        }
     }
 
     // Update is called once per frame
@@ -78,12 +87,15 @@ public class Movement : MonoBehaviour
             side = 1;
             //do animation flip
             anime.Flip(side);
+
+            enums.SetLookDirection(PlayerLookDir.right);
         }
         //jos liikutaan vasemmalle
         if(moveDir.x < 0)
         {
             side = -1;
             anime.Flip(side);
+            enums.SetLookDirection(PlayerLookDir.left);
         }
 
         //jos painetaan alaspäin niin ei voi enää hallita tippumista(aka alaspäin hyökkäys)

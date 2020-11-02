@@ -5,7 +5,10 @@ public enum PlayerMoveState
     walk,
     duck,
     attack,
-    jump
+    jump,
+    pickingUp,
+    carry,
+    loweringObj,
 }
 
 public enum PlayerLookDir
@@ -40,6 +43,13 @@ public enum DoorState{
     Open,
     Close,
     Locked
+}
+
+public enum PickableObjState
+{
+    none,
+    lifted,
+    lowered,
 }
 
 #region Enemy
