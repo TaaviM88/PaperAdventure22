@@ -5,12 +5,15 @@ using UnityEngine;
 public class IdleAnimeBehaviour : StateMachineBehaviour
 {
     PlayerEnumManager pEnums;
+    PlayerAttack attack;
     public PlayerMoveState state = PlayerMoveState.idle;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        pEnums = animator.GetComponent<PlayerEnumManager>();
-        pEnums.SetMoveState(state);
+        //pEnums = animator.GetComponent<PlayerEnumManager>();
+        //pEnums.SetMoveState(state);
+
+        //animator.GetComponent<PlayerAttack>().ResetAttackCombo();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -20,10 +23,20 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
     //}
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+      //if(state == PlayerMoveState.attack)
+      //  {
+      //      var transitionInfo = animator.GetAnimatorTransitionInfo(layerIndex);
+           
+      //      Debug.LogError(transitionInfo.userNameHash);
+      //      if(transitionInfo.userNameHash == 0)
+      //      {
+      //          animator.GetComponent<PlayerAttack>().ResetAttackCombo();
+      //      }
+      //  }
+      
+    }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

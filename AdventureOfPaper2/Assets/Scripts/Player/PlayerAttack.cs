@@ -14,6 +14,8 @@ public class PlayerAttack : MonoBehaviour
     private float timeBTWAttack = 0;
     private float startTimeBtwAttack;
     private ITakeDamage<int> enemyToDamage;
+
+    int comboAttackCount = 0;
     PlayerStats stats;
     public int[] damageArray = { 2, 3, 4, 6, 9, 12, 18, 24 };
 
@@ -135,9 +137,33 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator AttackCoolDown()
     {
         canAttack = false;
-        anim.SetTrigger("Attack");
+        TriggerAttackAnim();
         yield return new WaitForSeconds(timeBTWAttack);
         canAttack = true;
+    }
+
+    public void TriggerAttackAnim()
+    {
+        switch (comboAttackCount)
+        {
+            case 0:
+                anim.SetTrigger("Attack");
+                comboAttackCount++;
+                break;
+            case 1:
+                anim.SetTrigger("Attack2");
+                comboAttackCount++;
+                break;
+            case 2:
+                anim.SetTrigger("Attack3");
+                ResetAttackCombo();
+                break;
+        }
+    }
+
+    public void ResetAttackCombo()
+    {
+        comboAttackCount = 0;
     }
 
     public void ResetBooleans()
