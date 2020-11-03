@@ -110,6 +110,18 @@ TextureImporter:
   - first:
       213: -48095389026657269
     second: prince_attack_26
+  - first:
+      213: 894536150195079451
+    second: prince_attack_27
+  - first:
+      213: -7247345006380645104
+    second: prince_attack_28
+  - first:
+      213: 7675707236656809133
+    second: prince_attack_29
+  - first:
+      213: 2546556298942199635
+    second: prince_attack_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -289,11 +301,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1536
-        y: 1792
-        width: 512
+        y: 1536
+        width: 256
         height: 256
-      alignment: 9
-      pivot: {x: 0.25, y: 0.5}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -406,27 +418,6 @@ TextureImporter:
       bones: []
       spriteID: 433197471d1203040800000000000000
       internalID: 4625234000795472692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: prince_attack_9
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 1279
-        width: 512
-        height: 256
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfcb0c2f412138700800000000000000
-      internalID: 541296261395954939
       vertices: []
       indices: 
       edges: []
@@ -805,6 +796,90 @@ TextureImporter:
       bones: []
       spriteID: b0c5bbd9f71255ff0800000000000000
       internalID: -48095389026657269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_attack_9
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1792
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357bbfe267f275320800000000000000
+      internalID: 2546556298942199635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_attack_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b198f1f93e70a6c00800000000000000
+      internalID: 894536150195079451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_attack_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 256
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0150bf16d124c6b90800000000000000
+      internalID: -7247345006380645104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_attack_29
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da403d86017958a60800000000000000
+      internalID: 7675707236656809133
       vertices: []
       indices: 
       edges: []
