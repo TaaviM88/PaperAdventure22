@@ -7,6 +7,7 @@ public class PlayerAttack : MonoBehaviour
     public int attackPower = 1;
     public float attackCoolDownMultiplayer = 2;
     private bool canAttack = true;
+    private bool animeOn = false;
     Collision coll;
     Movement move;
     PlayerAnimationController anim;
@@ -42,18 +43,22 @@ public class PlayerAttack : MonoBehaviour
             return;
         }
 
-        if(Input.GetButtonDown("Fire1") && canAttack)
+        if(Input.GetButtonDown("Fire1") && canAttack && !animeOn)
         {
-
-            SetBooleans(false, false, true);
-            StartCoroutine(AttackCoolDown());
+            TriggerAttackAnim();
+            //SetBooleans(false, false, true, false);
+            //StartCoroutine(AttackCoolDown());
             move.SetVelocityZero();
+        }
+         else if(animeOn)
+        {
+            TriggerAttackAnim();
         }
 
         if(Input.GetButtonDown("Fire3") )
         {
             
-            SetBooleans(false, false, false);
+            SetBooleans(false, false, false,false);
 
             anim.SetTrigger("AxeCharge");
             move.SetVelocityZero();
@@ -155,7 +160,7 @@ public class PlayerAttack : MonoBehaviour
                 anim.SetBool("Attack2Bool", true);
                 break;
             case 2:
-                anim.SetTrigger("Attack3");
+                //anim.SetTrigger("Attack3");
                 anim.SetBool("Attack3Bool", true);
                 break;
         }
@@ -185,10 +190,11 @@ public class PlayerAttack : MonoBehaviour
         canAttack = true;
     }
 
-    public void SetBooleans(bool canlift, bool canmove, bool canattack)
+    public void SetBooleans(bool canlift, bool canmove, bool canattack, bool isAnimeOn)
     {
         manager.SetCanLift(canlift);
         manager.SetCanMove(canmove);
         canAttack = canattack;
+        animeOn = isAnimeOn;
     }
 }

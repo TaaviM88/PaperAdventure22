@@ -10,12 +10,22 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //pEnums = animator.GetComponent<PlayerEnumManager>();
-        //pEnums.SetMoveState(state);
+        if (state == PlayerMoveState.attack)
+        {
+            attack = animator.GetComponent<PlayerAttack>();
 
-        //animator.GetComponent<PlayerAttack>().ResetAttackCombo();
+            animator.SetBool("Attack2Bool", false);
+            animator.SetBool("Attack3Bool", false);
+            attack.SetBooleans(false, false, false,true);
+            //animator.GetComponent<PlayerAttack>().ResetAttackCombo();
+
+
+            //pEnums = animator.GetComponent<PlayerEnumManager>();
+            //pEnums.SetMoveState(state);
+
+            //animator.GetComponent<PlayerAttack>().ResetAttackCombo();
+        }
     }
-
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     //{
@@ -25,17 +35,21 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-      //if(state == PlayerMoveState.attack)
-      //  {
-      //      var transitionInfo = animator.GetAnimatorTransitionInfo(layerIndex);
-           
-      //      Debug.LogError(transitionInfo.userNameHash);
-      //      if(transitionInfo.userNameHash == 0)
-      //      {
-      //          animator.GetComponent<PlayerAttack>().ResetAttackCombo();
-      //      }
-      //  }
+      if(state == PlayerMoveState.attack)
+       {
+            animator.SetBool("Attack2Bool", false);
+            animator.SetBool("Attack3Bool", false);
+            attack.SetBooleans(true, true, true, false);
+            //      var transitionInfo = animator.GetAnimatorTransitionInfo(layerIndex);
+
+            //      Debug.LogError(transitionInfo.userNameHash);
+            //      if(transitionInfo.userNameHash == 0)
+            //      {
+            //          animator.GetComponent<PlayerAttack>().ResetAttackCombo();
+       
+       }
       
+        
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
