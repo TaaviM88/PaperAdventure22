@@ -70,6 +70,8 @@ public class PlayerAttack : MonoBehaviour
 
 //            ResetBooleans();
         }
+
+        Debug.Log($"Combo: {comboAttackCount}");
     }
 
     public void Attack()
@@ -165,7 +167,7 @@ public class PlayerAttack : MonoBehaviour
                 break;
         }
 
-        if(comboAttackCount >=3)
+        if(comboAttackCount > 2)
         {
             ResetAttackCombo();
         }

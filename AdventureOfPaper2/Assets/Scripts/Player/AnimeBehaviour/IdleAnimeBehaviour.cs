@@ -10,6 +10,12 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+        if(state == PlayerMoveState.idle)
+        {
+            attack = animator.GetComponent<PlayerAttack>();
+            attack.ResetAttackCombo();
+        }
+
         if (state == PlayerMoveState.attack)
         {
             attack = animator.GetComponent<PlayerAttack>();
@@ -39,15 +45,35 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
        {
             animator.SetBool("Attack2Bool", false);
             animator.SetBool("Attack3Bool", false);
-            attack.SetBooleans(true, true, true, false);
+            
+            AnimatorTransitionInfo currentTransition = animator.GetAnimatorTransitionInfo(0);
+            Debug.Log("test: " + currentTransition.nameHash);
+            if(currentTransition.IsName("Base.stab_right -> Base Layer.idle_right"))
+            {
+                
+                attack.SetBooleans(true, true, true, false);
+                attack.ResetAttackCombo();
+            }
+             else if(currentTransition.IsName("Base.stab_right 0 -> Base Layer.idle_right"))
+             {
+                attack.ResetAttackCombo();
+                attack.SetBooleans(true, true, true, false);
+              }
+            else if (currentTransition.IsName("Base.stab_right 1 -> Base Layer.idle_right"))
+            {
+
+                attack.ResetAttackCombo();
+                attack.SetBooleans(true, true, true, false);
+            }
+
             //      var transitionInfo = animator.GetAnimatorTransitionInfo(layerIndex);
 
             //      Debug.LogError(transitionInfo.userNameHash);
             //      if(transitionInfo.userNameHash == 0)
             //      {
             //          animator.GetComponent<PlayerAttack>().ResetAttackCombo();
-       
-       }
+
+        }
       
         
     }
