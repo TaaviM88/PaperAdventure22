@@ -132,6 +132,14 @@ public class PickUp : MonoBehaviour
         manager.SetCanMove(true);
     }
 
+    public void DropObj()
+    {
+        carryingObj.GetComponent<PickableObject>().SetObjectState(PickableObjState.lowered);
+        carryingObj.transform.parent = null;
+        carryingObj = null;
+        canLift = true;
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;

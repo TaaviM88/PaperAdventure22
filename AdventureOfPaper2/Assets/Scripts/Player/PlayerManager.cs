@@ -163,7 +163,7 @@ public class PlayerManager : MonoBehaviour, ITakeDamage<int>, IDie
 
         SetAllBooleansFalse();
         isAlive = false;
-
+        GetComponent<Movement>().SetRigidbodyConstraits(true);
         Debug.Log("Kuolin " + gameObject.name);
     }
 

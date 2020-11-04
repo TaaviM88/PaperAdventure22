@@ -74,7 +74,8 @@ public class Movement : MonoBehaviour
         {
             Move();
         }
-        
+
+        //Debug.Log(_rb2D.velocity);
     }
 
     private void Move()
@@ -157,5 +158,20 @@ public class Movement : MonoBehaviour
     {
         _rb2D.velocity = new Vector2(0, _rb2D.velocity.y);
         
+    }
+
+    public void SetRigidbodyConstraits(bool freezeOn)
+    {
+        if(freezeOn)
+        {
+            _rb2D.constraints = RigidbodyConstraints2D.FreezePositionX;
+            _rb2D.constraints = RigidbodyConstraints2D.FreezePositionY;
+            _rb2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
+        else
+        {
+            _rb2D.constraints = RigidbodyConstraints2D.None;
+            _rb2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+        }
     }
 }

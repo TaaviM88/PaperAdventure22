@@ -12,6 +12,7 @@ public class PlayerAttack : MonoBehaviour
     Movement move;
     PlayerAnimationController anim;
     PlayerManager manager;
+    PlayerEnumManager enumManager;
     private float timeBTWAttack = 0;
     private float startTimeBtwAttack;
     private ITakeDamage<int> enemyToDamage;
@@ -30,6 +31,7 @@ public class PlayerAttack : MonoBehaviour
         move = GetComponent<Movement>();
         stats = GetComponent<PlayerStats>();
         manager = GetComponent<PlayerManager>();
+        enumManager = GetComponent<PlayerEnumManager>();
 
         startTimeBtwAttack = attackCoolDownMultiplayer; 
         timeBTWAttack = attackCoolDownMultiplayer;
@@ -71,7 +73,7 @@ public class PlayerAttack : MonoBehaviour
 //            ResetBooleans();
         }
 
-        Debug.Log($"Combo: {comboAttackCount}");
+        //Debug.Log($"Combo: {comboAttackCount}");
     }
 
     public void Attack()
@@ -152,6 +154,10 @@ public class PlayerAttack : MonoBehaviour
 
     public void TriggerAttackAnim()
     {
+        if( PlayerMoveState.duck == enumManager.GetMoveState())
+        {
+            anim.SetTrigger("DuckAttack");
+        }
         switch (comboAttackCount)
         {
             case 0:

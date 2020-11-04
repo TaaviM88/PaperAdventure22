@@ -6,6 +6,7 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
 {
     PlayerEnumManager pEnums;
     PlayerAttack attack;
+    Movement move;
     public PlayerMoveState state = PlayerMoveState.idle;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -16,6 +17,9 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
             attack = animator.GetComponent<PlayerAttack>();
             attack.ResetAttackCombo();
             pEnums.SetMoveState(PlayerMoveState.idle);
+            move = animator.GetComponent<Movement>();
+            move.SetVelocityZero();
+            move.SetRigidbodyConstraits(true);
         }
 
 
@@ -44,10 +48,13 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
         }
     }
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-    //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    
-    //}
+    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        if (state == PlayerMoveState.idle)
+        {
+            move.SetVelocityZero();
+        }
+    }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -57,8 +64,8 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
             animator.SetBool("Attack2Bool", false);
             animator.SetBool("Attack3Bool", false);
             
-            AnimatorTransitionInfo currentTransition = animator.GetAnimatorTransitionInfo(0);
-            Debug.Log("test: " + currentTransition.nameHash);
+            //AnimatorTransitionInfo currentTransition = animator.GetAnimatorTransitionInfo(0);
+            //Debug.Log("test: " + currentTransition.nameHash);
             //if(currentTransition.IsName("Base.stab_right -> Base Layer.idle_right"))
             //{
                 
@@ -85,9 +92,12 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
             //          animator.GetComponent<PlayerAttack>().ResetAttackCombo();
 
         }
-      
-        
-    }
+
+        if (state == PlayerMoveState.idle)
+        {
+            move.SetRigidbodyConstraits(false);
+        }
+        }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
