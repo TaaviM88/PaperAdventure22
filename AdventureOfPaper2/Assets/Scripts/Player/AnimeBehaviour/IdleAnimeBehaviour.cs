@@ -12,12 +12,23 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
     {
         if(state == PlayerMoveState.idle)
         {
+            pEnums = animator.GetComponent<PlayerEnumManager>();
             attack = animator.GetComponent<PlayerAttack>();
             attack.ResetAttackCombo();
+            pEnums.SetMoveState(PlayerMoveState.idle);
+        }
+
+
+        if(state == PlayerMoveState.duck)
+        {
+            pEnums = animator.GetComponent<PlayerEnumManager>();
+            pEnums.SetMoveState(PlayerMoveState.duck);
         }
 
         if (state == PlayerMoveState.attack)
         {
+            pEnums = animator.GetComponent<PlayerEnumManager>();
+            pEnums.SetMoveState(PlayerMoveState.attack);
             attack = animator.GetComponent<PlayerAttack>();
 
             animator.SetBool("Attack2Bool", false);
@@ -48,23 +59,23 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
             
             AnimatorTransitionInfo currentTransition = animator.GetAnimatorTransitionInfo(0);
             Debug.Log("test: " + currentTransition.nameHash);
-            if(currentTransition.IsName("Base.stab_right -> Base Layer.idle_right"))
-            {
+            //if(currentTransition.IsName("Base.stab_right -> Base Layer.idle_right"))
+            //{
                 
-                attack.SetBooleans(true, true, true, false);
-                attack.ResetAttackCombo();
-            }
-             else if(currentTransition.IsName("Base.stab_right 0 -> Base Layer.idle_right"))
-             {
-                attack.ResetAttackCombo();
-                attack.SetBooleans(true, true, true, false);
-              }
-            else if (currentTransition.IsName("Base.stab_right 1 -> Base Layer.idle_right"))
-            {
+            //    attack.SetBooleans(true, true, true, false);
+            //    attack.ResetAttackCombo();
+            //}
+            // else if(currentTransition.IsName("Base.stab_right 0 -> Base Layer.idle_right"))
+            // {
+            //    attack.ResetAttackCombo();
+            //    attack.SetBooleans(true, true, true, false);
+            //  }
+            //else if (currentTransition.IsName("Base.stab_right 1 -> Base Layer.idle_right"))
+            //{
 
-                attack.ResetAttackCombo();
-                attack.SetBooleans(true, true, true, false);
-            }
+            //    attack.ResetAttackCombo();
+            //    attack.SetBooleans(true, true, true, false);
+            //}
 
             //      var transitionInfo = animator.GetAnimatorTransitionInfo(layerIndex);
 
