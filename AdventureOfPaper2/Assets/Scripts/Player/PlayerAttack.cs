@@ -75,6 +75,7 @@ public class PlayerAttack : MonoBehaviour
         {
             DoDamage(enemy);
         }
+
         ResetBooleans();
     }
 
@@ -147,23 +148,34 @@ public class PlayerAttack : MonoBehaviour
         switch (comboAttackCount)
         {
             case 0:
-                anim.SetTrigger("Attack");
-                comboAttackCount++;
+                anim.SetTrigger("Attack");               
                 break;
             case 1:
-                anim.SetTrigger("Attack2");
-                comboAttackCount++;
+                //anim.SetTrigger("Attack2");
+                anim.SetBool("Attack2Bool", true);
                 break;
             case 2:
                 anim.SetTrigger("Attack3");
-                ResetAttackCombo();
+                anim.SetBool("Attack3Bool", true);
                 break;
         }
+
+        if(comboAttackCount >=3)
+        {
+            ResetAttackCombo();
+        }
+        else
+        {
+            comboAttackCount++;
+        }
+
     }
 
     public void ResetAttackCombo()
     {
         comboAttackCount = 0;
+        anim.SetBool("Attack2Bool", false);
+        anim.SetBool("Attack3Bool", false);
     }
 
     public void ResetBooleans()

@@ -35,11 +35,14 @@ public class PickUp : MonoBehaviour
         orginalCarryingPosition = carryNode.localPosition;
     }
 
-    private void Update()
+
+    // Update is called once per frame
+    void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.C) && manager.GetCanLift())
         {
-            if(carryingObj == null)
+            if (carryingObj == null)
             {
                 PickUpObject();
             }
@@ -47,15 +50,10 @@ public class PickUp : MonoBehaviour
             {
                 LowerObject();
             }
-            
+
         }
 
-    }
-
-    // Update is called once per frame
-    void LateUpdate()
-    {
-        if( eManager.GetLookDir() == PlayerLookDir.right && interactiveNode.localPosition != orginalInteractivePosition)
+        if ( eManager.GetLookDir() == PlayerLookDir.right && interactiveNode.localPosition != orginalInteractivePosition)
         {
             interactiveNode.localPosition = orginalInteractivePosition;
             carryNode.localPosition = orginalCarryingPosition;
@@ -94,6 +92,7 @@ public class PickUp : MonoBehaviour
             manager.SetCanAttack(false);
 
             carryingObj.transform.SetParent(carryNode);
+            carryingObj.GetComponent<PickableObject>().DisableColliderAndSetKinematic();
             carryingObj.transform.DOMove(carryNode.position, pickupSpeed).SetEase(Ease.InFlash).OnComplete(() => FinishedLifting());
         }
        

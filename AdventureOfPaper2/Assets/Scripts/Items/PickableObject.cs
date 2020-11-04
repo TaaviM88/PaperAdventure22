@@ -41,8 +41,7 @@ public class PickableObject : MonoBehaviour
             case PickableObjState.none:
                 break;
             case PickableObjState.lifted:
-                rb2d.isKinematic = true;
-                boxColl.isTrigger = true;
+               
                 canBeLifted = false;
                 break;
             case PickableObjState.lowered:
@@ -55,6 +54,13 @@ public class PickableObject : MonoBehaviour
                 break;
         }
     }
+
+    public void DisableColliderAndSetKinematic()
+    {
+        rb2d.isKinematic = true;
+        boxColl.isTrigger = true;
+    }
+
     public bool CanLift()
     {
         return canBeLifted;
