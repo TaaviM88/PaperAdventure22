@@ -50,7 +50,7 @@ public class PlayerAttack : MonoBehaviour
             //StartCoroutine(AttackCoolDown());
             move.SetVelocityZero();
         }
-         else if(animeOn)
+         else if(Input.GetButtonDown("Fire1") && animeOn)
         {
             TriggerAttackAnim();
         }
