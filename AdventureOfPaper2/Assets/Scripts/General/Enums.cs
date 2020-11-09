@@ -9,6 +9,7 @@ public enum PlayerMoveState
     pickingUp,
     carry,
     loweringObj,
+    takingDamage,
 }
 
 public enum PlayerLookDir
@@ -16,6 +17,7 @@ public enum PlayerLookDir
     right,
     left
 }
+
 #endregion
 
 public enum WorldMapPlayerLookDir

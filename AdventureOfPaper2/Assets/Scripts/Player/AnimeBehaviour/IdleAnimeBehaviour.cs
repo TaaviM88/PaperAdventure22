@@ -11,33 +11,49 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(state == PlayerMoveState.idle)
+
+        switch (state)
         {
-            pEnums = animator.GetComponent<PlayerEnumManager>();
-            attack = animator.GetComponent<PlayerAttack>();
-            attack.ResetAttackCombo();
-            pEnums.SetMoveState(PlayerMoveState.idle);
-            move = animator.GetComponent<Movement>();
-            move.SetVelocityZero();
-            move.SetRigidbodyConstraits(true);
+            case PlayerMoveState.idle:
+                pEnums = animator.GetComponent<PlayerEnumManager>();
+                attack = animator.GetComponent<PlayerAttack>();
+                attack.ResetAttackCombo();
+                pEnums.SetMoveState(PlayerMoveState.idle);
+                move = animator.GetComponent<Movement>();
+                move.SetVelocityZero();
+                move.SetRigidbodyConstraits(true);
+                break;
+            case PlayerMoveState.walk:
+                break;
+            case PlayerMoveState.duck:
+                pEnums = animator.GetComponent<PlayerEnumManager>();
+                pEnums.SetMoveState(PlayerMoveState.duck);
+                break;
+            case PlayerMoveState.attack:
+                pEnums = animator.GetComponent<PlayerEnumManager>();
+                pEnums.SetMoveState(PlayerMoveState.attack);
+                attack = animator.GetComponent<PlayerAttack>();
+
+                animator.SetBool("Attack2Bool", false);
+                animator.SetBool("Attack3Bool", false);
+                attack.SetBooleans(false, false, false, true);
+                break;
+            case PlayerMoveState.jump:
+                break;
+            case PlayerMoveState.pickingUp:
+                break;
+            case PlayerMoveState.carry:
+                break;
+            case PlayerMoveState.loweringObj:
+                break;
+            default:
+                break;
         }
 
-
-        if(state == PlayerMoveState.duck)
-        {
-            pEnums = animator.GetComponent<PlayerEnumManager>();
-            pEnums.SetMoveState(PlayerMoveState.duck);
-        }
 
         if (state == PlayerMoveState.attack)
         {
-            pEnums = animator.GetComponent<PlayerEnumManager>();
-            pEnums.SetMoveState(PlayerMoveState.attack);
-            attack = animator.GetComponent<PlayerAttack>();
-
-            animator.SetBool("Attack2Bool", false);
-            animator.SetBool("Attack3Bool", false);
-            attack.SetBooleans(false, false, false,true);
+          
             //animator.GetComponent<PlayerAttack>().ResetAttackCombo();
 
 
@@ -46,6 +62,8 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
 
             //animator.GetComponent<PlayerAttack>().ResetAttackCombo();
         }
+
+
     }
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -59,10 +77,34 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-      if(state == PlayerMoveState.attack)
+        switch (state)
+        {
+            case PlayerMoveState.idle:
+                move.SetRigidbodyConstraits(false);
+                break;
+            case PlayerMoveState.walk:
+                break;
+            case PlayerMoveState.duck:
+                break;
+            case PlayerMoveState.attack:
+                animator.SetBool("Attack2Bool", false);
+                animator.SetBool("Attack3Bool", false);
+                break;
+            case PlayerMoveState.jump:
+                break;
+            case PlayerMoveState.pickingUp:
+                break;
+            case PlayerMoveState.carry:
+                break;
+            case PlayerMoveState.loweringObj:
+                break;
+            default:
+                break;
+        }
+
+        if(state == PlayerMoveState.attack)
        {
-            animator.SetBool("Attack2Bool", false);
-            animator.SetBool("Attack3Bool", false);
+            
             
             //AnimatorTransitionInfo currentTransition = animator.GetAnimatorTransitionInfo(0);
             //Debug.Log("test: " + currentTransition.nameHash);
@@ -95,7 +137,7 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
 
         if (state == PlayerMoveState.idle)
         {
-            move.SetRigidbodyConstraits(false);
+           
         }
         }
 

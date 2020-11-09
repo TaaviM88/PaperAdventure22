@@ -21,7 +21,7 @@ public class PickUp : MonoBehaviour
 
     bool canLift = true;
 
-    GameObject carryingObj = null;
+    public GameObject carryingObj { get; private set; }
     Vector3 orginalInteractivePosition, orginalCarryingPosition;
 
     // Start is called before the first frame update

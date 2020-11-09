@@ -56,7 +56,7 @@ public class PlayerAttack : MonoBehaviour
         {
             TriggerAttackAnim();
         }
-
+        //axe hyökkäys
         if(Input.GetButtonDown("Fire3") )
         {
             
@@ -66,11 +66,29 @@ public class PlayerAttack : MonoBehaviour
             move.SetVelocityZero();
         }
 
-        if(Input.GetButtonUp("Fire3"))
+        //Pannu hyökkäys
+        if (Input.GetButtonDown("Fire4"))
+        {
+
+            SetBooleans(false, false, false, false);
+
+            anim.SetTrigger("PanCharge");
+            move.SetVelocityZero();
+        }
+
+
+        if (Input.GetButtonUp("Fire3"))
         {
             anim.SetTrigger("AxeAttack");
 
 //            ResetBooleans();
+        }
+
+        if (Input.GetButtonUp("Fire4"))
+        {
+            anim.SetTrigger("PanAttack");
+
+          
         }
 
         //Debug.Log($"Combo: {comboAttackCount}");
@@ -143,6 +161,12 @@ public class PlayerAttack : MonoBehaviour
             }
         }
     }
+
+    public void PanAttack()
+    {
+        Debug.Log("PAN ATTACK");
+    }
+
 
     IEnumerator AttackCoolDown()
     {

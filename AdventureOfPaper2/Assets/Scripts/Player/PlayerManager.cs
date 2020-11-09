@@ -10,6 +10,7 @@ public class PlayerManager : MonoBehaviour, ITakeDamage<int>, IDie
     PlayerStats stats;
     PlayerInventory inventory;
     PlayerAnimationController anime;
+    PickUp pickup;
     ////One bar of your magic/heart meter = 16 points
     public int heartContainerInHp = 16;
     public int magicBottleInHp = 16;
@@ -47,7 +48,7 @@ public class PlayerManager : MonoBehaviour, ITakeDamage<int>, IDie
         stats = GetComponent<PlayerStats>();
         inventory = GetComponent<PlayerInventory>();
         anime = GetComponent<PlayerAnimationController>();
-
+        pickup = GetComponent<PickUp>();
         maxHp = stats.GetHeartContainerAmount() * heartContainerInHp;
         maxMp = stats.GetMagicBottleAmount() * magicBottleInHp;
 
@@ -147,7 +148,14 @@ public class PlayerManager : MonoBehaviour, ITakeDamage<int>, IDie
         Debug.Log("Damage was  " + damage + " " + gameObject.name);
         currentHp = Mathf.Max(currentHp - damage, 0);
         StartCoroutine(IFrameTimer());
+        
+        if(pickup.carryingObj != null)
+        {
+            pickup.DropObj();
+        }
+
         anime.SetTrigger("Hurt");
+
 
         Debug.Log($"Player's current hp: {currentHp}");
         if(currentHp <= 0)
