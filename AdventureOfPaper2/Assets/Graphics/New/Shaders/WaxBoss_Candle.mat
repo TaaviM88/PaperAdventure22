@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaxBoss
-  m_Shader: {fileID: -6465566751694194690, guid: 4cc63a110a26a5b40a8b9eb3d7b8730c,
+  m_Name: WaxBoss_Candle
+  m_Shader: {fileID: -6465566751694194690, guid: c00b73d1e202ea048a6cee041e9f4e4a,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -25,7 +25,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 1a91d76dcfd6ea8428b0449e14b2fcee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -37,10 +37,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 790e4c2eedddf9f4089fa71bea49e37f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_E308A3AA: 0
     - _EnableExternalAlpha: 0
     - _NormalIntensity: 0
     - _WindIntensity: 0
@@ -48,6 +49,7 @@ Material:
     m_Colors:
     - Color_7936818D: {r: 4, g: 1.019608, b: 0, a: 0}
     - Color_CBE2E7A5: {r: 5.992157, g: 2.7294118, b: 0, a: 0}
-    - _Color: {r: 0.0004901961, g: 0.00020680147, b: 0, a: 0}
+    - _Color: {r: 0.5019608, g: 0.21176471, b: 0, a: 0}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

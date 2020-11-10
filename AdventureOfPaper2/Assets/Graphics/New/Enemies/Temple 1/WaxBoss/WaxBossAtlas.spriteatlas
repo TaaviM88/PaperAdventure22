@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaxBossAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 1
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 4e6a49a8e79c5b94cb7bed4f08a3f06a, type: 3}
+    totalSpriteSurfaceArea: 3604224
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0ae6ff317f791514b97d39da4767b2c1, type: 3}
+  - {fileID: 21300000, guid: d938b5513e18726429d2abe875ffa9fb, type: 3}
+  - {fileID: 21300000, guid: 55aac2c1c40d3a347b59de1483aea5a2, type: 3}
+  - {fileID: 21300000, guid: 2665e1520b1d7b548be9d3c26d52245b, type: 3}
+  - {fileID: 21300000, guid: 0ab753734625a3848a42f4af36b86d27, type: 3}
+  - {fileID: 21300000, guid: bee0d5449f7a3a545929133f97655a72, type: 3}
+  - {fileID: 21300000, guid: f143b9741e7a40f41a3b46cf192873b0, type: 3}
+  - {fileID: 21300000, guid: fca17d8463443f44e974b438e43ae7cd, type: 3}
+  - {fileID: 21300000, guid: cf131205df6710a4b9f22b0bc2be3c47, type: 3}
+  - {fileID: 21300000, guid: 063fed055aad80c40a229a0ad7947b3c, type: 3}
+  - {fileID: 21300000, guid: d01cda8507fe4cd47ac0e389a5c47c30, type: 3}
+  - {fileID: 21300000, guid: 390a18260412b1349be819417aea32d4, type: 3}
+  - {fileID: 21300000, guid: 8a0b2256ea89ac04f9aa43f6c9746f60, type: 3}
+  - {fileID: 21300000, guid: 8090709622b2ca245957ba041c28e4c7, type: 3}
+  - {fileID: 21300000, guid: 825fc9377e72d2c4daaec4e5c4ccbe0a, type: 3}
+  - {fileID: 21300000, guid: 4c0ad9a750e49e94885bf564000949a4, type: 3}
+  - {fileID: 21300000, guid: 643fd048047ef5f47a448691a57bdcb3, type: 3}
+  - {fileID: 21300000, guid: e94838686ea013749969375784e3dfc4, type: 3}
+  - {fileID: 21300000, guid: f6be0bc8b348180439421093a55feb2c, type: 3}
+  - {fileID: 21300000, guid: a370b8396c4137c4a8cfb2e68e9b1678, type: 3}
+  - {fileID: 21300000, guid: 79ff9c497c3501a47bb929a1f0d16b55, type: 3}
+  - {fileID: 21300000, guid: 0d00654a2032cf545aa3c5147cafbf0a, type: 3}
+  - {fileID: 21300000, guid: a50b3a4bb2aeeb3498ace30f69bcb309, type: 3}
+  - {fileID: 21300000, guid: 31a84c8b6f1c2af4da668bd98259355e, type: 3}
+  - {fileID: 21300000, guid: 385044bbfe58d0844a3505086324bce3, type: 3}
+  - {fileID: 21300000, guid: 5cba66bc18611cc42af2ccc3be414cd8, type: 3}
+  - {fileID: 21300000, guid: 1a1ea03d9cd7d5b46ab70fcc571bad62, type: 3}
+  - {fileID: 21300000, guid: d93fca4d5fdf224418417a9e154752a4, type: 3}
+  - {fileID: 21300000, guid: d194f32eaeadcf040814ec7a9164f16c, type: 3}
+  - {fileID: 21300000, guid: 9a97d3fe6aac5524583487a47789e61e, type: 3}
+  - {fileID: 21300000, guid: dea4835f0ca288c4da0413d33110dbfc, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Temple_1_Boss_Head_Candle4
+  - Temple1_Boss_Body_Bottom_Candle
+  - Temple1_Boss_Rolling1
+  - Temple1_Boss_Body_Middle_Candle
+  - Temple1_Boss_Body_Top_Candle
+  - Temple_1_Boss_Head_Candle2
+  - Temple_1_Boss_Head_Candle3
+  - Temple1_Boss_Body_Bottom
+  - Temple_1_Boss_Left_Shoulder
+  - Temple1_Boss_Body_Middle
+  - Temple_1_Boss_Head2
+  - Temple1_Boss_Rolling2
+  - Temple_1_Boss_Left_Arm_Candle_Elbow
+  - Temple_1_Boss_Right_Shoulder
+  - Temple1_Boss_Turning_start
+  - Temple_1_Boss_Right_Arm
+  - Temple1_Boss_Rolling3
+  - Temple1_Boss_Turning
+  - Temple_1_Boss_Left_Arm
+  - Temple1_Boss_Body_Base_Candle
+  - Temple_1_Boss_Left_Arm_Candle_Fingers
+  - Temple_1_Boss_Head4
+  - Temple_1_Boss_Left_Hand2
+  - Temple_1_Boss_Head3
+  - Temple_1_Boss_Right_Arm_Candle1
+  - Temple_1_Boss_Left_Hand1
+  - Temple_1_Boss_Head_Candle
+  - Temple1_Boss_Body_Top
+  - Temple_1_Boss_Left_Arm_Candle
+  - Temple_1_Boss_Right_Arm_Candle
+  - Temple_1_Boss_Head
+  m_Tag: WaxBossAtlas
+  m_IsVariant: 0
