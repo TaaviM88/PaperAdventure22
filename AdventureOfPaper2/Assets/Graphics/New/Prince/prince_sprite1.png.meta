@@ -245,6 +245,24 @@ TextureImporter:
   - first:
       213: 7277405110609035178
     second: prince_sprite1_41
+  - first:
+      213: -6230597505814677386
+    second: prince_sprite1_39
+  - first:
+      213: -8795150708621021109
+    second: prince_sprite1_40
+  - first:
+      213: -699395277474053190
+    second: prince_sprite1_41
+  - first:
+      213: 7643108583012738370
+    second: prince_sprite1_42
+  - first:
+      213: 2177366050432363634
+    second: prince_sprite1_42
+  - first:
+      213: 4656785723198180143
+    second: prince_sprite1_43
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1211,8 +1229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2188149e731527790800000000000000
-      internalID: -7533869926058981358
+      spriteID: 6783b7f54987889a0800000000000000
+      internalID: -6230597505814677386
       vertices: []
       indices: 
       edges: []
@@ -1232,8 +1250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16c668ce176194730800000000000000
-      internalID: 3983740023941262433
+      spriteID: b407e9a770951f580800000000000000
+      internalID: -8795150708621021109
       vertices: []
       indices: 
       edges: []
@@ -1253,8 +1271,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aafb67804698ef460800000000000000
-      internalID: 7277405110609035178
+      spriteID: ab3c29063bf3b46f0800000000000000
+      internalID: -699395277474053190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_sprite1_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c240ef2ee873e10800000000000000
+      internalID: 2177366050432363634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prince_sprite1_43
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b865a41f930a040800000000000000
+      internalID: 4656785723198180143
       vertices: []
       indices: 
       edges: []
