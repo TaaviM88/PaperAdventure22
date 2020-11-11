@@ -8758,6 +8758,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2087892160, guid: c87386083b372a8418c2550d47ef9393, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2087892160, guid: c87386083b372a8418c2550d47ef9393, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5797238023067672828, guid: c87386083b372a8418c2550d47ef9393,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8817,6 +8825,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WaxEnemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5797238023067672831, guid: c87386083b372a8418c2550d47ef9393,
+        type: 3}
+      propertyPath: m_DrawMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c87386083b372a8418c2550d47ef9393, type: 3}
@@ -13928,6 +13941,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaxBoss (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1959439066724824652, guid: 97d191f2b7551f54a95484ef5fa00dd5,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854011987617754666, guid: 97d191f2b7551f54a95484ef5fa00dd5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 07ed2cfd6c74ad94691aee36474dffc7, type: 2}
     - target: {fileID: 9081112279311270614, guid: 97d191f2b7551f54a95484ef5fa00dd5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29166,7 +29189,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 30
-      m_TileSpriteIndex: 30
+      m_TileSpriteIndex: 34
       m_TileMatrixIndex: 1
       m_TileColorIndex: 8
       m_TileObjectToInstantiateIndex: 65535
@@ -29478,9 +29501,8 @@ Tilemap:
   - m_RefCount: 3
     m_Data: {fileID: -5260137534789789856, guid: a24ae7dd1bac01e4d983ee7361f1c089,
       type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -5017225401181888728, guid: a24ae7dd1bac01e4d983ee7361f1c089,
-      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: 9203744055217056533, guid: a24ae7dd1bac01e4d983ee7361f1c089,
       type: 3}
@@ -29489,8 +29511,9 @@ Tilemap:
       type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -5017225401181888728, guid: a24ae7dd1bac01e4d983ee7361f1c089,
+      type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 2808883607822506878, guid: a24ae7dd1bac01e4d983ee7361f1c089,
       type: 3}
