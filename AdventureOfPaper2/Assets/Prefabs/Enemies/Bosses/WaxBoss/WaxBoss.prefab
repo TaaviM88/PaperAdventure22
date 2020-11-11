@@ -11,7 +11,12 @@ GameObject:
   - component: {fileID: 9081112279311270614}
   - component: {fileID: 3947157708932998559}
   - component: {fileID: 8929076510892547041}
-  m_Layer: 0
+  - component: {fileID: 1050223456}
+  - component: {fileID: 1050223457}
+  - component: {fileID: 1050223459}
+  - component: {fileID: 1823836978808219112}
+  - component: {fileID: 1949722391868196654}
+  m_Layer: 11
   m_Name: WaxBoss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,6 +110,106 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1050223456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572201221940693715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c940101c581eab44bb5e0a216384cb19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1050223457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572201221940693715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3061284e5f0af0a42b402339813c9ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  currentHp: 0
+  isAlive: 1
+  iframesOn: 0
+  iFrames: 0.1
+  colliders: []
+--- !u!114 &1050223459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572201221940693715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3061284e5f0af0a42b402339813c9ba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  currentHp: 0
+  isAlive: 0
+  iframesOn: 0
+  iFrames: 0.1
+  colliders: []
+--- !u!61 &1823836978808219112
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572201221940693715}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0070771277, y: -0.014154553}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6459219, y: 0.78274465}
+  m_EdgeRadius: 0
+--- !u!61 &1949722391868196654
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572201221940693715}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.023590162, y: 0.62278175}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 2, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.26376066, y: 0.471354}
+  m_EdgeRadius: 0
 --- !u!1 &1437245112448014020
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4370625250646357946}
   - component: {fileID: 494487583101090153}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_Arm_Wax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7331518286005741185}
   - component: {fileID: 3980331438933377274}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Body_Base_Candle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6150200457061611994}
   - component: {fileID: 3623235737218822016}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left Shoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6414269908882910056}
   - component: {fileID: 7360896724721006745}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +547,7 @@ GameObject:
   - component: {fileID: 2004432628139104172}
   - component: {fileID: 2836936416852218173}
   - component: {fileID: 7133072892906925444}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Movement splatter particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5253,7 +5358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6019583207431093487}
   - component: {fileID: 5472760306024320520}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Body_Mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5336,7 +5441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5801808184470010735}
   - component: {fileID: 5596378728064336220}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Body_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5421,7 +5526,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3020791740361071333}
   - component: {fileID: 5292006295136783534}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right Shoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5504,7 +5609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2337005624932268858}
   - component: {fileID: 2854011987617754666}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Transform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5585,7 +5690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4228562197069854719}
   - component: {fileID: 7885422341619704820}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_Arm_Wax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5666,7 +5771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3409938824698102050}
   - component: {fileID: 1959439066724824652}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Candle_Flame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5747,7 +5852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 851319501309639548}
   - component: {fileID: 8613356881946424924}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Body_Mid_Candle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5828,7 +5933,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4673572179138640804}
   - component: {fileID: 6409010974210502930}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5910,7 +6015,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3780324635123009111}
   - component: {fileID: 879337587528431413}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Right_Shoulder_Wax
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5991,7 +6096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795081216723380770}
   - component: {fileID: 3478516828657640686}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6073,7 +6178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6314001162709138688}
   - component: {fileID: 5193498266200816366}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Body_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6156,7 +6261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 934779525503339555}
   - component: {fileID: 6939824351097061208}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Head_Candle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6239,7 +6344,7 @@ GameObject:
   - component: {fileID: 2572317213228842884}
   - component: {fileID: 6487824225526525316}
   - component: {fileID: 7029281349716691215}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Splatter particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11050,7 +11155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5234465620511341448}
   - component: {fileID: 5714990691705538770}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11133,7 +11238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6418765095906079552}
   - component: {fileID: 1723151784345723316}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Body_Top_Candle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11214,7 +11319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8373551451388831099}
   - component: {fileID: 111987560505165497}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Left_Shoudler_Wax
   m_TagString: Untagged
   m_Icon: {fileID: 0}

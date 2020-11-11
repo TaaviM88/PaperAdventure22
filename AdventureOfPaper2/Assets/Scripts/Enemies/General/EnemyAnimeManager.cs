@@ -10,6 +10,10 @@ public class EnemyAnimeManager : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        if(anim == null)
+        {
+            Debug.Log("Voi vittu nulli saatana");
+        }
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 

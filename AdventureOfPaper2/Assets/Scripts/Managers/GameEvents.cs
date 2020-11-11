@@ -34,4 +34,15 @@ public class GameEvents : MonoBehaviour
     }
 
     #endregion
+
+    #region BossRoom
+    public event Action<int> onInitializeBossRoom;
+    public void InitializeBossRoom(int id)
+    {
+        if(onInitializeBossRoom !=null)
+        {
+            onInitializeBossRoom(id);
+        }
+    }
+    #endregion
 }

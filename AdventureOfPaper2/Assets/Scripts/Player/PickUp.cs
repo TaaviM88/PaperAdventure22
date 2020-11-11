@@ -138,6 +138,10 @@ public class PickUp : MonoBehaviour
         carryingObj.transform.parent = null;
         carryingObj = null;
         canLift = true;
+
+        anime.SetBool("CarryingObj", false);
+        manager.SetCanAttack(true);
+        manager.SetCanMove(true);
     }
 
     private void OnDrawGizmos()

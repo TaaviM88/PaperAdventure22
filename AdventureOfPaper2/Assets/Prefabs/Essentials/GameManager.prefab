@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2258480159982926500}
   - component: {fileID: 2258480159982926503}
   - component: {fileID: 201581307}
+  - component: {fileID: 1937467342}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -57,3 +58,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitGameObject: {fileID: 0}
+  palaceManager: {fileID: 0}
+--- !u!114 &1937467342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2258480159982926501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81af9059e08ad1546bf5d79b43af1479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -24,7 +24,7 @@ public class PickableObject : MonoBehaviour
     {
         if(state == PickableObjState.lifted)
         {
-            transform.localPosition = Vector3.zero;
+           // transform.localPosition = Vector3.zero;
         }
     }
 
