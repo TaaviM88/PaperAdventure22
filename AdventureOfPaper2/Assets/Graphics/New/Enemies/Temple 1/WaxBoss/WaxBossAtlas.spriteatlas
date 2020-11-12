@@ -31,10 +31,11 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 4e6a49a8e79c5b94cb7bed4f08a3f06a, type: 3}
-    totalSpriteSurfaceArea: 3604224
+    totalSpriteSurfaceArea: 4564624
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 9202fa90fe2c6d94f9b10d24dd16dd13, type: 3}
   - {fileID: 21300000, guid: 0ae6ff317f791514b97d39da4767b2c1, type: 3}
   - {fileID: 21300000, guid: d938b5513e18726429d2abe875ffa9fb, type: 3}
   - {fileID: 21300000, guid: 55aac2c1c40d3a347b59de1483aea5a2, type: 3}
@@ -67,6 +68,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9a97d3fe6aac5524583487a47789e61e, type: 3}
   - {fileID: 21300000, guid: dea4835f0ca288c4da0413d33110dbfc, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Flame
   - Temple_1_Boss_Head_Candle4
   - Temple1_Boss_Body_Bottom_Candle
   - Temple1_Boss_Rolling1
