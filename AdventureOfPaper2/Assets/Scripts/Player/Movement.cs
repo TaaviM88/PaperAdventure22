@@ -14,6 +14,7 @@ public class Movement : MonoBehaviour
     [Header("Parameters")]
     public float speed = 7f;
     public float jumpForce = 14f;
+    public float maxVelocity = 14;
     public float knockbackForceX = 15f;
     public float knockbackForceY = 15f;
 
@@ -25,6 +26,9 @@ public class Movement : MonoBehaviour
     //players joystick movement
     private float horizontalX;
     private float verticalY;
+    [Header("Jump buffer(but counter to 0)")]
+    public  int buffer_counter = 0;
+    public  int buffer_max = 10;
     //Which direction player is moving
     private Vector2 moveDir;
 
@@ -61,11 +65,24 @@ public class Movement : MonoBehaviour
         horizontalX = Input.GetAxisRaw("Horizontal");
         verticalY = Input.GetAxisRaw("Vertical");
         moveDir = new Vector2(horizontalX, verticalY);
+        //jump buffer
+        if (!coll.onGround && _rb2D.velocity.y < 0)
+        {
+            if(buffer_counter < buffer_max)
+            {
+                buffer_counter++;
+                CheckJump();
+            }
 
-        if(Input.GetButtonDown("Jump"))
+        }
+
+        if (Input.GetButtonDown("Jump"))
         {
             CheckJump();
+            buffer_counter = 0;
         }
+
+        
     }
 
     private void FixedUpdate()
@@ -74,6 +91,10 @@ public class Movement : MonoBehaviour
         {
             Move();
         }
+
+        //clamp to max velocity
+
+        _rb2D.velocity = new Vector2(Mathf.Clamp(_rb2D.velocity.x, -maxVelocity, maxVelocity), _rb2D.velocity.y); 
 
         //Debug.Log(_rb2D.velocity);
     }
@@ -84,7 +105,11 @@ public class Movement : MonoBehaviour
         {
             anime.SetInputAxis(moveDir.x, moveDir.y, _rb2D.velocity.y);
             anime.SetBool("isDucking", true);
-            SetVelocityZero();
+            if(moveDir.y < 0)
+            {
+                SetVelocityZero();
+            }
+            //
             return;
         }
         else
@@ -141,7 +166,8 @@ public class Movement : MonoBehaviour
     {
         anime.SetTrigger("Jump");
         //1.5f = kuinka paljon antaa lisää kiihtyvyyttä horisontaalisesti
-        _rb2D.velocity = new Vector2(moveDir.x * speed*1.5f, jumpForce);
+        _rb2D.velocity = new Vector2(moveDir.x * speed, jumpForce);
+        buffer_counter = 0;
         //_rb2D.AddForce(new Vector2(moveDir.x * speed, jumpForce), ForceMode2D.Impulse);
     }
 

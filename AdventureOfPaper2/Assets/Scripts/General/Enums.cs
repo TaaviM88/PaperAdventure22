@@ -91,3 +91,21 @@ public enum EnemyType
 }
 
 #endregion
+
+#region Bosses
+public enum BossState
+{
+    Spawning,
+    Idling,
+    Attacking,
+    TakingDamage,
+    Dying,
+    Dead,
+}
+public enum WaxBossAttackType
+{
+    Melee,
+    Flamethrower,
+    Roll,
+}
+#endregion

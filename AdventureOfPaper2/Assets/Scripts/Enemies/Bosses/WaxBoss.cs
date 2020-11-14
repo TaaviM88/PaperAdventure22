@@ -21,6 +21,39 @@ public class WaxBoss : BossManager
         
     }
 
+    protected override bool DoRaycast()
+    {
+        return base.DoRaycast();
+    }
+
+    protected override void DoAction()
+    {
+        base.DoAction();
+         float playerDistance = CheckPlayerDistance();
+
+        if(playerDistance <= 1 && playerDistance > 0)
+        {
+            //Do Close Melee attack
+            anime.SetBool("Attack1_Charge", true);
+        }
+
+        if(playerDistance <= 2 && playerDistance > 1)
+        {
+            //Do FlameThrower
+            anime.SetTrigger("Attack3");
+        }
+
+        if(playerDistance > 2)
+        {
+            //Do Roll attack
+            anime.SetBool("Is_Rolling", true);
+            anime.SetTrigger("Attack2");
+           
+        }
+
+        state = BossState.Attacking;
+    }
+
     public override void Die()
     {
         base.Die();

@@ -45,17 +45,18 @@ public class PlayerAttack : MonoBehaviour
             return;
         }
 
-        if(Input.GetButtonDown("Fire1") && canAttack && !animeOn)
+        if(Input.GetButtonDown("Fire1") && canAttack)
         {
             TriggerAttackAnim();
             //SetBooleans(false, false, true, false);
             //StartCoroutine(AttackCoolDown());
-            move.SetVelocityZero();
+            //move.SetVelocityZero();
         }
-         else if(Input.GetButtonDown("Fire1") && animeOn)
-        {
-            TriggerAttackAnim();
-        }
+        // else if(Input.GetButtonDown("Fire1") && animeOn)
+        //{
+        //    TriggerAttackAnim();
+        //}
+
         //axe hyökkäys
         if(Input.GetButtonDown("Fire3") )
         {
@@ -185,13 +186,28 @@ public class PlayerAttack : MonoBehaviour
         switch (comboAttackCount)
         {
             case 0:
+                if(coll.onGround)
+                {
+                    move.SetVelocityZero();
+                }
+                
                 anim.SetTrigger("Attack");               
                 break;
             case 1:
+                if (coll.onGround)
+                {
+                    move.SetVelocityZero();
+                }
+
                 //anim.SetTrigger("Attack2");
                 anim.SetBool("Attack2Bool", true);
                 break;
             case 2:
+                if (coll.onGround)
+                {
+                    move.SetVelocityZero();
+                }
+
                 //anim.SetTrigger("Attack3");
                 anim.SetBool("Attack3Bool", true);
                 break;

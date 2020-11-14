@@ -20,8 +20,8 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
                 attack.ResetAttackCombo();
                 pEnums.SetMoveState(PlayerMoveState.idle);
                 move = animator.GetComponent<Movement>();
-                move.SetVelocityZero();
-                move.SetRigidbodyConstraits(true);
+                //move.SetVelocityZero();
+                //move.SetRigidbodyConstraits(true);
                 break;
             case PlayerMoveState.walk:
                 break;
@@ -70,7 +70,7 @@ public class IdleAnimeBehaviour : StateMachineBehaviour
     {
         if (state == PlayerMoveState.idle)
         {
-            move.SetVelocityZero();
+            //move.SetVelocityZero();
         }
     }
 
