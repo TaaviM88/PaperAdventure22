@@ -3135,7 +3135,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/spine1/spine2/spine3/spine4/hold2_1/lant2_1
+    path: root/spine1/spine2/spine3/spine4/spine5/neck/head_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3145,7 +3145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/spine1/spine2/spine3/spine4/hold2_1/lant2_1
+    path: root/spine1/spine2/spine3/spine4/spine5/neck/head_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3155,7 +3155,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/spine1/spine2/spine3/spine4/hold2_1/lant2_1
+    path: root/spine1/spine2/spine3/spine4/spine5/neck/head_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3405,7 +3405,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: root/spine1/spine2/spine3/spine4/spine5/neck/head_1
+    path: root/spine1/spine2/spine3/spine4/hold2_1/lant2_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3415,7 +3415,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: root/spine1/spine2/spine3/spine4/spine5/neck/head_1
+    path: root/spine1/spine2/spine3/spine4/hold2_1/lant2_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3425,7 +3425,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: root/spine1/spine2/spine3/spine4/spine5/neck/head_1
+    path: root/spine1/spine2/spine3/spine4/hold2_1/lant2_1
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
