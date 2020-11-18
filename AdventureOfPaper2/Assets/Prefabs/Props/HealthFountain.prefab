@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2795085539492151183}
   - component: {fileID: 9145631419094671908}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: Water_Squirt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4765,7 +4765,7 @@ GameObject:
   - component: {fileID: 5189930664223082331}
   - component: {fileID: 7154580753031675270}
   m_Layer: 0
-  m_Name: Point Light 2D
+  m_Name: Healing_Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4779,7 +4779,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7021785628229022722}
   m_LocalRotation: {x: -0, y: -0, z: -0.00359627, w: 0.99999356}
-  m_LocalPosition: {x: -0.006, y: 0.077, z: 0}
+  m_LocalPosition: {x: -0.006, y: 0.618, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8492968560769291113}
@@ -4799,13 +4799,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LightType: 3
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.5
+  m_FalloffIntensity: 0.4
   m_Color: {r: 0.5707547, g: 0.9608944, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
-  m_UseNormalMap: 0
+  m_UseNormalMap: 1
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0
@@ -4813,7 +4813,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 0.6034578
+  m_PointLightOuterRadius: 0.8
   m_PointLightDistance: 3
   m_PointLightQuality: 1
   m_ShapeLightParametricSides: 5
@@ -4836,6 +4836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8492968560769291113}
   - component: {fileID: 1796892946362160972}
+  - component: {fileID: 2857229757233184412}
   m_Layer: 0
   m_Name: HealthFountain
   m_TagString: Untagged
@@ -4909,3 +4910,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2857229757233184412
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8348638522774093474}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a65390ecf024a8b418cf1370fa6ca15a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
